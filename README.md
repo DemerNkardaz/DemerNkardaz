@@ -13,6 +13,7 @@
 ­
 [![Steam](https://img.shields.io/badge/Spotify ­-Демер Нкардаз-1ed760?logo=spotify)](https://open.spotify.com/user/dbwiago3y8g6nze1jjkrz8rry)
 
+---
 **System**
 
 ![](https://img.shields.io/badge/CPU ­-AMD RYZEN 7 5800X-e61b23?logo=amd)
@@ -25,7 +26,7 @@
 ![](https://img.shields.io/badge/MOUSE ­-MSI Clutch GM50-333?logo=msi)
 ![](https://img.shields.io/badge/OS ­-Windows 10-0c1ba9?logo=windows)
 
-
+---
 **Tools**
 
 ![](https://img.shields.io/badge/GIMP­-4d463b?logo=gimp)
