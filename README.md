@@ -71,6 +71,9 @@
 ![](https://img.shields.io/badge/Bootstrap-8511fa?logo=bootstrap&logoColor=fff)
 ![](https://img.shields.io/badge/PHP-7377ad?logo=php&logoColor=fff)
 ![](https://img.shields.io/badge/LUA-00007c?logo=lua&logoColor=fff)
+­
+­
+­
 
 ---
 [![](https://github-readme-stats.vercel.app/api/pin/?username=DemerNkardaz&repo=MechaniCodeus&theme=calm)](https://github.com/DemerNkardaz/MechaniCodeus)
@@ -98,10 +101,11 @@
 ![](https://badges.pufler.dev/visits/DemerNkardaz/Mods-Library)
 ![](https://badges.pufler.dev/created/DemerNkardaz/Mods-Library)
 ![](https://badges.pufler.dev/updated/DemerNkardaz/Mods-Library)
+­
+­
+­
+## Stats
 
-
-
----
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=DemerNkardaz&layout=compact&langs_count=10&theme=calm)![](https://github-readme-stats.vercel.app/api?username=DemerNkardaz&show=discussions_started,discussions_answered=true&theme=calm)
 
 ---
