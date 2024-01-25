@@ -11,9 +11,7 @@
 **System**
 
 ![](https://img.shields.io/badge/CPU ­-AMD RYZEN 7 5800X-e61b23?logo=amd)
-
 ![](https://img.shields.io/badge/GPU ­-MSI GT1030 OC-72b300?logo=nvidia)
-
 ![](https://img.shields.io/badge/RAM ­-Corsair Vengeance LPX 32GB-white?logo=corsair)
 
 
