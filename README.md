@@ -85,4 +85,4 @@
 
 
 ---
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=DemerNkardaz&layout=compact&langs_count=10&theme=calm)![](https://github-readme-stats.vercel.app/api?username=DemerNkardaz&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&show_icons=true&theme=calm)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=DemerNkardaz&layout=compact&langs_count=10&theme=calm)![](https://github-readme-stats.vercel.app/api?username=DemerNkardaz&show=discussions_started,discussions_answered=true&theme=calm)
