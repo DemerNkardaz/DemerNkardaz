@@ -72,53 +72,17 @@
 ![](https://badges.pufler.dev/visits/DemerNkardaz/Misc-Scripts)
 ![](https://badges.pufler.dev/created/DemerNkardaz/Misc-Scripts)
 ![](https://badges.pufler.dev/updated/DemerNkardaz/Misc-Scripts)
+\
+\
+[![](https://github-readme-stats.vercel.app/api/pin/?username=DemerNkardaz&repo=Mods-Library&theme=calm)](https://github.com/DemerNkardaz/Mods-Library)
+\
+![](https://img.shields.io/badge/version-Concept-333)
+\
+![](https://badges.pufler.dev/visits/DemerNkardaz/Mods-Library)
+![](https://badges.pufler.dev/created/DemerNkardaz/Mods-Library)
+![](https://badges.pufler.dev/updated/DemerNkardaz/Mods-Library)
 
-<table>
-    <tr>
-        <td>
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=DemerNkardaz&repo=MechaniCodeus&theme=synthwave">
-        </td>
-        <td>
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=DemerNkardaz&repo=Misc-Scripts&theme=synthwave">
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="https://img.shields.io/badge/version-άλφα-orange"><br>
-            <img src="https://badges.pufler.dev/visits/DemerNkardaz/MechaniCodeus">
-            <img src="https://badges.pufler.dev/created/DemerNkardaz/MechaniCodeus">
-            <img src="https://badges.pufler.dev/updated/DemerNkardaz/MechaniCodeus"><br>
-        </td>
-        <td>
-            <img src="https://img.shields.io/badge/version-1.0-blue"><br>
-            <img src="https://badges.pufler.dev/visits/DemerNkardaz/Misc-Scripts">
-            <img src="https://badges.pufler.dev/created/DemerNkardaz/Misc-Scripts">
-            <img src="https://badges.pufler.dev/updated/DemerNkardaz/Misc-Scripts">
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=DemerNkardaz&repo=Mods-Library&theme=synthwave">
-        </td>
-        <td>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="https://img.shields.io/badge/version-Concept-333"><br>
-            <img src="https://badges.pufler.dev/visits/DemerNkardaz/Mods-Library">
-            <img src="https://badges.pufler.dev/created/DemerNkardaz/Mods-Library">
-            <img src="https://badges.pufler.dev/updated/DemerNkardaz/Mods-Library"><br>
-        </td>
-        <td>
-        </td>
-    </tr>
-</table>
+
 
 ---
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=DemerNkardaz&layout=compact&langs_count=10&theme=radical)![](https://github-readme-stats.vercel.app/api?username=DemerNkardaz&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&show_icons=true&theme=radical)
-
-<h2></h2>
-
-![Gimp Gnu Image Manipulation Program](https://img.shields.io/badge/Gimp-657D8B?style=for-the-badge&logo=gimp&logoColor=FFFFFF) ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white) ![Unreal Engine](https://img.shields.io/badge/unrealengine-%23313131.svg?style=for-the-badge&logo=unrealengine&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![Sublime Text](https://img.shields.io/badge/sublime_text-%23575757.svg?style=for-the-badge&logo=sublime-text&logoColor=important) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
-![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white) ![Xiaomi](https://img.shields.io/badge/Xiaomi-%23FF6900.svg?style=for-the-badge&logo=xiaomi&logoColor=white)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=DemerNkardaz&layout=compact&langs_count=10&theme=calm)![](https://github-readme-stats.vercel.app/api?username=DemerNkardaz&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&show_icons=true&theme=calm)
