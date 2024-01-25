@@ -71,14 +71,14 @@
 ![](https://img.shields.io/badge/Bootstrap-8511fa?logo=bootstrap&logoColor=fff)
 ![](https://img.shields.io/badge/PHP-7377ad?logo=php&logoColor=fff)
 ![](https://img.shields.io/badge/LUA-00007c?logo=lua&logoColor=fff)
-\
-\
+
+
 \
 
 ---
 
-Stats
-\
+## Stats
+
 ![img](https://github-readme-stats.vercel.app/api/top-langs/?username=DemerNkardaz&layout=compact&langs_count=10&theme=calm)![](https://github-readme-stats.vercel.app/api?username=DemerNkardaz&show=discussions_started,discussions_answered=true&theme=calm)
 
 ---
