@@ -56,7 +56,22 @@
 
 
 ---
-![](https://github-readme-stats.vercel.app/api/pin/?username=DemerNkardaz&repo=MechaniCodeus&theme=calm) \ ![](https://img.shields.io/badge/version-άλφα-orange)\ ![](https://badges.pufler.dev/visits/DemerNkardaz/MechaniCodeus)![](https://badges.pufler.dev/created/DemerNkardaz/MechaniCodeus)![](https://badges.pufler.dev/updated/DemerNkardaz/MechaniCodeus)
+[![](https://github-readme-stats.vercel.app/api/pin/?username=DemerNkardaz&repo=MechaniCodeus&theme=calm)](https://github.com/DemerNkardaz/MechaniCodeus)
+\
+![](https://img.shields.io/badge/version-άλφα-orange)
+\
+![](https://badges.pufler.dev/visits/DemerNkardaz/MechaniCodeus)
+![](https://badges.pufler.dev/created/DemerNkardaz/MechaniCodeus)
+![](https://badges.pufler.dev/updated/DemerNkardaz/MechaniCodeus)
+\
+\
+[![](https://github-readme-stats.vercel.app/api/pin/?username=DemerNkardaz&repo=Misc-Scripts&theme=calm)](https://github.com/DemerNkardaz/Misc-Scripts)
+\
+[![](https://img.shields.io/badge/version-1.0-blue)](https://github.com/DemerNkardaz/Misc-Scripts/releases/tag/release)
+\
+![](https://badges.pufler.dev/visits/DemerNkardaz/Misc-Scripts)
+![](https://badges.pufler.dev/created/DemerNkardaz/Misc-Scripts)
+![](https://badges.pufler.dev/updated/DemerNkardaz/Misc-Scripts)
 
 <table>
     <tr>
