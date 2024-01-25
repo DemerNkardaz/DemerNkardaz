@@ -56,6 +56,14 @@
 
 
 ---
+![](https://github-readme-stats.vercel.app/api/pin/?username=DemerNkardaz&repo=MechaniCodeus&theme=synthwave)
+\
+![](https://img.shields.io/badge/version-άλφα-orange)
+\
+![](https://badges.pufler.dev/visits/DemerNkardaz/MechaniCodeus)
+![](https://badges.pufler.dev/created/DemerNkardaz/MechaniCodeus)
+![](https://badges.pufler.dev/updated/DemerNkardaz/MechaniCodeus)
+
 <table>
     <tr>
         <td>
