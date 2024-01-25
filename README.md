@@ -1,3 +1,8 @@
+<style>
+td, th {
+   border: none!important;
+}
+</style>
 ### DEMER NKARDAZ
 
  [![](https://badges.pufler.dev/years/DemerNkardaz)](https://badges.pufler.dev) [![](https://badges.pufler.dev/repos/DemerNkardaz)](https://badges.pufler.dev)  [![](https://badges.pufler.dev/commits/monthly/DemerNkardaz)](https://badges.pufler.dev)
@@ -7,7 +12,7 @@ Links:
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=DemerNkardaz&layout=compact&langs_count=10&theme=radical)
 
 
-<table style="border: none!important;">
+<table>
     <tr>
         <td>
             <img src="https://github-readme-stats.vercel.app/api/pin/?username=DemerNkardaz&repo=MechaniCodeus&theme=synthwave">
