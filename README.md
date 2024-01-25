@@ -7,12 +7,7 @@ Links:
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=DemerNkardaz&layout=compact&langs_count=10&theme=radical)
 
 
-<style>
-table, tr, td, th {
-   border: none!important;
-}
-</style>
-<table>
+<table style="border: none!important;">
     <tr>
         <td>
             <img src="https://github-readme-stats.vercel.app/api/pin/?username=DemerNkardaz&repo=MechaniCodeus&theme=synthwave">
