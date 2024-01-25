@@ -12,13 +12,21 @@
 ## **System**
 
 ![](https://img.shields.io/badge/CPU ­-AMD RYZEN 7 5800X-e61b23?logo=amd)
+\
 ![](https://img.shields.io/badge/GPU ­-MSI GT1030 OC-72b300?logo=nvidia)
+\
 ![](https://img.shields.io/badge/MB ­-MSI MEG X570 ACE-333?logo=msi)
+\
 ![](https://img.shields.io/badge/RAM ­-Corsair Vengeance LPX 32GB-white?logo=corsair)
+\
 ![](https://img.shields.io/badge/HDD ­-Seagate IronWolf 8TB-b22a32?logo=seagate)
+\
 ![](https://img.shields.io/badge/MON ­-Samsung S24R356FHI 23.8'' 1080p 75Hz-034c9d?logo=samsung)
+\
 ![](https://img.shields.io/badge/PSU ­-RM850x-white?logo=corsair)
+\
 ![](https://img.shields.io/badge/MOUSE ­-MSI Clutch GM50-333?logo=msi)
+\
 ![](https://img.shields.io/badge/OS ­-Windows 10-0c1ba9?logo=windows)
 
 ![](https://img.shields.io/badge/­-XP‐Pen Deco Pro M-d6d6d6?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOgSURBVFhH1ZdbiE1hFMfX922H5DJyKWOMg3AY0xwP4xJyazyQS17Eg1IuI1OkzJQnlFLj8uJy3GMo5JYSYnhQmJRy11HoSNOQ65Dr7L38997LGXvObZ/thV+t2Xut75y9/t/61vedPRSUbQ1RY/vNaEdxA6Plmhc7GqLDyKJrbNFdiBgm4UDkLQDJx1kW1SP5WGYaDBsnQ4HISwCSz7ZMuojkfWxfKcfeOIMB8S0Apa5E8lOYcWcJEdvG9Nr1guFLAGa+FrPehWSGhBxQgG+4vHW9YGQVcOBBmcbMY5j5OiRPAeVvDoXUe3EDkVHA9oZo5y+f1EkkX5YuufDBNK3Pch+IbBUYgcRz7DpnRNG7qjH3vogXiIwCmNUNrdVow6AqbdA+pakB1oSym44oGAT+1frbZJtfCjtvRXtiSYqReKjWFEETXK4afee6DP+f5FWBIDyMbJrIxOM1qVhJvPqdhJOk9AA3qlmwOm6ivhIKzMNIbdQi6yxsg0W8TsIeUpuQaQm10AIy1RmzSfWQaN48jmzqhqR1sALnxCSeGB+ypZ072opHwM+Pjl/oOCaV6xY6bTVSF8fPE5N4N5KXiWvT31RWkdwn8QgwvqoCSO0tLuEnd4Jiddx6Sx0k4osHkdo1KPtccR1Qga4QNFzcJN4lMLkXPtldPBeTpqnvqq7llQpJJCtIHkGi9W0PT/HL3UsrXgFK2SVKfcsxaa5h0kbxssP0CVvrpXgeIGKk3CbxCMAXw3LrRVECf6+4TnZKn9Q0GmRMMkifS93jXIpt6ekpbwWYBvyulYP9BIP2s8Hlqg9fcIO5KYmvflEar5mpSa/A/v/zx6oIjxwo9w5tBbQOanqK5DNVES/WhcHeeiBiG0SMhQjnuEZvhGCePvAKIBoss97JIR6FWZ9zw6mEK/bMDlfsvg1bKaG0DI9X38eSTMGSrIWY5wj9cEdcPMuEE3AeIs2qkM9LKC1IPoXYgjhGw+IRSlUn6is3y3BGHg2pbV/ypCazAD8geRmS1yN5LwkBW4RenqhfGpOAb/ISgOTFSHwVAgZJ6A8cEQsh4pAEfOFbQLhiL05J6xJaaZSE0qBM2PzElcoTEshJ2yZMS7/JMZyC1pHsyW0Yb818GJWaIYGc5BRQPO2oUoaOYfY+H8od8NljTqP6IKcA/bN5Ol7+FonrE+4EOxieuj/5T0wmcvYA9jl+nnkVDqkCuJYbzYmBrfmMVLuticuLPNvuH4PoF8jvNxferIM6AAAAAElFTkSuQmCC)
