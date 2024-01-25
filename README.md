@@ -51,12 +51,11 @@
 ![](https://img.shields.io/badge/JQuery-0769ad?logo=jquery)
 ![](https://img.shields.io/badge/JQuery UI-ac4725?logo=data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjI1MDAiIHZpZXdCb3g9IjAgMTQuNTA5IDExMS42ODIgOTguMTE3IiB3aWR0aD0iMjUwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTAgMjYuNzc1djM2Ljc5NGMwIDI3LjA5NCAyMi4yMjMgNDkuMDU3IDQ5LjYzNiA0OS4wNTdoMTIuNDFjMjcuNDE0IDAgNDkuNjM2LTIxLjk2MyA0OS42MzYtNDkuMDU3di0zNi43OTRjMC02Ljc3NS01LjU1NS0xMi4yNjYtMTIuNDEtMTIuMjY2aC04Ni44NjJjLTYuODU1LjAwMS0xMi40MSA1LjQ5MS0xMi40MSAxMi4yNjYiIGZpbGw9IiNmZWE2MjAiLz48cGF0aCBkPSJtMTguNjEzIDU3LjQzNmMwIDIwLjMyIDE2LjY2OCAzNi43OTUgMzcuMjMgMzYuNzk1IDIwLjU1OCAwIDM3LjIyNi0xNi40NzUgMzcuMjI2LTM2Ljc5NWgtMTguNjE2YzAgMTAuMTYtOC4zMzIgMTguMzk4LTE4LjYxIDE4LjM5OC0xMC4yODIgMC0xOC42MTQtOC4yMzktMTguNjE0LTE4LjM5OHYtMTguMzk4aC0xOC42MTZ6bTYwLjQ5Ni0yOC41MTYtNC4zNDMgMTcuNzg1IDE3Ljk5MiA0LjU5NyA0LjY1NC0xNy43ODMtMTguMzAzLTQuNTk4eiIgZmlsbD0iI2ZmZiIvPjwvZz48L3N2Zz4=)
 ![](https://img.shields.io/badge/Bootstrap-8511fa?logo=bootstrap&logoColor=fff)
+![](https://img.shields.io/badge/PHP-7377ad?logo=php&logoColor=fff)
+![](https://img.shields.io/badge/LUA-00007c?logo=lua&logoColor=fff)
 
 
 ---
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=DemerNkardaz&layout=compact&langs_count=10&theme=radical)
-
 <table>
     <tr>
         <td>
@@ -99,7 +98,8 @@
     </tr>
 </table>
 
-![](https://github-readme-stats.vercel.app/api?username=DemerNkardaz&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&show_icons=true&theme=radical)
+---
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=DemerNkardaz&layout=compact&langs_count=10&theme=radical)![](https://github-readme-stats.vercel.app/api?username=DemerNkardaz&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&show_icons=true&theme=radical)
 
 <h2></h2>
 
