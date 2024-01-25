@@ -8,6 +8,16 @@
 [![Factorio](https://img.shields.io/badge/Factorio ­-DemerNkardaz-eb5000?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACHFBMVEUAAAABAAAAAQAAAAEBAQEAAQEBAQDYhDvehje8eDmAgYDShj+ZZjPfhTfDdTiPUyvrkDynZTDafTTSeziCTSqeZzK2dTXWgT2NUzSAgQCMWjhtRjTVfTZ3QyJBQEDefzRrLA1gLQdwLASFOQtPLinkjELLeDZtLwxJJBKWPQ+cSxtkMiJdOiP1kz1XIgawYy2STyZlPi63dDpxRCVeIQbFjlVXOSmcbDusbjZ4Mgx2OhS/YCHTpW5GIhRnOhtDLCW2czeEOg+FNA2oYy7KllwnGhbNZjK/dTYpHxh9UTFOKhiAAQFIMCY3IhcdEg4oHBkpGxUZEBFbNhsvIh95RSFpOhsbDQ0AAQAyIxkAAABJMyQqIh4oHBq2bCzgijunZTSfViqtYy2yfU2udT6xay2zaiu3aii1aC2gXCynWiiuYiuYWS2qc0e5eD25bCqjYSmcWiSdVyO1aCulYyqZVCaXSR24dT2yaCmXVCWlXSevZiqFRSDEgEivaS2YXyyvZCqnYCq2bzGseUWpZSqJVSexajKyZyh/Ox2SYDaiZSqVVSaybje2aCmCPBiqYSacYSqlZCzBayurYSmdXy2vaSmfWia6dz66ayZyPh6NUyekXCamZiqrZSyoYSu3bTO7aCvFbiehVyNNJxdvSCuaXClLKRd/SSOiYSm6bSu5aii0YiaHQxxxPBySVidHJxlzOx1YLRdTOCGeXij///+agzK/AAAAXXRSTlMAAAAAAAAAcN1nAlUFF8mflsS//v64O12UAmBUPcEEv9t6e9+7aKHaDhHf/RbeeH7Cb27Hd3zjGv7YDRDd/ppnxNp4edy2BcYzWFQClFg2ufy6vo6gwBQDUQFp32wXrE9IAAAAAWJLR0Sz2m3/fgAAAAd0SU1FB+gBGRUfFOvfuZIAAAEASURBVBjTY2AAAUYGdg5OEM0I4nFx8zDw8sXyMzAwMTEwA0UF4gSFhOMTRETFxCUkQSqkEpOSU1LT0jMys7KlQXpkcnLz8gsKi4pLSmXlmIAC8mXlFQqKSsqVVdUqzMwMqmo1tXXqGgyMmlr1Ddo6LAy6jU3NLXoMTAxM+q1t7QaGDEbGHZ1dJkCdTKbdPb19ZgxM5hb9EyytmJisbSZOsrWzB8o4TJ4y1dHJ2WXa9BmurEClbu4zZ82eM3fe/AULF3mAnOG5eMnSZctXrFy1es1aLxagy719fP38163fEBAYtDEY5DtGNqCPQjaFhjGHR0SCvc4MdERUdAwrA9jvAKfIPnSoBwHcAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDI0LTAxLTI1VDIxOjMxOjIwKzAyOjAwi07nmgAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyNC0wMS0yNVQyMTozMToyMCswMjowMPoTXyYAAAAASUVORK5CYII=)](https://mods.factorio.com/user/DemerNkardaz) [![Steam](https://img.shields.io/badge/Steam ­-Кабал Заколебал-3d4537?logo=steam)](https://www.artstation.com/demernkardaz) [![ArtStation](https://img.shields.io/badge/ArtStation ­-Demer Nkardaz-13aff0?logo=artstation)](https://steamcommunity.com/id/demer_nkardaz/) [![Steam](https://img.shields.io/badge/Behance ­-DEMER NKARDAZ-1769ff?logo=behance)](https://www.behance.net/nkardaz)
 
 
+**System**
+
+![](https://img.shields.io/badge/CPU ­-AMD RYZEN 7 5800X-e61b23?logo=amd)
+
+![](https://img.shields.io/badge/GPU ­-MSI GT1030 OC-72b300?logo=nvidia)
+
+![](https://img.shields.io/badge/RAM ­-Corsair Vengeance LPX 32GB-white?logo=corsair)
+
+
+
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=DemerNkardaz&layout=compact&langs_count=10&theme=radical)
 
 <table>
