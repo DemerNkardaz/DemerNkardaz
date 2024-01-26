@@ -87,29 +87,35 @@
 ---
 [![](https://github-readme-stats.vercel.app/api/pin/?username=DemerNkardaz&repo=MechaniCodeus&theme=calm)](https://github.com/DemerNkardaz/MechaniCodeus)
 \
-![](https://img.shields.io/badge/version-άλφα-orange)
+![](https://img.shields.io/badge/version-άλφα-orange) ![](https://img.shields.io/github/repo-size/demernkardaz/mechanicodeus) ![](https://img.shields.io/github/languages/top/demernkardaz/mechanicodeus) ![](https://img.shields.io/github/languages/count/demernkardaz/mechanicodeus)
 \
 ![](https://badges.pufler.dev/visits/DemerNkardaz/MechaniCodeus)
 ![](https://badges.pufler.dev/created/DemerNkardaz/MechaniCodeus)
 ![](https://badges.pufler.dev/updated/DemerNkardaz/MechaniCodeus)
 \
+![](https://img.shields.io/github/commit-activity/w/demernkardaz/MechaniCodeus) ![](https://img.shields.io/github/commit-activity/m/demernkardaz/MechaniCodeus) ![](https://img.shields.io/github/commit-activity/y/demernkardaz/MechaniCodeus)
+\
 \
 [![](https://github-readme-stats.vercel.app/api/pin/?username=DemerNkardaz&repo=Misc-Scripts&theme=calm)](https://github.com/DemerNkardaz/Misc-Scripts)
 \
-[![](https://img.shields.io/badge/version-1.0-blue)](https://github.com/DemerNkardaz/Misc-Scripts/releases/tag/release)
+[![](https://img.shields.io/badge/version-1.0-blue)](https://github.com/DemerNkardaz/Misc-Scripts/releases/tag/release) ![](https://img.shields.io/github/repo-size/demernkardaz/misc-scripts) ![](https://img.shields.io/github/languages/top/demernkardaz/misc-scripts) ![](https://img.shields.io/github/languages/count/demernkardaz/misc-scripts)
 \
 ![](https://badges.pufler.dev/visits/DemerNkardaz/Misc-Scripts)
 ![](https://badges.pufler.dev/created/DemerNkardaz/Misc-Scripts)
 ![](https://badges.pufler.dev/updated/DemerNkardaz/Misc-Scripts)
 \
+![](https://img.shields.io/github/commit-activity/w/demernkardaz/misc-scripts) ![](https://img.shields.io/github/commit-activity/m/demernkardaz/misc-scripts) ![](https://img.shields.io/github/commit-activity/y/demernkardaz/misc-scripts)
+\
 \
 [![](https://github-readme-stats.vercel.app/api/pin/?username=DemerNkardaz&repo=Mods-Library&theme=calm)](https://github.com/DemerNkardaz/Mods-Library)
 \
-![](https://img.shields.io/badge/version-Concept-333)
+![](https://img.shields.io/badge/version-Concept-333) ![](https://img.shields.io/github/repo-size/demernkardaz/mods-library) ![](https://img.shields.io/github/languages/top/demernkardaz/mods-library) ![](https://img.shields.io/github/languages/count/demernkardaz/mods-library)
 \
 ![](https://badges.pufler.dev/visits/DemerNkardaz/Mods-Library)
 ![](https://badges.pufler.dev/created/DemerNkardaz/Mods-Library)
 ![](https://badges.pufler.dev/updated/DemerNkardaz/Mods-Library)
+\
+![](https://img.shields.io/github/commit-activity/w/demernkardaz/Mods-Library) ![](https://img.shields.io/github/commit-activity/m/demernkardaz/Mods-Library) ![](https://img.shields.io/github/commit-activity/y/demernkardaz/Mods-Library)
 ­
 ­
 ­
