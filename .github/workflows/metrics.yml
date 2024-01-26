@@ -1,0 +1,16 @@
+name: GitHub Metrics
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Metrics embed
+        uses: lowlighter/metrics@v3.34
