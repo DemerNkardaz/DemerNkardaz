@@ -127,5 +127,6 @@
 [![trophy](https://github-profile-trophy.vercel.app/?username=DemerNkardaz&theme=nord)](https://github.com/ryo-ma/github-profile-trophy)
 
 
-[![Spotify recently played](https://spotify-recently-played-readme.vercel.app/api?user=dbwiago3y8g6nze1jjkrz8rry&count=10)](https://open.spotify.com/user/dbwiago3y8g6nze1jjkrz8rry)
-
+<a href="https://data-card-for-spotify.herokuapp.com/card?user_id=dbwiago3y8g6nze1jjkrz8rry">
+  <img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=dbwiago3y8g6nze1jjkrz8rry" alt="Data Card for Spotify">
+</a>
