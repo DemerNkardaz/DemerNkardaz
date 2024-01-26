@@ -120,8 +120,6 @@
 
 ![](https://img.shields.io/github/commit-activity/w/demernkardaz/Mods-Library) ![](https://img.shields.io/github/commit-activity/m/demernkardaz/Mods-Library) ![](https://img.shields.io/github/commit-activity/y/demernkardaz/Mods-Library)
 ­
-­
-­
 
 ## Stats
 
@@ -129,8 +127,4 @@
 
 ---
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=DemerNkardaz&theme=nord)](https://github.com/ryo-ma/github-profile-trophy)
-
-<a href="https://data-card-for-spotify.herokuapp.com/card?user_id=dbwiago3y8g6nze1jjkrz8rry">
-  <img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=dbwiago3y8g6nze1jjkrz8rry" alt="Data Card for Spotify">
-</a>
+[![trophy](https://data-card-for-spotify.herokuapp.com/api/card?user_id=dbwiago3y8g6nze1jjkrz8rry)](https://data-card-for-spotify.herokuapp.com/card?user_id=dbwiago3y8g6nze1jjkrz8rry)
