@@ -4,6 +4,8 @@
 
 [![](https://badges.pufler.dev/years/DemerNkardaz)](https://badges.pufler.dev) [![](https://badges.pufler.dev/repos/DemerNkardaz)](https://badges.pufler.dev) [![](https://badges.pufler.dev/commits/monthly/DemerNkardaz)](https://badges.pufler.dev)
 
+[![](https://skillicons.dev/icons?i=ps,ai,blender,vscode,js,html,css,scss,lua,nodejs,nginx,jquery)](https://skillicons.dev)
+
 ## Stats
 
 ![](https://github-readme-stats.vercel.app/api/wakatime/?username=Nkardaz&layout=compact&langs_count=30&theme=solarized-light)
