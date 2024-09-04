@@ -1,8 +1,16 @@
-### DEMER NKARDAZ
+# DEMER NKARDAZ
 
 ![:name](https://count.getloli.com/get/@:DemerNkardaz?theme=gelbooru)
 
- [![](https://badges.pufler.dev/years/DemerNkardaz)](https://badges.pufler.dev) [![](https://badges.pufler.dev/repos/DemerNkardaz)](https://badges.pufler.dev)  [![](https://badges.pufler.dev/commits/monthly/DemerNkardaz)](https://badges.pufler.dev)
+[![](https://badges.pufler.dev/years/DemerNkardaz)](https://badges.pufler.dev) [![](https://badges.pufler.dev/repos/DemerNkardaz)](https://badges.pufler.dev) [![](https://badges.pufler.dev/commits/monthly/DemerNkardaz)](https://badges.pufler.dev)
+
+## Stats
+
+![](https://github-readme-stats.vercel.app/api/wakatime/?username=Nkardaz&layout=compact&langs_count=30&theme=solarized-light)
+
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=DemerNkardaz&layout=compact&langs_count=30&theme=solarized-light)
+
+---
 
 ## **MeLinks**
 
@@ -118,10 +126,6 @@
 \
 ![](https://img.shields.io/github/commit-activity/w/demernkardaz/Mods-Library) ![](https://img.shields.io/github/commit-activity/m/demernkardaz/Mods-Library) ![](https://img.shields.io/github/commit-activity/y/demernkardaz/Mods-Library)
 ­
-
-## Stats
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=DemerNkardaz&layout=compact&langs_count=10&theme=calm)![](https://github-readme-stats.vercel.app/api?username=DemerNkardaz&show=discussions_started,discussions_answered=true&theme=calm)
 
 ---
 
