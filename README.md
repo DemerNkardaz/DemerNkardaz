@@ -1,7 +1,3 @@
-<div class="palette" style="display: flex;">
-<div class="palette-cell" style="color: #eee;font-weight: bold;width: 128px;height: 128px;text-align: center;line-height: 128px;background-color:#C7800C">C7800C</div>
-</div>
-
 # DEMER NKARDAZ 🧊🤍🌢🫐 ♅
 
 ![:name](https://count.getloli.com/get/@:DemerNkardaz?theme=gelbooru)
@@ -25,6 +21,13 @@
 
 Just a hobbyist who looking for the way to release his inner needs through creativity and various tools.<br>
 I’m working on a project of my own Fantasy/Science Fiction universe, trying to create content of various directions and helper tools if it will be necessary.
+
+<details>
+	<summary>Избранные тона [Favorite Tones]</summary>
+
+<img src="svg/Demers Palette.svg">
+
+</details>
 
 ## Мои проекты [My Projects]
 
