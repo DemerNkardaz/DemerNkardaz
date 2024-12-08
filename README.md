@@ -35,6 +35,23 @@ I’m working on a project of my own Fantasy/Science Fiction universe, trying to
 
 A tool for entering a large count of unicode characters and implementing the support of multilingual writing on the Latin and Cyrillic alphabets as base feature. Created as an implementation of own needs in work with non‐standard characters.
 
+<details>
+	<summary>Игровые модификации [Games Mods]</summary>
+	<hr>
+<a href="https://github.com/DemerNkardaz/Prometheus_Grenade_Launcher" align="right">
+	<img src="https://github-readme-stats.vercel.app/api/pin/?username=DemerNkardaz&repo=Prometheus_Grenade_Launcher&theme=vue" align="right">
+</a>
+
+### Гранатомёт «Прометей» <img src="https://factorio.com/static/img/factorio-wheel.png" width="24">
+
+Модификация для игры [Factorio](https://www.factorio.com), добавляющая в арсенал игрока 40‑мм гранатомёт с вариативностью в выборе боеприпасов: осколочные, фугасные, химические, термобарические, плазменные и так далее.
+
+<img src="https://camo.githubusercontent.com/b487190aa67cc18ca2e8355ca925aa80be4d0a4c9017274a6f6b4ba17c0258fe/68747470733a2f2f696d672e736869656c64732e696f2f666163746f72696f2d6d6f642d706f7274616c2f762f504c4f52445f50726f6d6574686575735f4772656e6164654c61756e636865723f636f6c6f723d79656c6c6f77266c6162656c3d254532253943254141254332254130254532253830253844" align="right"><img src="https://camo.githubusercontent.com/ac018edab323956479b20215fc9f6a89378c5c6b2713b68fb9a8931b428d0224/68747470733a2f2f696d672e736869656c64732e696f2f666163746f72696f2d6d6f642d706f7274616c2f64742f504c4f52445f50726f6d6574686575735f4772656e6164654c61756e636865723f636f6c6f723d79656c6c6f77266c6162656c3d254630253946254131253837254332254130254532253830253844" align="right"><img src="https://camo.githubusercontent.com/5a5bb825db520723258de4e725ccd7369714bf2b38eda2bc44167273b71c56e0/68747470733a2f2f696d672e736869656c64732e696f2f666163746f72696f2d6d6f642d706f7274616c2f6c6173742d757064617465642f504c4f52445f50726f6d6574686575735f4772656e6164654c61756e636865723f636f6c6f723d79656c6c6f77266c6162656c3d254630253946254131253835254332254130254532253830253844" align="right">
+
+[Factorio](https://www.factorio.com) modification that adds a 40‑mm grenade launcher to the player’s armory with a variety of ammunition selection: fragmentation, high‑explosive, chemical, thermobaric, plasma and so on.
+
+</details>
+
 ## Статистика [Stats]
 
 <img src="https://github-readme-stats.vercel.app/api/wakatime/?username=Nkardaz&layout=compact&langs_count=30&theme=vue" align="right">
