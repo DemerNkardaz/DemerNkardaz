@@ -1,3 +1,23 @@
+<style>
+.palette {
+	display: flex;
+}
+.palette-cell {
+		--bg: #fff;
+		color: #eee;
+		font-weight: bold;
+		width: 128px;
+		height: 128px;
+		text-align: center;
+		line-height: 128px;
+		background-color: var(--bg);
+}
+</style>
+
+<div class="palette">
+<div class="palette-cell" style="--bg:#C7800C">C7800C</div>
+</div>
+
 # DEMER NKARDAZ 🧊🤍🌢🫐 ♅
 
 ![:name](https://count.getloli.com/get/@:DemerNkardaz?theme=gelbooru)
