@@ -4,7 +4,7 @@
 
 [![](https://badges.pufler.dev/years/DemerNkardaz)](https://badges.pufler.dev) [![](https://badges.pufler.dev/repos/DemerNkardaz)](https://badges.pufler.dev) [![](https://badges.pufler.dev/commits/monthly/DemerNkardaz)](https://badges.pufler.dev)
 
-[![](https://skillicons.dev/icons?i=ps,ai,blender,vscode,js,html,css,scss,lua,nodejs,nginx,jquery)](https://skillicons.dev)
+[![](https://skillicons.dev/icons?i=unreal,blender,obsidian,ps,ai,vscode,lua,js,html,css,scss,nodejs,nginx,jquery)](https://skillicons.dev)
 
 ---
 
