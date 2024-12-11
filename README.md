@@ -1,4 +1,4 @@
-# DEMER NKARDAZ <img src="svg/uranus.svg" width="36"> <img src="svg/sulfur.svg" width="36"> <img src="https://raw.githubusercontent.com/googlefonts/noto-emoji/refs/heads/main/svg/emoji_u1f9ca.svg" width="36"> <img src="https://raw.githubusercontent.com/googlefonts/noto-emoji/refs/heads/main/svg/emoji_u1f90d.svg" width="36"> <img src="svg/emoji_u1f322.svg" width="36"> <img src="https://raw.githubusercontent.com/googlefonts/noto-emoji/refs/heads/main/svg/emoji_u1fad0.svg" width="36">
+# DEMER NKARDAZ <img src="svg/uranus.svg" width="36"> <img src="svg/sulfur.svg" width="36"> <img src="svg/white_heart.svg" width="36"> <img src="svg/black_tear.svg" width="36"> <img src="https://raw.githubusercontent.com/googlefonts/noto-emoji/refs/heads/main/svg/emoji_u1f9ca.svg" width="36"> <img src="https://raw.githubusercontent.com/googlefonts/noto-emoji/refs/heads/main/svg/emoji_u1fad0.svg" width="36">
 
 ![:name](https://count.getloli.com/get/@:DemerNkardaz?theme=gelbooru)
 
