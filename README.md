@@ -1,4 +1,4 @@
-# DEMER NKARDAZ 🧊🤍🌢🫐 ♅
+# DEMER NKARDAZ 🧊🤍🌢🫐 ♅🜍
 
 ![:name](https://count.getloli.com/get/@:DemerNkardaz?theme=gelbooru)
 
