@@ -16,7 +16,7 @@
 
 <img src="svg/YallaNkardaz_WhiteHeart_with_BlackTear.svg" align="right" width="64">
 
-<img src="svg/uranosulfur.svg" align="left" width="74">
+<img src="svg/uranosulfur.svg" align="left" width="82">
 
 Хоббист, лишь ищущий выход внутренним потребностям через творчество и различные инструменты.<br>
 Увлечён разработкой проекта собственной фэнтези/научно‐фэнтезийной вселенной, стараюсь создавать контент различной направленности и вспомогательные инструменты, если это будет необходимо.
