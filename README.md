@@ -66,4 +66,4 @@ A tool for entering a large count of unicode characters and implementing the sup
 <img src="https://github-readme-stats.vercel.app/api/wakatime/?username=Nkardaz&layout=compact&langs_count=30&theme=vue" align="right">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DemerNkardaz&layout=compact&langs_count=30&theme=vue" align="left">
 
-[![trophy](https://data-card-for-spotify.herokuapp.com/api/card?user_id=dbwiago3y8g6nze1jjkrz8rry)](https://data-card-for-spotify.herokuapp.com/card?user_id=dbwiago3y8g6nze1jjkrz8rry)
+[![trophy](https://data-card-for-spotify.herokuapp.com/api/card?user_id=dbwiago3y8g6nze1jjkrz8rry&limit=10)](https://data-card-for-spotify.herokuapp.com/card?user_id=dbwiago3y8g6nze1jjkrz8rry)
