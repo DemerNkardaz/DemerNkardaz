@@ -16,8 +16,14 @@
 
 <img src="svg/YallaNkardaz_WhiteHeart_with_BlackTear.svg" align="right" width="64">
 
-Хоббист, лишь ищущий выход внутренним потребностям через творчество и различные инструменты.<br>
-Увлечён разработкой проекта собственной фэнтези/научно‐фэнтезийной вселенной, стараюсь создавать контент различной направленности и вспомогательные инструменты, если это будет необходимо.
+2–3D Художница, Дизайнер, Кодер, Писательница.
+
+Хоббистка, лишь ищущая выход внутренним потребностям через творчество и различные инструменты.<br>
+Увлечена разработкой проекта собственной фэнтези/научно‐фэнтезийной вселенной, стараюсь создавать контент различной направленности и вспомогательные инструменты, если это будет необходимо.
+
+<br>
+
+2–3D Artist, Designer, Coder, Writer.
 
 Just a hobbyist who looking for the way to release his inner needs through creativity and various tools.<br>
 I’m working on a project of my own Fantasy/Science Fiction universe, trying to create content of various directions and helper tools if it will be necessary.
