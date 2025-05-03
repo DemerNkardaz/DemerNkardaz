@@ -44,7 +44,7 @@ I’m working on a project of my own Fantasy/Science Fiction universe, trying to
 
 ### DSL-KeyPad <img src="https://www.autohotkey.com/favicon.ico" width="24">
 
-[![GitHub](https://img.shields.io/github/v/release/DemerNkardaz/DSL-KeyPad?include_prereleases&label=%F0%9F%8F%B7%EF%B8%8F&color=yellow)](https://github.com/DemerNkardaz/DSL-KeyPad) [![GitHub](https://img.shields.io/github/downloads/DemerNkardaz/DSL-KeyPad/total?logo=github&label=%F0%9F%A1%87&color=yellow)](https://github.com/DemerNkardaz/DSL-KeyPad) [![SourceForge](https://img.shields.io/sourceforge/dm/dsl-keypad?logo=sourceforge&label=%F0%9F%A1%87&color=yellow)](https://sourceforge.net/projects/dsl-keypad/)
+[![GitHub](https://img.shields.io/github/v/release/DemerNkardaz/DSL-KeyPad?include_prereleases&label=%F0%9F%8F%B7%EF%B8%8F&color=yellow)](https://github.com/DemerNkardaz/DSL-KeyPad) [![GitHub](https://img.shields.io/github/downloads/DemerNkardaz/DSL-KeyPad/total?logo=github&label=%F0%9F%A1%87&color=yellow)](https://github.com/DemerNkardaz/DSL-KeyPad) [![GitHub](https://img.shields.io/github/release-date-pre/DemerNkardaz/DSL-KeyPad?logo=github&label=%F0%9F%A1%85&color=yellow)](https://github.com/DemerNkardaz/DSL-KeyPad) [![SourceForge](https://img.shields.io/sourceforge/dm/dsl-keypad?logo=sourceforge&label=%F0%9F%A1%87&color=yellow)](https://sourceforge.net/projects/dsl-keypad/)
 
 Инструмент для ввода множества символов юникода, ставящий в основу поддержу многоязычного письма на латинице и кириллице. Создан как реализация собственной потребности в работе с нестандартными символами.
 
