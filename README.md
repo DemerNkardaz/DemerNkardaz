@@ -2,7 +2,7 @@
 
 ![:name](https://count.getloli.com/get/@:DemerNkardaz?theme=gelbooru)
 
-[![](https://badges.pufler.dev/years/DemerNkardaz?color=yellow&logo=github)](https://badges.pufler.dev) [![](https://badges.pufler.dev/repos/DemerNkardaz?color=yellow&logo=github)](https://badges.pufler.dev) [![](https://badges.pufler.dev/commits/monthly/DemerNkardaz?color=yellow&logo=github)](https://badges.pufler.dev) ![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2FDemerNkardaz&label=Visits&icon=github&color=%23ffda6a)
+[![wakatime](https://wakatime.com/badge/user/e572f348-6192-4188-a508-7efe46e45cd5.svg?style=social)](https://wakatime.com/@e572f348-6192-4188-a508-7efe46e45cd5) [![](https://badges.pufler.dev/years/DemerNkardaz?color=yellow&logo=github)](https://badges.pufler.dev) [![](https://badges.pufler.dev/repos/DemerNkardaz?color=yellow&logo=github)](https://badges.pufler.dev) [![](https://badges.pufler.dev/commits/monthly/DemerNkardaz?color=yellow&logo=github)](https://badges.pufler.dev) ![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2FDemerNkardaz&label=Visits&icon=github&color=%23ffda6a)
 
 [![](https://skillicons.dev/icons?i=unreal,blender,obsidian,ps,ai,vscode,lua,js,html,css,scss,nodejs,nginx,jquery)](https://skillicons.dev)
 
