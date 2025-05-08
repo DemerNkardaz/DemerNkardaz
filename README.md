@@ -67,6 +67,10 @@ A tool for entering a large count of unicode characters and implementing the sup
 
 </details>
 
+##
+
+[![](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/yalla)
+
 ## Статистика [Stats]
 
 <img src="https://github-readme-stats.vercel.app/api/wakatime/?username=Nkardaz&layout=compact&langs_count=30&theme=vue" align="right">
