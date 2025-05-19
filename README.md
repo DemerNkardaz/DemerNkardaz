@@ -69,7 +69,7 @@ A tool for entering a large count of unicode characters and implementing the sup
 
 ##
 
-[![](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/yalla)
+<a href='https://ko-fi.com/A0A21ECJOS' target='_blank'><img height='48' src='https://storage.ko-fi.com/cdn/kofi2.png?v=6' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 ## Статистика [Stats]
 
