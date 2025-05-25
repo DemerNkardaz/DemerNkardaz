@@ -4,7 +4,91 @@
 
 [![wakatime](https://wakatime.com/badge/user/e572f348-6192-4188-a508-7efe46e45cd5.svg?style=social)](https://wakatime.com/@e572f348-6192-4188-a508-7efe46e45cd5) [![](https://badges.pufler.dev/years/DemerNkardaz?color=yellow&logo=github)](https://badges.pufler.dev) [![](https://badges.pufler.dev/repos/DemerNkardaz?color=yellow&logo=github)](https://badges.pufler.dev) [![](https://badges.pufler.dev/commits/monthly/DemerNkardaz?color=yellow&logo=github)](https://badges.pufler.dev) ![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2FDemerNkardaz&label=Visits&icon=github&color=%23ffda6a)
 
-[![](https://skillicons.dev/icons?i=unreal,blender,obsidian,ps,ai,vscode,lua,js,html,css,scss,nodejs,nginx,jquery)](https://skillicons.dev)
+---
+
+<br>
+
+<p align="center">
+	<img src="svg/Yalla_Nkardaz_de_Tuderiy.svg"  width="520">
+</p>
+
+$$
+\color{#dda800}
+\begin{array}{c}
+\Large \text{/ˈjɑlːə \ nkɑrˈdɑs \ dɛ \ tuˈdʲerʲɪj/}
+\end{array}
+$$
+
+<br>
+
+$$
+\color{#dda800}
+\begin{array}{c}
+\Large \text{⟨ A Dacian Blackthorn ⟩} \\
+\large \text{⟨ Þe fallen in þe Deeps ⟩} \\
+\normalsize \text{⟨ A Green Arlequin ⟩} \\
+\small \text{⟨ An Empress ⟩} \\
+\small \text{⟨ An Oil ⟩} \\
+\end{array}
+$$
+
+<br>
+
+$$
+\color{#dda800}
+\begin{array}{c}
+\Large \text{⸺ ⸻⟬ ΑΘ ⟭⸻ ⸺}
+\end{array}
+$$
+
+<br>
+
+$$
+\color{#c9be00}
+\begin{array}{c}
+\text{And in the blackthorn’s shackles, she will ignite in white flames,} \\
+\text{And in the blackthorn’s shackles, she will be drowned in black blood…} \\
+\text{🜍} \\
+\text{And let the metamorphoses hear the prayers} \\
+\text{of she who never ceases to look into the brimstone fire.} \\
+\end{array}
+$$
+
+$$
+\color{#64b8bf}
+\begin{array}{c}
+\text{И в путах терновника пламенем белым возгорится,} \\
+\text{И в путах терновника кровью чёрной зальётся…} \\
+\text{♅} \\
+\text{И пусть метаморфозы услышат мольбы той,} \\
+\text{Что неустанно в небо смотрит.} \\
+\end{array}
+$$
+
+$$
+\color{#1bb586}
+\begin{array}{c}
+\text{Et dans les chaînes du prunellier, elle brûlera d’une flamme noire,} \\
+\text{Et dans les chaînes du prunellier, l'appel a été entendu…} \\
+\text{☿} \\
+\text{Et la déesse des masques d'Arlequins descendit,} \\
+\text{ Pour accorder un baiser à celle qui implore la liberté.} \\
+\end{array}
+$$
+
+<br>
+
+<table>
+	<tr>
+		<td align="center">
+			Yalla Nkardaz | Υάλλα Νκαρδάς | &#x10291;&#x102A0;&#x102A3;&#x102A3;&#x102A0; &#x102B5;&#x102BC;&#x102A0;&#x102A5;&#x102A2;&#x102A0;&#x102B0; | &#x1028A;&#x10280;&#x1028D;&#x1028D;&#x10280; &#x1028F;&#x1028B;&#x10280;&#x10295;&#x10285;&#x10280;&#x10296; | &#x10927;&#x10920;&#x10929;&#x10929;&#x10920; &#x1092B;&#x10928;&#x10920;&#x1092D;&#x10923;&#x10920;&#x1092E; | &#x10309;&#x10300;&#x1030B;&#x1030B;&#x10300; &#x1030D;&#x1030A;&#x10300;&#x10313;&#x10303;&#x10300;&#x10314; | &#x16C3;&#x16A8;&#x16DA;&#x16DA;&#x16A8;&#x16EC;&#x16BE;&#x16E4;&#x16A8;&#x16B1;&#x16DE;&#x16A8;&#x16CA; | &#x1040F;&#x1042A;&#x1044A;&#x1044A;&#x1042A; &#x10424;&#x1043F;&#x1042A;&#x10449;&#x1043C;&#x1042A;&#x10445; | &#x10462;&#x1046D;&#x10464;&#x10464;&#x1046D; &#x1046F;&#x10452;&#x1046D;&#x1046E;&#x1045B;&#x1046D;&#x10455; | &#x2C21;&#x2C3E;&#x2C3E;&#x2C30; &#x2C10;&#x2C3D;&#x2C30;&#x2C43;&#x2C34;&#x2C30;&#x2C38;&#x2C4F; | &#x10C92;&#x10CC1;&#x10CD6;&#x10CD6;&#x10CC1; &#x10CD9;&#x10CD3;&#x10CC1;&#x10CE2;&#x10CC7;&#x10CC1;&#x10CE5; | &#x1033E;&#x10330;&#x1033B;&#x1033B;&#x10330; &#x1033D;&#x1033A;&#x10330;&#x10342;&#x10333;&#x10330;&#x10343; | &#x10A9A;&#x10A91;&#x10A81;&#x10A81;&#x10A91; &#x10A8C;&#x10A8B;&#x10A91;&#x10A87;&#x10A95;&#x10A91;&#x10A8F; | &#x10A7A;&#x10A71;&#x10A61;&#x10A61;&#x10A71; &#x10A6C;&#x10A6B;&#x10A71;&#x10A67;&#x10A75;&#x10A71;&#x10A6A; | &#x1038A;&#x10380;&#x1038D;&#x1038D;&#x10380;&#x1039F;&#x10390;&#x1038B;&#x10380;&#x10397;&#x10384;&#x10380;&#x10392;
+		</td>
+	</tr>
+</table>
+
+<p align="center">
+	<a href="https://skillicons.dev" about="_blank"><img src="https://skillicons.dev/icons?i=unreal,blender,obsidian,latex,ps,ai,vscode,lua,js,html,css,scss,nodejs,nginx"></a>
+</p>
 
 ---
 

@@ -1,0 +1,45 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024.27 112.3">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 99.77px;
+        font-family: CormorantGaramond-SemiBold, Cormorant Garamond;
+        font-weight: 600;
+      }
+
+      .cls-1, .cls-8 {
+        fill: #dda800;
+      }
+
+      .cls-2 {
+        letter-spacing: 0.02em;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.08em;
+      }
+
+      .cls-6 {
+        letter-spacing: -0.05em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g>
+    <text class="cls-1" transform="translate(0.3 81.07)">Я<tspan class="cls-2" x="61.06" y="0">л</tspan><tspan x="107.55" y="0">ла Нка</tspan><tspan class="cls-3" x="381.93" y="0">р</tspan><tspan x="430.62" y="0">даз </tspan><tspan class="cls-4" x="581.48" y="0">д</tspan><tspan x="626.47" y="0">е </tspan><tspan class="cls-5" x="691.13" y="0">Т</tspan><tspan class="cls-6" x="746.8" y="0">у</tspan><tspan class="cls-4" x="784.61" y="0">д</tspan><tspan class="cls-7" x="829.61" y="0">ерий</tspan></text>
+    <path class="cls-8" d="M22,23.53a.5.5,0,0,1-.5-.45.57.57,0,0,1,.2-.65Q25.4,20,30.59,16l5-3.69c.33-.26,1.38-.13,3.15.4a30.54,30.54,0,0,1,4.68,1.8c1.37.66,1.68,1.06,1,1.19A110.74,110.74,0,0,0,33,19.09q-5.14,1.85-10.83,4.34Z" transform="translate(0.27 -6.15)"/>
+    <text class="cls-1" transform="translate(493.34 84.07)">´</text>
+    <text class="cls-1" transform="translate(846.39 84.07)">´</text>
+  </g>
+</svg>
