@@ -78,6 +78,17 @@ $$
 
 <br>
 
+<p align="center">
+	<img src="svg/jester_arlecchino.svg" width="74">
+	<img src="svg/jester_ballessaerro.svg" width="74">
+	<img src="svg/jester_viseaccioeu.svg" width="74">
+	<img src="svg/jester_caeszetto.svg" width="74">
+	<img src="svg/jester_melanco.svg" width="74">
+	<img src="svg/jester_gaullletto.svg" width="74">
+</p>
+
+<br>
+
 <table>
 	<tr>
 		<td align="center">
