@@ -48,7 +48,7 @@ $$
 \begin{array}{c}
 \text{And in the blackthorn’s shackles, she will ignite in white flames,} \\
 \text{And in the blackthorn’s shackles, she will be drowned in black blood…} \\
-\text{🜍} \\
+\Large \text{🜍} \\
 \text{And let the metamorphoses hear the prayers} \\
 \text{of she who never ceases to look into the brimstone fire.} \\
 \end{array}
@@ -59,7 +59,7 @@ $$
 \begin{array}{c}
 \text{И в путах терновника пламенем белым возгорится,} \\
 \text{И в путах терновника кровью чёрной зальётся…} \\
-\text{♅} \\
+\Large \text{♅} \\
 \text{И пусть метаморфозы услышат мольбы той,} \\
 \text{Что неустанно в небо смотрит.} \\
 \end{array}
@@ -70,7 +70,7 @@ $$
 \begin{array}{c}
 \text{Et dans les chaînes du prunellier, elle brûlera d’une flamme noire,} \\
 \text{Et dans les chaînes du prunellier, l'appel a été entendu…} \\
-\text{☿} \\
+\Large \text{☿} \\
 \text{Et la déesse des masques d'Arlequins descendit,} \\
 \text{ Pour accorder un baiser à celle qui implore la liberté.} \\
 \end{array}
