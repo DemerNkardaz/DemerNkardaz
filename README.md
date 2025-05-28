@@ -15,7 +15,7 @@
 $$
 \color{#dda800}
 \begin{array}{c}
-\Large \text{/ˈjɑlːə \ nkɑrˈdɑs \ dɛ \ tuˈdʲerʲɪj/}
+\Large \text{/ˈjalːə \ nkarˈdas \ dɛ \ tuˈdʲerʲɪj/}
 \end{array}
 $$
 
@@ -130,6 +130,10 @@ I’m working on a project of my own Fantasy/Science Fiction universe, trying to
 
 </details>
 
+##
+
+<a href='https://ko-fi.com/A0A21ECJOS' target='_blank'><img height='48' src='https://storage.ko-fi.com/cdn/kofi2.png?v=6' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
 ## Мои проекты [My Projects]
 
 <a href="https://github.com/DemerNkardaz/DSL-KeyPad" align="right">
@@ -161,10 +165,6 @@ A tool for entering a large count of unicode characters and implementing the sup
 [Factorio](https://www.factorio.com) modification that adds a 40‑mm grenade launcher to the player’s armory with a variety of ammunition selection: fragmentation, high‑explosive, chemical, thermobaric, plasma and so on.
 
 </details>
-
-##
-
-<a href='https://ko-fi.com/A0A21ECJOS' target='_blank'><img height='48' src='https://storage.ko-fi.com/cdn/kofi2.png?v=6' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 ## Статистика [Stats]
 
