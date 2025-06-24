@@ -290,6 +290,7 @@ result=${white_heart×3} ; вставляет результат первого 
 - Monospace — моноширинный, м, m
 - Fullwidth — полноширинный, пш, fw
 - SmallCapital — капитель, к, sc
+- SmallCapitalModifier — капитель-модификатор, км, scm
 - Small — маленькая, мал, sm
 - Combining — комбинируемый, ко, c
 - Uncombined — некомбинируемый, неко, uc
