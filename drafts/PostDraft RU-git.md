@@ -465,10 +465,6 @@ type=Cyrillic
 
 ### Модификации
 
-### Модификации
-
-### Модификации
-
 В директории «`DSLKeyPad\Mods\`» можно разрешать сторонние AHK-файлы в качестве «модов» к программе.
 
 Для создания мода необходимо создать папку со следующей базовой структурой:
@@ -499,6 +495,31 @@ author=<АВТОР>
 Переключать моды можно через GUI: Меню трея → Модификации.
 
 PS. если необходимо получить путь до папки вашего мода — он автоматически сохраняются в `mods["<ИМЯ МОДА>"]`.
+
+PSS. моды — не изолированные друг от скрипты, т.е. возможен конфликт в именах переменных и так далее. Рекомендую создавать объект вида `<имяМода>Variables := {}` для переменных вашего мода и класс `class <ИмяМода> {}` для классов. Условный пример:
+
+```ahk
+exampleModVariables := {
+	title: IniRead(mods["Example Mod"] "\options.ini", "options", "title", ""),
+	version: IniRead(mods["Example Mod"] "\options.ini", "options", "version", "")
+}
+
+Class ExampleMod {
+	Class ExampleClass {
+		__New() {
+			MsgBox(
+				exampleModVariables.title
+				" "
+				exampleModVariables.version
+				"`n"
+				mods["Scripter Salvyn"]
+			)
+		}
+	}
+}
+
+ExampleMod.ExampleClass()
+```
 
 ### Конвертер температуры
 
