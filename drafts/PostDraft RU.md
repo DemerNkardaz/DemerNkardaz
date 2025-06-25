@@ -541,7 +541,7 @@ Class ExampleMod {
 				" "
 				exampleModVariables.version
 				"`n"
-				mods["Scripter Salvyn"]
+				mods["Example Mod"]
 			)
 		}
 	}
@@ -549,6 +549,12 @@ Class ExampleMod {
 
 ExampleMod.ExampleClass()
 ```
+
+### Легенда
+
+Интерфейс с информацией о том или ином символе. В данный момент не самая значимая фича, т.к. я не обладаю достаточными познаниями для полноценного заполнения данных.
+
+![Окно Легенды](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad/refs/heads/dev/webpage/media/legend_ru.png)
 
 ### Конвертер температуры
 
