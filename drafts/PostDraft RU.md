@@ -496,25 +496,35 @@ type=Cyrillic
 
 В директории «`DSLKeyPad\Mods\`» можно разрешать сторонние AHK-файлы в качестве «модов» к программе.
 
+[\[Образец мода\]](https://github.com/DemerNkardaz/DSL-KeyPad-Custom-Files/tree/master/Mods/Keyboard%20Language%20Switcher)
+
 Для создания мода необходимо создать папку со следующей базовой структурой:
 
 ```
 Mods/
 └── <ИМЯ МОДА>/
     ├── index.ahk
-    └── options.ini
+    ├── options.ini
+    └── preview.(ico|jpg|png) (необязательный файл)
 ```
 
 Файл `index.ahk` будет содержать логику мода и к нему можно подключать другие AHK-файлы через `#Include` (ничем не отличается от независимого AHK-скрипта).
 
-Файл `options.ini` (UTF-16 LE) определяет имя, версию и тип загрузки мода:
+Файл `options.ini` (UTF-16 LE) ряд параметров:
 
 ```ini
 [options]
 title=<НАЗВАНИЕ>
 version=<ВЕРСИЯ>
 type=<ТИП ЗАГРУЗКИ>
-author=<АВТОР>
+author=<АВТОР> ; (опционально добавление @<ССЫЛКА>)
+url=<ССЫЛКА НА СТРАНИЦУ МОДА>
+description=<ОПИСАНИЕ>
+[ru-RU] ; (или другой код языка)
+title=…
+author=…
+description=…
+; Локализованные варианты
 ```
 
 Тип загрузки может быть `pre_init` (для загрузки до основной инициализации) или `post_init` (для загрузки после неё).
@@ -525,30 +535,9 @@ author=<АВТОР>
 
 PS. если необходимо получить путь до папки вашего мода — он автоматически сохраняются в `mods["<ИМЯ МОДА>"]`.
 
-PSS. моды — не изолированные друг от скрипты, т.е. возможен конфликт в именах переменных и так далее. Рекомендую создавать объект вида `<имяМода>Variables := {}` для переменных вашего мода и класс `class <ИмяМода> {}` для классов. Условный пример:
+PSS. моды — не изолированные друг от скрипты, т.е. возможен конфликт в именах переменных, классов.
 
-```ahk
-exampleModVariables := {
-	title: IniRead(mods["Example Mod"] "\options.ini", "options", "title", ""),
-	version: IniRead(mods["Example Mod"] "\options.ini", "options", "version", "")
-}
-
-Class ExampleMod {
-	Class ExampleClass {
-		__New() {
-			MsgBox(
-				exampleModVariables.title
-				" "
-				exampleModVariables.version
-				"`n"
-				mods["Example Mod"]
-			)
-		}
-	}
-}
-
-ExampleMod.ExampleClass()
-```
+![Окно Модификаций](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad/refs/heads/dev/webpage/media/mods_menu_ru.png)
 
 ### Легенда
 
