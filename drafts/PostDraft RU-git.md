@@ -465,10 +465,6 @@ type=Cyrillic
 Ф=А
 ```
 
-<anchor>Менее-значимые-вспомогательные-возможности</anchor>
-
-## Менее значимые/вспомогательные возможности
-
 ### Модификации
 
 В директории «`DSLKeyPad\Mods\`» можно разрешать сторонние AHK-файлы в качестве «модов» к программе.
@@ -516,6 +512,173 @@ PSS. моды — не изолированные друг от скрипты
 
 ![Окно Модификаций](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad/refs/heads/dev/webpage/media/mods_menu_ru.png)
 
+<details>
+
+<summary>Более сложный пример мода</summary>
+
+Мод-пример, добавляющий новый режим Альтернативного ввода.
+
+Ссылка: [GitHub](https://github.com/DemerNkardaz/DSL-KeyPad-Custom-Files/tree/master/Mods/Old%20Mongolian%20Sample%20Mod)
+
+Структура:
+
+```
+Mods/
+└── Old Mongolian Sample Mod/
+    ├── Locale/
+    │   └── base.ini
+    ├── Resources/
+    │   └── old_mongolian.ico
+    ├── index.ahk
+    ├── options.ini
+    └── preview.ico
+```
+
+options.ini
+
+```ini
+[options]
+title=Old Mongolian
+version=0.0
+type=post_init
+description=This is am example of mod
+[ru-RU]
+title=Старомонгольское письмо
+description=Это пример мода
+```
+
+Locale\base.ini
+
+Любые `*.ini`-файлы в `Locale\` автоматически подтягиваются программой из директорий активных модов.
+
+```ini
+[ru-RU]
+old_mongolian_mod__alt_mode_old_mongolian=Старомонгольское письмо
+gen_prefix_old_mongolian=Старомонгольск$(ая|ий|ое)
+gen_tagScript_old_mongolian=старомонгольск$(ая|ий|ое)
+old_mongolian_n_let_a_LTL=А
+old_mongolian_n_let_e_LTL=Э
+old_mongolian_n_let_i_LTL=И
+old_mongolian_n_let_o_LTL=О
+old_mongolian_n_let_u_LTL=У
+old_mongolian_n_let_ue_LTL=Уэ
+[en-US]
+old_mongolian_mod__alt_mode_old_mongolian=Old Mongolian
+gen_prefix_old_mongolian=Old Mongolian
+gen_tagScript_old_mongolian=old mongolian
+old_mongolian_n_let_a_LTL=A
+old_mongolian_n_let_e_LTL=E
+old_mongolian_n_let_i_LTL=I
+old_mongolian_n_let_o_LTL=O
+old_mongolian_n_let_u_LTL=U
+old_mongolian_n_let_ue_LTL=Ue
+```
+
+index.ahk
+
+```ahk
+Class OldMongolianMod {
+	static __New() {
+		; Подготовка новых символов
+		local mongolianBlock := [
+			"old_mongolian_n_let_[a,e,i,o,u]", {
+				unicode: [
+					"1820",
+					"1821",
+					"1822",
+					"1823",
+					"1824",
+				],
+				options: {
+					altLayoutKey: "$",
+					; Указывает клавишу для отображения в GUI
+					; $ автоматически заменяется на букву после let_
+					useLetterLocale: True,
+					; указывает использовать имя из локализации с постфиксом «_LTL»
+					; необязателен, True по умолчанию для имён формата:
+					; <script>_<case>_<type>_<letter>[_<endPart>][__<postfix>]*
+				},
+			},
+			"old_mongolian_n_let_ue", {
+				unicode: "1826",
+				options: { altLayoutKey: ">! U" },
+			},
+		]
+
+		; Регистрация перфикса «old_mongolian» для корректной генерации локализации
+		ChrLib.scriptsValidator.Push("old_mongolian")
+
+		; Регистрация новых символов
+		ChrReg(mongolianBlock)
+
+		; Эти два действия необходимы для сохранения записей после смены языка
+		; (записи пересоздаются при смене языка)
+		;
+		; Добавление группы в список дополнительных групп вкладки «Письменности»
+		; Пустая строка добавляет пустую запись во вкладке (разделитель)
+		Panel.externalGroups.scripts.Push("", "Old Mongolian")
+		; Добавление ключа локализации (необязательно)
+		Panel.externalGroupKeys.scripts.Set("Old Mongolian", Locale.Read.Bind(Locale, "old_mongolian_mod__alt_mode_old_mongolian"))
+
+		; Создание массива с записями символов для вставки во вкладку «Письменности»
+		local insertingGroup := Panel.LV_InsertGroup({
+			type: "Alternative Layout",
+			group: ["", "Old Mongolian"],
+			groupKey: Map(
+				"Old Mongolian", Locale.Read("old_mongolian_mod__alt_mode_old_mongolian")
+			),
+		})
+
+		; Вставка записей во вкладку «Письменности»
+		Panel.LV_Content.scripts.Push(insertingGroup*)
+
+		; Добавление привязок для режима Альтернативного ввода
+		bindingMaps["Script Specified"].Set(
+			"Old Mongolian", Map(
+				"ForceSingle", True,
+				; Обязательный параметр, если мы не делаем пару латиница-кириллица
+				"Flat", Map(
+					"A", "old_mongolian_n_let_a",
+					"E", "old_mongolian_n_let_e",
+					"I", "old_mongolian_n_let_i",
+					"O", "old_mongolian_n_let_o",
+					"U", "old_mongolian_n_let_u",
+				),
+				"Moded", Map(
+					"U", Map(
+						"<^>!", "old_mongolian_n_let_ue",
+					),
+				)
+			)
+		)
+
+		; Добавление нового режима Альтернативного ввода
+		Scripter.data["Alternative Modes"].Push(
+			"Old Mongolian", {
+				preview: ["ᠠᠯᠲᠠᠨ ᠵᠤᠯᠠ ᠭᠦᠵᠡᠭᠡᠯᠵᠡᠭᠡᠨ᠎ᠡ"],
+				fonts: [""],
+				locale: "old_mongolian_mod__alt_mode_old_mongolian",
+				bindings: ["Old Mongolian"],
+				uiid: "OldMongolian",
+				icons: [Format("file::{}\Resources\old_mongolian.ico", mods["Old Mongolian Sample Mod"])],
+			}
+		)
+	}
+}
+```
+
+![В меню модов](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad/refs/heads/dev/webpage/media/sample_mod_menu_ru.png)
+
+![В селектора Альтернативного ввода](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad/refs/heads/dev/webpage/media/sample_mod_selector_ru.png)
+
+![Во вкладке «Письменности»](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad/refs/heads/dev/webpage/media/sample_mod_tab_scripts_ru.png)
+
+</details>
+
+<anchor>Менее-значимые-вспомогательные-возможности</anchor>
+
+## Менее значимые/вспомогательные возможности
+
 ### Легенда
 
 Интерфейс с информацией о том или ином символе. В данный момент не самая значимая фича, т.к. я не обладаю достаточными познаниями для полноценного заполнения данных.
@@ -556,6 +719,8 @@ PSS. моды — не изолированные друг от скрипты
 Заключает выделенный текст в кавычки и автоматически заменяет внешние кавычки на внутренние, если они есть: Меч Танаквиль → Меч «Танаквиль» → «Меч „Танаквиль“», Sword Tanaquil → Sword “Tanaquil” → “Sword ‘Tanaquil’”.
 
 Кавычки выбираются в зависимости от активного языка раскладки.
+
+<anchor>Интерфейс</anchor>
 
 ## Интерфейс
 
