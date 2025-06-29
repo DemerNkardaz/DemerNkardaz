@@ -12,6 +12,7 @@
   - [TELEX/VNI-подобный ввод](#TELEXVNI-подобный-ввод)
   - [Поиск](#Поиск)
   - [Внутренние раскладки клавиатуры](#Внутренние-раскладки-клавиатуры)
+  - [Модификации](#Модификации)
 - [Менее значимые/вспомогательные возможности](#Менее-значимые-вспомогательные-возможности)
 - [Интерфейс](#Интерфейс)
 - [Установка и репозиторий](#Установка-и-репозиторий)
@@ -525,8 +526,13 @@ PSS. моды — не изолированные друг от скрипты
 ```
 Mods/
 └── Old Mongolian Sample Mod/
+    ├── Data/
+    │   ├── alternative_modes.json
+    │   ├── binds.json
+    │   ├── characters.json
+    │   └── ui_main_panel_lists.json
     ├── Locale/
-    │   └── base.ini
+    │   └── base.(ini или json)
     ├── Resources/
     │   └── old_mongolian.ico
     ├── index.ahk
@@ -534,139 +540,268 @@ Mods/
     └── preview.ico
 ```
 
-options.ini
+**options.ini**
 
 ```ini
 [options]
 title=Old Mongolian
 version=0.0
 type=post_init
-description=This is am example of mod
+description=This is an example of mod
 [ru-RU]
 title=Старомонгольское письмо
 description=Это пример мода
 ```
 
-Locale\base.ini
+**Locale\base.json**
 
-Любые `*.ini`-файлы в `Locale\` автоматически подтягиваются программой из директорий активных модов.
+Любые `*.(ini|json)`-файлы в `Locale\` автоматически подтягиваются программой из директорий активных модов. `ini`-файлы должны быть формата `UTF-16 LE`, `json`-файлы — `UTF-8`.
 
-```ini
-[ru-RU]
-old_mongolian_mod__alt_mode_old_mongolian=Старомонгольское письмо
-gen_prefix_old_mongolian=Старомонгольск$(ая|ий|ое)
-gen_tagScript_old_mongolian=старомонгольск$(ая|ий|ое)
-old_mongolian_n_let_a_LTL=А
-old_mongolian_n_let_e_LTL=Э
-old_mongolian_n_let_i_LTL=И
-old_mongolian_n_let_o_LTL=О
-old_mongolian_n_let_u_LTL=У
-old_mongolian_n_let_ue_LTL=Уэ
-[en-US]
-old_mongolian_mod__alt_mode_old_mongolian=Old Mongolian
-gen_prefix_old_mongolian=Old Mongolian
-gen_tagScript_old_mongolian=old mongolian
-old_mongolian_n_let_a_LTL=A
-old_mongolian_n_let_e_LTL=E
-old_mongolian_n_let_i_LTL=I
-old_mongolian_n_let_o_LTL=O
-old_mongolian_n_let_u_LTL=U
-old_mongolian_n_let_ue_LTL=Ue
+```json
+{
+  "ru-RU": {
+    "mods": {
+      "old_mongolian": {
+        // Параметр «__self» — собственное имя ключа-объекта,
+        // получаемое при ссылке на него, а не на его
+        // дочерний ключ
+
+        // Если ввод дочерних элементов не планируются,
+        // тогда значение можно указать напрямую
+        // "ключ": "значение"
+        "__self": "Старомонгольское письмо"
+      }
+    },
+    "generated": {
+      // Регистрация префиксов и фрагмента тега для
+      // генерации названий и тегов
+      "prefix": { "old_mongolian": "Старомонгольск$(ая|ий|ое)" },
+      "tag": { "old_mongolian": "старомонгольск$(ая|ий|ое)" }
+    },
+    "scripts": {
+      "old_mongolian": {
+        // Перечень имён записей символов с указанием
+        // параметра «letter_locale», который берётся для
+        // генерации названия, если у записи символа
+        // активен параметр <запись>["options"]["useLetterLocale"]
+
+        // Если присвоить значение напрямую или через «__self»,
+        // тогда название в интерфейсе будет равно этому значению
+        "n_let_a": { "letter_locale": "А" },
+        "n_let_e": { "letter_locale": "Э" },
+        "n_let_i": { "letter_locale": "И" },
+        "n_let_o": { "letter_locale": "О" },
+        "n_let_u": { "letter_locale": "У" },
+        "n_let_ue": { "letter_locale": "Уэ" }
+      }
+    }
+  },
+  "en-US": {
+    "mods": {
+      "old_mongolian": {
+        "__self": "Old Mongolian"
+      }
+    },
+    "generated": {
+      "prefix": { "old_mongolian": "Old Mongolian" },
+      "tag": { "old_mongolian": "old mongolian" }
+    },
+    "scripts": {
+      "old_mongolian": {
+        "n_let_a": { "letter_locale": "A" },
+        "n_let_e": { "letter_locale": "E" },
+        "n_let_i": { "letter_locale": "I" },
+        "n_let_o": { "letter_locale": "O" },
+        "n_let_u": { "letter_locale": "U" },
+        "n_let_ue": { "letter_locale": "Ue" }
+      }
+    }
+  }
+}
 ```
 
-index.ahk
+**Data\characters.json**
+
+Файл с данными о добавляемых символах.
+
+```json
+[
+  // Указание названия записи,
+  // с помощью [] можно создать запись сразу для
+  // множество символов
+
+  // [] может быть сколько угодно, главное,
+  // чтобы во всех было одинаковое число элементов,
+  // например: lat_[c,s]_let_[a,e]__[acute,grave] =>
+  // lat_c_let_a__acute, lat_s_let_e__grave
+  "old_mongolian_n_let_[a,e,i,o,u]",
+  {
+    "unicode": ["1820", "1821", "1822", "1823", "1824"],
+    "options": {
+      // Указывает текст, отображаемый в GUI
+      // для отражения привязки
+
+      // Символ «$» заменится на текст после «let_» и до следующей «_»
+      // old_mongolian_n_let_a => $ → A
+      "altLayoutKey": "$",
+      // Упомянутый выше параметр для указания использования
+      // названия символа из локализации для генерации
+      // полного названия
+      // (необязательный параметр, так как дальше мы регистрируем
+      // префикс «old_mongolian» и параметр станет по умолчанию
+      // активным)
+      "useLetterLocale": true
+    }
+  },
+  "old_mongolian_n_let_ue",
+  {
+    "unicode": "1826",
+    // Указание комбинации «Правый Альт + U»
+    "options": { "altLayoutKey": ">! U" }
+  }
+]
+```
+
+**Data\binds.json**
+
+Файл с данными о добавляемых привязках.
+
+```json
+{
+  // Раздел, хранящий привязки для альтернативных режимов
+  "Script Specified": {
+    "Old Mongolian": {
+      // Обязательный параметр, если добавляется
+      // одиночный альтернативный режим
+      "ForceSingle": true,
+      // Привязки для клавиш без модификаторов
+      "Flat": {
+        "A": "old_mongolian_n_let_a",
+        "E": "old_mongolian_n_let_e",
+        "I": "old_mongolian_n_let_i",
+        "O": "old_mongolian_n_let_o",
+        "U": "old_mongolian_n_let_u"
+      },
+      // Привязки для клавиш с модификаторами
+      "Moded": {
+        "U": {
+          "<^>!": "old_mongolian_n_let_ue"
+        }
+      }
+    }
+  }
+}
+```
+
+**Data\alternative_modes.json**
+
+Файл с данными о добавляемом альтернативном режиме.
+
+```json
+[
+  "Old Mongolian",
+  {
+    // Текст, отображаемый в селекторе под заголовком
+    "preview": ["ᠠᠯᠲᠠᠨ ᠵᠤᠯᠠ ᠭᠦᠵᠡᠭᠡᠯᠵᠡᠭᠡᠨ᠎ᠡ"],
+    // Шрифт — может быть любой, если он есть в системе
+    "fonts": [""],
+    // Ключ локализации для заголовка
+    "locale": "mods.old_mongolian",
+    // Указание названий привязок из “Script Specified” раздела
+
+    // До двух, если создаём режим для пары наборов привязок
+    // (латиница и кириллица)
+    "bindings": ["Old Mongolian"],
+    // Уникальный идентификатор для интерфейса селектора
+    "uiid": "OldMongolian",
+    // Указание набора иконок — до двух, если создаём
+    // режим для пары наборов привязок
+    "icons": [
+      // Простая строка (например, "gothic") запросит иконку
+      // из файла DSLKeyPad\Bin\DSLKeyPad_App_Icons.dll
+
+      // Для использования собственного файла необходимо
+      // добавить в начало пути “file::”
+
+      // Все параметры в объекте режима могут содержать «спящий»
+      // вызов функции/метода, заключённый в %%, который будет
+      // исполнен при регистрации режима
+
+      // В данном примере будет получен путь до файла вида
+      // <диск>:\<путь>\DSLKeyPad\Mods\Old Mongolian Sample Mod\Resources\old_mongolian.ico
+      "%Format('file::{}\\Resources\\old_mongolian.ico', OldMongolianMod.dir)%"
+    ]
+  }
+]
+```
+
+**Data\ui_main_panel_lists.json**
+
+Файл с данными для отображения символов в GUI главной панели.
+
+```json
+{
+  // Вкладка «Письменности»
+  "scripts": {
+    // Тип отвечает за правила добавления символов во вкладку
+
+    // Например, если тип равен "Alternative Layout",
+    // а свойство записи ["options"]["altLayoutKey"]
+    // пусто — запись не будет добавлена во вкладку
+    "type": "Alternative Layout",
+    // Группа добавляемых символов (создаётся автоматически
+    // после регистрации префикса; может быть указана
+    // вручную добавлением параметра "groups": []
+    // в каждую запись символа)
+
+    // Пустая строка создаёт разделитель
+    "group": ["", "Old Mongolian"],
+    // Указание текста для группы символов
+
+    // Может быть указанием ключа локалищации с @,
+    // ссылкой на переменную через %%
+    // или простой строкой
+
+    // Рекомендуется указать хотя бы пустым
+    "groupKey": { "Old Mongolian": "@mods.old_mongolian" }
+  }
+}
+```
+
+**index.ahk**
 
 ```ahk
 Class OldMongolianMod {
 	static dir := mods["Old Mongolian Sample Mod"]
 
 	static __New() {
-		; Подготовка новых символов
-		local mongolianBlock := [
-			"old_mongolian_n_let_[a,e,i,o,u]", {
-				unicode: [
-					"1820",
-					"1821",
-					"1822",
-					"1823",
-					"1824",
-				],
-				options: {
-					; Указывает клавишу для отображения в GUI
-					; $ автоматически заменяется на букву после let_
-					altLayoutKey: "$",
-					; указывает использовать имя из локализации с постфиксом «_LTL»
-					; необязателен, True по умолчанию для имён формата:
-					; <script>_<case>_<type>_<letter>[_<endPart>][__<postfix>]*
-					useLetterLocale: True,
-				},
-			},
-			"old_mongolian_n_let_ue", {
-				unicode: "1826",
-				options: { altLayoutKey: ">! U" },
-			},
-		]
+		; Загрузка данных о записях символов
+		local charactersData := JSON.LoadFile(this.dir "\Data\characters.json", "UTF-8")
 
 		; Регистрация перфикса «old_mongolian» для корректной генерации локализации
 		ChrLib.scriptsValidator.Push("old_mongolian")
 
 		; Регистрация новых символов
-		ChrReg(mongolianBlock, , True)
+		; True на третьем аргументе отключает показ прогресс-бара
+		ChrReg(charactersData, , True)
 
-		; Эти два действия необходимы для сохранения записей после смены языка
-		; (записи пересоздаются при смене языка)
-		;
-		; Добавление группы в список дополнительных групп вкладки «Письменности»
-		; Пустая строка добавляет пустую запись во вкладке (разделитель)
-		Panel.externalGroups.scripts.Push("", "Old Mongolian")
-		; Добавление ключа локализации (необязательно)
-		Panel.externalGroupKeys.scripts.Set("Old Mongolian", Locale.Read.Bind(Locale, "old_mongolian_mod__alt_mode_old_mongolian"))
+		; Загрузка данных для отображения записей символов в GUI главной панели
+		local uiMainGuiData := JSON.LoadFile(this.dir "\Data\ui_main_panel_lists.json", "UTF-8")
+		local mainGuiInstance := globalInstances.MainGUI
 
-		; Создание массива с записями символов для вставки во вкладку «Письменности»
-		local insertingGroup := Panel.LV_InsertGroup({
-			type: "Alternative Layout",
-			group: ["", "Old Mongolian"],
-			groupKey: Map(
-				"Old Mongolian", Locale.Read("old_mongolian_mod__alt_mode_old_mongolian")
-			),
-		})
+		; Получение сведений о колонках и добавление новых записей в GUI главной панели
+		mainGuiInstance.GetColumnsData(&columnsData)
+		mainGuiInstance.MergeListViewData(&uiMainGuiData, &columnsData)
 
-		; Вставка записей во вкладку «Письменности»
-		Panel.LV_Content.scripts.Push(insertingGroup*)
+		; Загрузка данных о привязках
+		local bindsData := JSON.LoadFile(this.dir "\Data\binds.json", "UTF-8")
+		; Регистрация новых привязок
+		BindReg(bindsData)
 
-		; Добавление привязок для режима Альтернативного ввода
-		bindingMaps["Script Specified"].Set(
-			"Old Mongolian", Map(
-				; Обязательный параметр, если мы не делаем пару латиница-кириллица
-				"ForceSingle", True,
-				; Привязки для клавиш без модификаторов
-				"Flat", Map(
-					"A", "old_mongolian_n_let_a",
-					"E", "old_mongolian_n_let_e",
-					"I", "old_mongolian_n_let_i",
-					"O", "old_mongolian_n_let_o",
-					"U", "old_mongolian_n_let_u",
-				),
-				"Moded", Map(
-					; Привязки для клавиш с модификаторами
-					"U", Map(
-						"<^>!", "old_mongolian_n_let_ue",
-					),
-				)
-			)
-		)
-
-		; Добавление нового режима Альтернативного ввода
-		Scripter.data["Alternative Modes"].Push(
-			"Old Mongolian", {
-				preview: ["ᠠᠯᠲᠠᠨ ᠵᠤᠯᠠ ᠭᠦᠵᠡᠭᠡᠯᠵᠡᠭᠡᠨ᠎ᠡ"],
-				fonts: [""],
-				locale: "old_mongolian_mod__alt_mode_old_mongolian",
-				bindings: ["Old Mongolian"],
-				uiid: "OldMongolian",
-				icons: [Format("file::{}\Resources\old_mongolian.ico", this.dir)],
-			}
-		)
+		; Загрузка данных о режиме Альтернативного ввода
+		local alternativeModeData := JSON.LoadFile(this.dir "\Data\alternative_modes.json", "UTF-8")
+		; Регистрация нового режима Альтернативного ввода
+		ScripterStore("Alternative Modes", alternativeModeData)
 	}
 }
 ```
