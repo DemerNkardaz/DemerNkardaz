@@ -120,6 +120,39 @@ _Написана на AutoHotkey v2_
 
 Отключаются эти ключи повторным нажатием их комбинации, а состояние сохраняется в файле настроек.
 
+#### Карты привязок
+
+Здесь будут приведены лишь некоторые из них, так как их очень много — картинок ~28.
+
+<br>
+
+**Правый Alt**
+
+![Русская раскладка](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad/refs/heads/dev/webpage/keyboard_layout_editor_data/img_binds_cyrillic_right_alt.png)
+
+![ПАнглийская раскладка](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad/refs/heads/dev/webpage/keyboard_layout_editor_data/img_binds_latin_right_alt.png)
+
+<br>
+
+**Правый Alt + Левый Shift**
+
+![Русская раскладка](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad/refs/heads/dev/webpage/keyboard_layout_editor_data/img_binds_cyrillic_right_alt_left_shift.png)
+
+![ПАнглийская раскладка](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad/refs/heads/dev/webpage/keyboard_layout_editor_data/img_binds_latin_right_alt_left_shift.png)
+
+<br>
+
+**Правый + Левый Alt’ы**
+
+![Русская раскладка](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad/refs/heads/dev/webpage/keyboard_layout_editor_data/img_binds_cyrillic_left_and_right_alt.png)
+
+![ПАнглийская раскладка](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad/refs/heads/dev/webpage/keyboard_layout_editor_data/img_binds_latin_left_and_right_alt.png)
+<br>
+
+**Левые Ctrl + Alt**
+
+![Русская раскладка](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad/refs/heads/dev/webpage/keyboard_layout_editor_data/img_binds_latin_left_ctrl_left_alt.png)
+
 #### Пользовательские привязки
 
 Для создания привязок необходимо разместить `<ФАЙЛ>.ini` в «`DSLKeyPad\User\profile-<ПРОФИЛЬ>\CustomBindings\`» со схожей структурой:
