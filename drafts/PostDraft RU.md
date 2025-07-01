@@ -494,30 +494,167 @@ PS. Не рекомендуется использовать больше 1500 �
 
 <br>
 
-Если в программе нет подходящей раскладки — её можно создать самому через `<ФАЙЛ>.ini` «разметку» в «`DSLKeyPad\User\profile-<ПРОФИЛЬ>\CustomLayouts\`» со следующей структурой:
+Если в программе нет подходящей раскладки — её можно создать самому через `<ФАЙЛ>.JSON` «разметку» в «`DSLKeyPad\User\profile-<ПРОФИЛЬ>\CustomLayouts\`» со следующей структурой:
 
-```ini
-[info]
-name=AZERTY ; название
-type=Latin ; Latin если для английского, Cyrillic если для русского языка
-[keys]
-A=SC010 ; поддерживает как прямое указание скан-кода
-Z=SC011
-; …
-Q=A ; так и имя клавиши на QWERTY/ЙЦУКЕН раскладке
+```json
+{
+  "info": {
+    // название
+    "name": "AZERTY",
+    // latin если для английского, cyrillic если для русского языка
+    "type": "latin"
+  },
+  // Перечень клавиш
+  "keys": {
+    // Поддерживает как прямое указание скан-кода
+    "A": "SC010",
+    "Z": "SC011",
+    // …
+    // так и имя клавиши на QWERTY/ЙЦУКЕН раскладке
+    "E": "E",
+    "Q": "A"
+  }
+}
 ```
 
-```ini
-[info]
-name=КВЕРТИ
-type=Cyrillic
-[keys]
-К=Й
-В=Ц
-; …
-А=Ф
-С=Ы
-Ф=А
+```json
+{
+  "info": {
+    "name": "КВЕРТИ",
+    "type": "cyrillic"
+  },
+  "keys": {
+    "К": "Й",
+    "В": "Ц",
+    // …
+    "А": "Ф",
+    "С": "Ы",
+    "Ф": "А"
+  }
+}
+```
+
+Более полный пример варианта AZERTY раскладки, включающий собственные привязки, активируемые при выборе данной раскладки:
+
+```json
+{
+  "info": {
+    "name": "AZERTY",
+    "type": "latin"
+  },
+  "keys": {
+    "A": "SC010",
+    "Z": "SC011",
+    "E": "E",
+    "R": "R",
+    "T": "T",
+    "Y": "Y",
+    "U": "U",
+    "I": "I",
+    "O": "O",
+    "P": "P",
+    "CircumflexAccent": "LeftBracket",
+    "Dollar": "RightBracket",
+    "Q": "A",
+    "S": "S",
+    "D": "D",
+    "F": "F",
+    "G": "G",
+    "H": "H",
+    "J": "J",
+    "K": "K",
+    "L": "L",
+    "M": "Semicolon",
+    "SmallUWithGrave": "Apostrophe",
+    "Asterisk": "Backslash",
+    "W": "Z",
+    "X": "X",
+    "C": "C",
+    "V": "V",
+    "B": "B",
+    "N": "N",
+    "Comma": "M",
+    "Semicolon": "Comma",
+    "Colon": "Dot",
+    "Exclamation": "Slash",
+    "Equals": "SC00D"
+  },
+  "binds": {
+    // Список привязок к клавишам
+    "Flat": {
+      // Префикс [lazy] указывает, что привязка будет активирована
+      // только при активном «Ремаппинге»
+      "[lazy]1": ["[digit_1,lat_s_lig_et]"], // &1
+      "[lazy]2": ["[digit_2,lat_s_let_e__acute]"], // é2
+      "[lazy]3": ["[digit_3,quote]"], // "3
+      "[lazy]4": ["[digit_4,apostrophe]"], // '4
+      "[lazy]5": ["[digit_5,left_parenthesis]"], // (5
+      "[lazy]6": ["[digit_6,hyphen_minus]"], // -6
+      "[lazy]7": ["[digit_7,lat_s_let_e__grave]"], // è7
+      "[lazy]8": ["[digit_8,underscore]"], // _8
+      "[lazy]9": ["[digit_9,lat_s_let_c__cedilla]"], // ç9
+      "[lazy]0": ["[digit_0,lat_s_let_a__acute]"], // á0
+      "[lazy]HyphenMinus": ["[degree,right_parenthesis]"], // )°
+      "[lazy]Tilde": ["digit_2::subscript"], // ₂
+      "[lazy]CircumflexAccent": ["[diaeresis,circumflex]"], // ◌̂◌̈
+      "[lazy]Dollar": ["[wallet_franc,wallet_dollar]"], // $₣
+      "[lazy]SmallUWithGrave": ["[percent,lat_s_let_u__grave]"], // ù%
+      "[lazy]Asterisk": ["[hel_s_let_m_mu,asterisk]"], // *μ
+      "[lazy]Comma": ["[question,comma]"], // ,?
+      "[lazy]Semicolon": ["[dot,semicolon]"], // ;.
+      "[lazy]Colon": ["[solidus,colon]"], // :/
+      "[lazy]Exclamation": ["[section,exclamation]"] // !§
+    },
+    "Moded": {
+      "1": {
+        "<+": ["[lat_s_lig_et,digit_1]"]
+      },
+      "2": {
+        "<^>!": ["tilde"], // ~
+        "<+": ["[lat_s_let_e__acute,digit_2]"]
+      },
+      "3": {
+        "<^>!": ["number_sign"], // #
+        "<+": ["[quote,digit_3]"]
+      },
+      "4": {
+        "<^>!": ["left_brace"], // {
+        "<+": ["[apostrophe,digit_4]"]
+      },
+      "5": {
+        "<^>!": ["left_bracket"], // [
+        "<+": ["[left_parenthesis,digit_5]"]
+      },
+      "6": {
+        "<^>!": ["vertical_line"], // |
+        "<+": ["[hyphen_minus,digit_6]"]
+      },
+      "7": {
+        "<^>!": ["grave"], // ◌̀
+        "<+": ["[lat_s_let_e__grave,digit_7]"]
+      },
+      "8": {
+        "<^>!": ["reverse_solidus"], // \
+        "<+": ["[underscore,digit_8]"]
+      },
+      "9": {
+        "<^>!": ["circumflex_accent"], // ^
+        "<+": ["[lat_s_let_c__cedilla,digit_9]"]
+      },
+      "0": {
+        "<^>!": ["commercial_at"], // @
+        "<+": ["[lat_s_let_a__acute,digit_0]"]
+      },
+      "HyphenMinus": {
+        "<^>!": ["right_bracket"], // ]
+        "<+": ["[right_parenthesis,hyphen_minus]"]
+      },
+      "E": { "<^>!": ["wallet_eur"] }, // €
+      "Dollar": { "<^>!": ["wallet_sign"] }, // ¤
+      "Equals": { "<^>!": ["right_brace"], "+": "plus" } // }
+    }
+  }
+}
 ```
 
 <anchor>Модификации</anchor>
