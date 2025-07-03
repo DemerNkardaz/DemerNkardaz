@@ -563,26 +563,26 @@ PS. Не рекомендуется использовать больше 1500 �
     "Flat": {
       // Префикс [lazy] указывает, что привязка будет активирована
       // только при активном «Ремаппинге»
-      "[lazy]1": ["[digit_1,lat_s_lig_et]"], // &1
-      "[lazy]2": ["[digit_2,lat_s_let_e__acute]"], // é2
-      "[lazy]3": ["[digit_3,quote]"], // "3
-      "[lazy]4": ["[digit_4,apostrophe]"], // '4
-      "[lazy]5": ["[digit_5,left_parenthesis]"], // (5
-      "[lazy]6": ["[digit_6,hyphen_minus]"], // -6
-      "[lazy]7": ["[digit_7,lat_s_let_e__grave]"], // è7
-      "[lazy]8": ["[digit_8,underscore]"], // _8
-      "[lazy]9": ["[digit_9,lat_s_let_c__cedilla]"], // ç9
-      "[lazy]0": ["[digit_0,lat_s_let_a__acute]"], // á0
-      "[lazy]HyphenMinus": ["[degree,right_parenthesis]"], // )°
+      "[lazy]1": ["[digit_1,lat_s_lig_et]"], // 1&
+      "[lazy]2": ["[digit_2,lat_s_let_e__acute]"], // 2é
+      "[lazy]3": ["[digit_3,quote]"], // 3"
+      "[lazy]4": ["[digit_4,apostrophe]"], // 4'
+      "[lazy]5": ["[digit_5,left_parenthesis]"], // 5(
+      "[lazy]6": ["[digit_6,hyphen_minus]"], // 6-
+      "[lazy]7": ["[digit_7,lat_s_let_e__grave]"], // 7è
+      "[lazy]8": ["[digit_8,underscore]"], // 8_
+      "[lazy]9": ["[digit_9,lat_s_let_c__cedilla]"], // 9ç
+      "[lazy]0": ["[digit_0,lat_s_let_a__acute]"], // 0á
+      "[lazy]HyphenMinus": ["[degree,right_parenthesis]"], // °)
       "[lazy]Tilde": ["digit_2::subscript"], // ₂
-      "[lazy]CircumflexAccent": ["[diaeresis,circumflex]"], // ◌̂◌̈
-      "[lazy]Dollar": ["[wallet_franc,wallet_dollar]"], // $₣
-      "[lazy]SmallUWithGrave": ["[percent,lat_s_let_u__grave]"], // ù%
-      "[lazy]Asterisk": ["[hel_s_let_m_mu,asterisk]"], // *μ
-      "[lazy]Comma": ["[question,comma]"], // ,?
-      "[lazy]Semicolon": ["[dot,semicolon]"], // ;.
-      "[lazy]Colon": ["[solidus,colon]"], // :/
-      "[lazy]Exclamation": ["[section,exclamation]"] // !§
+      "[lazy]CircumflexAccent": ["[diaeresis,circumflex]"], // ◌̈◌̂
+      "[lazy]Dollar": ["[wallet_franc,wallet_dollar]"], // ₣$
+      "[lazy]SmallUWithGrave": ["[percent,lat_s_let_u__grave]"], // %ù
+      "[lazy]Asterisk": ["[hel_s_let_m_mu,asterisk]"], // μ*
+      "[lazy]Comma": ["[question,comma]"], // ?,
+      "[lazy]Semicolon": ["[dot,semicolon]"], // .;
+      "[lazy]Colon": ["[solidus,colon]"], // /:
+      "[lazy]Exclamation": ["[section,exclamation]"] // §!
     },
     // Список привязок с модификаторами
     "Moded": {
@@ -774,7 +774,7 @@ description=Это пример мода
         // Перечень имён записей символов с указанием
         // параметра «letter_locale», который берётся для
         // генерации названия, если у записи символа
-        // активен параметр <запись>[«options"]["useLetterLocale»]
+        // активен параметр <запись>["options"]["useLetterLocale"]
 
         // Если присвоить значение напрямую или через «__self»,
         // тогда название в интерфейсе будет равно этому значению
@@ -832,8 +832,7 @@ description=Это пример мода
   {
     "unicode": ["1820", "1821", "1822", "1823", "1824"],
     "options": {
-      // Указывает текст, отображаемый в GUI
-      // для отражения привязки
+      // Указывает текст, отображаемый в GUI для привязки
 
       // Символ «$» заменится на текст после «let_» и до следующей «_»
       //old_mongolian_n_let_a => $ → A
@@ -940,7 +939,7 @@ description=Это пример мода
     // Тип отвечает за правила добавления символов во вкладку
 
     // Например, если тип равен «Alternative Layout»,
-    // а свойство записи [«options"]["altLayoutKey»]
+    // а свойство записи ["options"]["altLayoutKey"]
     // пусто — запись не будет добавлена во вкладку
     "type": "Alternative Layout",
     // Группа добавляемых символов (создаётся автоматически
