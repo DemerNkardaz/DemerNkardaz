@@ -21,7 +21,7 @@
 
 _Написана на AutoHotkey v2_
 
-![GUI с представлением списка доступных символов с их хоткеями или «рецептами» (см. далее)](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/webpage/media/panel_forge_tab_ru.png)
+![GUI с представлением списка доступных символов с их хоткеями или «рецептами» (см. далее)](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/panel_forge_tab_ru.png)
 
 <anchor>Краткий-экскурс</anchor>
 
@@ -79,7 +79,7 @@ _Написана на AutoHotkey v2_
 
 Вероятно, самое страшное. Их много, невероятно много, и опытный пианист, безусловно, справится с ними. Если верить `.HotKeysCount()`’у, то их более восьмисот. На каждую клавишу может приходиться до 10–11-ти возможных комбинаций (если не считать комбинации с активным CapsLock за отдельные), но в среднем их около восьми (латинская I в этом чемпион: &#300; &Iuml; &Imacr; &Itilde; &Icirc; &#463; &Iogon; &Idot; &Iacute; &Igrave; &#520;).
 
-![Демонстрация](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/webpage/media/fastkeys_demo.gif)
+![Демонстрация](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/fastkeys_demo.gif)
 
 В случае необходимости их можно отключить (или включить) через `RAlt + F1`. Состояние вкл/выкл сохраняется в файле настроек.
 
@@ -134,30 +134,30 @@ _Написана на AutoHotkey v2_
 
 **Правый Alt**
 
-![Русская раскладка](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/webpage/keyboard_layout_editor_data/img_binds_cyrillic_right_alt.png)
+![Русская раскладка](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/KBLE/img_binds_cyrillic_right_alt.png)
 
-![ПАнглийская раскладка](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/webpage/keyboard_layout_editor_data/img_binds_latin_right_alt.png)
+![ПАнглийская раскладка](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/KBLE/img_binds_latin_right_alt.png)
 
 <br>
 
 **Правый Alt + Левый Shift**
 
-![Русская раскладка](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/webpage/keyboard_layout_editor_data/img_binds_cyrillic_right_alt_left_shift.png)
+![Русская раскладка](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/KBLE/img_binds_cyrillic_right_alt_left_shift.png)
 
-![ПАнглийская раскладка](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/webpage/keyboard_layout_editor_data/img_binds_latin_right_alt_left_shift.png)
+![ПАнглийская раскладка](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/KBLE/img_binds_latin_right_alt_left_shift.png)
 
 <br>
 
 **Правый + Левый Alt’ы**
 
-![Русская раскладка](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/webpage/keyboard_layout_editor_data/img_binds_cyrillic_left_and_right_alt.png)
+![Русская раскладка](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/KBLE/img_binds_cyrillic_left_and_right_alt.png)
 
-![ПАнглийская раскладка](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/webpage/keyboard_layout_editor_data/img_binds_latin_left_and_right_alt.png)
+![ПАнглийская раскладка](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/KBLE/img_binds_latin_left_and_right_alt.png)
 <br>
 
 **Левые Ctrl + Alt**
 
-![Русская раскладка](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/webpage/keyboard_layout_editor_data/img_binds_latin_left_ctrl_left_alt.png)
+![Русская раскладка](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/KBLE/img_binds_latin_left_ctrl_left_alt.png)
 
 #### Пользовательские привязки
 
@@ -209,7 +209,7 @@ B=[digit_1::superscript×10]
 
 Активируется двойным нажатием `RAlt`. Ввод пользователя будет отображаться во всплывающей подсказке вместе с предложениями совпадений и списком рецептов избранных символов.
 
-![Демонстрация](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/webpage/media/compose_demo.webp)
+![Демонстрация](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/compose_demo.webp)
 
 Введение такого режима позволило значительно расширить возможности ввода, т.к. клавиатура не резиновая и не может уместить бесконечное число привязок. Композиция принимает любой ввод, в том числе и от «Быстрых ключей», что даёт большую вариативность для «рецептов».
 
@@ -241,15 +241,15 @@ B=[digit_1::superscript×10]
 
 Альт-коды можно вводить в шестнадцатеричном формате: `A+0B9` = `A+0185` → № (Windows-1251). Для этого ввод должен содержать букву из диапазона A–F. Верхняя граница — A+FF (A+255).
 
-![Демонстрация альт-кодов](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/webpage/media/compose_mode_altcode_input.png)
+![Демонстрация альт-кодов](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/compose_mode_altcode_input.png)
 
-![Демонстрация Юникода](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/webpage/media/compose_mode_unicode_input.png)
+![Демонстрация Юникода](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/compose_mode_unicode_input.png)
 
 #### Пользовательские рецепты
 
 Как вручную, так и через окно интерфейса возможно создание своих рецептов, которые будут доступны в режиме композиции. В качестве результата можно вводить сколько угодно объёмный многострочный текст, позволяя использовать такие рецепты и не совсем по прямому назначению инструмента — сниппеты кода, фрагменты статей и т.д. Но всё же не рекомендую вставлять туда через чур большой текст.
 
-![Демонстрация пользовательских рецептов](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/webpage/media/myrecipes_with_editor_ru.png)
+![Демонстрация пользовательских рецептов](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/myrecipes_with_editor_ru.png)
 
 При первом запуске создаётся несколько демонстрационных пользовательских рецептов — шаблон HTML, иероглиф «義», тег \<kbd\> и эмодзи «🧊».
 
@@ -366,13 +366,13 @@ result=🧊
 
 PS. Не рекомендуется использовать больше 1500 пользовательских рецептов (что очень легко получить с XCompose-файлами). Сейчас такое может ощутимо замедлить инициализацию программы, но возможно у меня получится оптимизировать это лучше в будущем. При тестировании я скачала такой файлик, давший почти 12000 рецептов и на запуск программы ушло больше минуты, а на открытие «Моих рецептов» — примерно 30–40 сек.
 
-![XCompose рецепты](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/webpage/media/myrecipes_xcompose_ru.png)
+![XCompose рецепты](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/myrecipes_xcompose_ru.png)
 
 <anchor>Альтернативный-ввод</anchor>
 
 ### Альтернативный ввод
 
-![Селектор алтернативного ввода](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/webpage/media/scripter_alternative_input_ru.png)
+![Селектор алтернативного ввода](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/scripter_alternative_input_ru.png)
 
 **Комбинация:** `LWin LAlt S` (селектор)
 
@@ -396,7 +396,7 @@ PS. Не рекомендуется использовать больше 1500 �
 
 ### Вариации глифов
 
-![Селектор вариации глифов](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/webpage/media/scripter_glyph_variatioins_ru.png)
+![Селектор вариации глифов](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/scripter_glyph_variatioins_ru.png)
 
 **Комбинация:** `LWin LAlt A` (селектор)
 
@@ -406,7 +406,7 @@ PS. Не рекомендуется использовать больше 1500 �
 
 В главной панели, если запись обладает вариантами, под предпросмотром символа будут отображаться первые восемь из доступных вариантов, а справа от предпросмотра активируется кнопка, открывающая GUI для просмотра всех вариантов (которое так же можно открыть через меню трея → Вариации глифов → Панель вариации глифов):
 
-![GUI промосмотра вариантов](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/webpage/media/panel_glyphs_variations_ru.png)
+![GUI промосмотра вариантов](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/panel_glyphs_variations_ru.png)
 
 <anchor>TELEXVNI-подобный-ввод</anchor>
 
@@ -418,13 +418,13 @@ PS. Не рекомендуется использовать больше 1500 �
 
 <br>
 
-![Демонстрация](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/webpage/media/telex_demo.gif)
+![Демонстрация](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/telex_demo.gif)
 
 Для ввода букв с диакритикой необходимо вводить последовательность символов, например: `AWS` → Ắ (A → Ă → Ắ), `A5` → Ẫ, `DD`→ Đ, `BB` → Ƀ, `UONGW` → ƯƠNG, `UONG5` → ƯỠNG. Для отмены слипания последовательности можно использовать `\`, `A\W` → AW вместо Ă или повторно ввести последний символ (AW → ĂW → AW). Последнюю введённую диакритику можно отменить вводом Z (ǕZ → ÜZ → U).
 
 Можно менять диакритику уже введённого символа, если не перемещать каретку: `ẰS` → Ắ, `ẮA` → Ấ, `ẤJ` → Ậ, `ẬR` → Ẩ…
 
-![Демонстрация](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/webpage/media/telex_switch_demo.gif)
+![Демонстрация](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/telex_switch_demo.gif)
 
 #### Перечень символов режимов
 
@@ -446,7 +446,7 @@ PS. Не рекомендуется использовать больше 1500 �
 
 ### Поиск
 
-![Окно ввода для поиска](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/webpage/media/search_ru.png)
+![Окно ввода для поиска](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/search_ru.png)
 
 **Комбинация:** `LWin LAlt + F`
 
@@ -710,7 +710,7 @@ PS. если необходимо получить путь до папки в
 
 PSS. моды — не изолированные друг от скрипты, т.е. возможен конфликт в именах переменных, классов.
 
-![Окно Модификаций](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/webpage/media/mods_menu_ru.png)
+![Окно Модификаций](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/mods_menu_ru.png)
 
 <details>
 
@@ -1027,11 +1027,11 @@ Class OldMongolianMod {
 }
 ```
 
-![В меню модов](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/webpage/media/sample_mod_menu_ru.png)
+![В меню модов](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/sample_mod_menu_ru.png)
 
-![В селектора Альтернативного ввода](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/webpage/media/sample_mod_selector_ru.png)
+![В селектора Альтернативного ввода](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/sample_mod_selector_ru.png)
 
-![Во вкладке «Письменности»](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/webpage/media/sample_mod_tab_scripts_ru.png)
+![Во вкладке «Письменности»](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/sample_mod_tab_scripts_ru.png)
 
 </details>
 
@@ -1043,7 +1043,7 @@ Class OldMongolianMod {
 
 Интерфейс с информацией о том или ином символе. В данный момент не самая значимая фича, т.к. я не обладаю достаточными познаниями для полноценного заполнения данных.
 
-![Окно Легенды](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/webpage/media/legend_ru.png)
+![Окно Легенды](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/legend_ru.png)
 
 ### Конвертер температуры
 
