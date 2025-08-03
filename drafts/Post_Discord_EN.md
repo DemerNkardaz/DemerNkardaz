@@ -12,7 +12,7 @@ This tool extends the range of characters available for input directly from the 
 
 The tool implements support for inputting various writing systems, for example: Runes, Glagolitic, Old Turkic, Old Permic, Phoenician, Ancient North Arabian etc. An International Phonetic Alphabet input mode is also available.
 
-The project is not complete,, but can already be used fully.
+The project is not complete, but can already be used fully.
 
 You can download it from [GitHub](https://github.com/DemerNkardaz/DSL-KeyPad) releases or [SourceForge](https://sourceforge.net/projects/dsl-keypad/).
 
@@ -36,7 +36,7 @@ You can download it from [GitHub](https://github.com/DemerNkardaz/DSL-KeyPad) re
 
 # Second message
 
-**Composite mode**
+**Compositing mode**
 
 Inspired by the Compose key from Linux and WinCompose. Converts a sequence of symbols into something else.
 
@@ -60,7 +60,7 @@ General key list:
 
 - Grave `` ` `` — described above.
 - (`NUMBER`) — when starting input with this operator, the recipe result will be duplicated the specified number of times, “(5) TH” → “ÞÞÞÞÞ”.
-- (`~`) — when starting input with this operator, you can enter whole words within which recipes will be processed, “`(~) T<CEDILLA>ara Roma<CIRCUMFLEX>neasca<BREVE>`” → “Țara Românească“.
+- (`~`) — when starting input with this operator, you can enter whole words within which recipes will be processed, “`(~) T<COMMA>ara Roma<CIRCUMFLEX>neasca<BREVE>`” → “Țara Românească“.
 - (`NUMBER~`) — combination of the previous operators.
 - `##` — allows preventing processing of unwanted sequences, “`(~) tho<ACUTE>rr” → “þórr”, “(\~) t##ho<ACUTE>rr`” → “thórr”.
 
@@ -326,6 +326,8 @@ https://en.wikipedia.org/wiki/VNI
 
 # Tenth message
 
+**Search**
+
 `LWin + LAlt + F`
 
 As already mentioned — each symbol has a set of “tags”, and they can be quite long. For example, “`hellenic small letter omega with psili, perispomeni and ypogegrammeni`” will give the symbol “ᾦ”.
@@ -464,7 +466,7 @@ More detailed modding guide will be created in the future with development of th
 
 **Notes**
 
-- Tool eats 140–180 RAM.
+- Tool eats 140–180 MB of RAM.
 - Restricted to English and Russian keyboard layouts (for example when you switches to Japanese, then all bindings will be automatically disabled and restored when you switch back to En/Ru). Can work with Greek layout, but “Hellenic” alternative mode will be automatically enabled.
 
 //
