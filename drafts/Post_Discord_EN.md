@@ -2,11 +2,11 @@
 
 //
 
-# Zero message
+# 0
 
 This tool extends the range of characters available for input directly from the keyboard and primarily focuses on Latin and Cyrillic scripts, but is not limited to them. You only need to have Russian and English keyboard layouts installed in your system to be able to write in multiple languages, for example:
 
-- Қазақ тілі, Хуэйзў йүян, Забони тоҷикӣ, Йағнобӣ зивок, Аԥсуа бызшәа, Авар мацӏ, Українська мова, Совѣньскъ ѩꙁꙑкъ, Црногорски језик, Лимба Рꙋмѫнѣскъ, Итәнмәӈин крвэԓхатас, Даһур Усүүэ, Азәрбајҹанҹа, Башҡорт теле, Тэлэңгэт, Чӑваш чӗлхи…
+- Қазақ тілі, Хуэйзў йүян, Забони тоҷикӣ, Йағнобӣ зивок, Аԥсуа бызшәа, Авар мацӏ, Українська мова, Словѣньскъ ѩꙁꙑкъ, Црногорски језик, Лимба Рꙋмѫнѣскъ, Итәнмәӈин крвэԓхатас, Даһур Усүүэ, Азәрбајҹанҹа, Башҡорт теле, Тэлэңгэт, Чӑваш чӗлхи…
 
 - Ægnlisċ sprǣċe, Français, Tiếng Việt, Hànyǔ Pīnyīn, Norrœnt mál, Limba Română, Español, Język polski, Čeština, Bokmål, Tamaziɣt, Türkçe, Sää'mǩiõll…
 
@@ -16,7 +16,7 @@ The project is not complete, but can already be used fully.
 
 You can download it from [GitHub](https://github.com/DemerNkardaz/DSL-KeyPad) releases or [SourceForge](https://sourceforge.net/projects/dsl-keypad/).
 
-# First message
+# 1
 
 **Short list of features**
 
@@ -34,7 +34,7 @@ You can download it from [GitHub](https://github.com/DemerNkardaz/DSL-KeyPad) re
 - And other, less significant features…
 - GUI Windows: Lists of symbols (binds, sequences etc.) and help (`LWin + LAlt + Home`); Glyph Variations; User-defined sequences; Mods; “Legend”; Settings (`RCtrl + F9`) etc. All of these are available to be opened from the tray context menu.
 
-# Second message
+# 2
 
 **Compositing mode**
 
@@ -54,7 +54,7 @@ General key list:
 - `Insert` — paste clipboard contents.
 - `Pause` — toggle hold mode.
 
-# Second Second message
+# 3
 
 **Operators**
 
@@ -72,7 +72,7 @@ Alt-codes are affected by the active layout language: numbers 128–255 and 0128
 
 Alt-codes can be entered in hexadecimal format: `A+0B9` = `A+0185` → № (Windows−1251). For this, the input must contain a letter from the A–F range. The upper limit is A+FF (A+255).
 
-# Third message
+# 4
 
 **User-defined bindings**
 
@@ -132,7 +132,7 @@ Details about reference format see in the “Reference format” message under �
 
 After creating a preset, it can be selected in the settings window or after restarting the program, or after pressing the 🔁 button next to the dropdown list in the settings window.
 
-# Fourth message
+# 5
 
 **User-defined sequences**
 
@@ -144,7 +144,7 @@ Loading sequences from XCompose format files is supported. They must be placed i
 
 **Note:** Only simple XCompose sequences are supported, such as “`<Multi_key> <g> <r> <i> <n> : "😁"`” or “`<Multi_key> <U1100> <U1100> : "ᄁ" U1101 # HANGUL CHOSEONG SSANGKIYEOK`”. On first launch, for demonstration purposes, a “demo.XCompose” file is created at the specified path with the sequence “`<Multi_key> <0> <0> : "∞"`”.
 
-# Fifth message
+# 6
 
 Example of an additional recipe file:
 
@@ -181,7 +181,7 @@ recipe=chem sulf acid|H2SO4
 result=H${digit_2::subscript}SO${digit_4::subscript}
 ```
 
-# Sixth message
+# 7
 
 **JSON:**
 
@@ -276,7 +276,7 @@ recipe=лёд|ice
 result=🧊
 ```
 
-# Seventh message
+# 8
 
 **Reference format**
 
@@ -288,7 +288,7 @@ With “`×`” at the end you can specify a number of repetitions, e.g. `${digi
 
 With “`\/`” you can specify multiple entries by their full or partial names, e.g.: `${lat_c_let_\b,o,l,d/::bold}` → 𝐁𝐎𝐋𝐃, `${\hel,lat/_c_let_a_alpha}` → ΑⱭ, `${\nabla,delta,integral,square_root/}` → ∇∆∫√.
 
-# Eighth message
+# 9
 
 **Alternative modes**
 
@@ -310,7 +310,7 @@ The list of included scripts:
 
 `LWin + LAlt + A` opens a selector.
 
-# Ninth message
+# 10
 
 **TELEX/VNI-like modes**
 
@@ -324,7 +324,7 @@ https://en.wikipedia.org/wiki/Telex_(input_method)
 
 https://en.wikipedia.org/wiki/VNI
 
-# Tenth message
+# 11
 
 **Search**
 
@@ -359,7 +359,7 @@ In addition to symbol search, the query input window supports calling some metho
 - `%globalInstances.crafter.Start("Compose")%` — similar to RAlt×2, activates composition mode…
 - `/KbdBinder.Init` — re-initializes layouts and bindings.
 
-# Eleventh message
+# 12
 
 **Internal Keyboard Layouts**
 
@@ -415,7 +415,7 @@ If the program doesn’t have a suitable layout — you can create one yourself 
 }
 ```
 
-# Twelfth message
+# 13
 
 **Modifications**
 
@@ -462,11 +462,11 @@ PSS. Mods are not isolated scripts from each other, i.e. conflicts in variable a
 
 More detailed modding guide will be created in the future with development of the documentation website. You can find more complex mod example [here](https://github.com/DemerNkardaz/DSL-KeyPad-Custom-Files/tree/master/Mods/Old%20Mongolian%20Sample%20Mod), but `index.ahk` have comments on Russian and other files has no comments.
 
-# Thirteenth message
+# 14
 
 **Notes**
 
 - Tool eats 140–180 MB of RAM.
-- Restricted to English and Russian keyboard layouts (for example when you switches to Japanese, then all bindings will be automatically disabled and restored when you switch back to En/Ru). Can work with Greek layout, but “Hellenic” alternative mode will be automatically enabled.
+- Limited to English and Russian keyboard layouts (for example when you switches to Japanese, then all bindings will be automatically disabled and restored when you switch back to En/Ru). Can work with Greek layout, but “Hellenic” alternative mode will be automatically enabled.
 
 //
