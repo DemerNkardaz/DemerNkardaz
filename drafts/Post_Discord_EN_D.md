@@ -46,6 +46,8 @@ General key list:
 - `Insert` — paste clipboard contents.
 - `Pause` — toggle hold mode.
 
+![](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/compose_demo.webp)
+
 ### Operators
 
 - Grave `` ` `` — described above.
@@ -129,6 +131,10 @@ The main file is presented in JSON format, “`DSLKeyPad\User\profile-<PROFILE>\
 Loading sequences from XCompose format files is supported. They must be placed in the “`DSLKeyPad\User\profile-<PROFILE>\XCompose\`” directory. The file must end with the “`.XCompose`” extension.
 
 **Note:** Only simple XCompose sequences are supported, such as “`<Multi_key> <g> <r> <i> <n> : "😁"`” or “`<Multi_key> <U1100> <U1100> : "ᄁ" U1101 # HANGUL CHOSEONG SSANGKIYEOK`”. On first launch, for demonstration purposes, a “demo.XCompose” file is created at the specified path with the sequence “`<Multi_key> <0> <0> : "∞"`”.
+
+<img src="https://i.imgur.com/iv682S1.png" width="45%"> <img src="https://i.imgur.com/r2cLLXU.png" width="45%">
+
+<img src="https://i.imgur.com/gTfXAmZ.png" width="30%"> <img src="https://i.imgur.com/JBS7mdf.png" width="30%"> <img src="https://i.imgur.com/56pEFWy.png" width="30%">
 
 Example of an additional recipe file:
 
@@ -288,6 +294,10 @@ The list of included scripts:
 
 `LWin + LAlt + A` opens a selector.
 
+![](https://i.imgur.com/dqDd08b.png)
+
+![](https://i.imgur.com/2KPrtis.png)
+
 **TELEX/VNI-like modes**
 
 `LWin + LAlt + D` opens a selector; `RAlt + F2` and `RAlt + RShift + F2` is a dedicated shortcuts for Vietnamese × Jarai and for Pinyin.
@@ -299,6 +309,12 @@ More about Telex and VNI:
 https://en.wikipedia.org/wiki/Telex_(input_method)
 
 https://en.wikipedia.org/wiki/VNI
+
+![](https://i.imgur.com/bKeoDzy.png)
+
+![](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/telex_demo.gif)
+
+![](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/telex_switch_demo.gif)
 
 ## Search
 
@@ -332,6 +348,8 @@ In addition to symbol search, the query input window supports calling some metho
 - `/Update.Get` or `/Update.Repair` — get an update or repair the current version.
 - `%globalInstances.crafter.Start("Compose")%` — similar to RAlt×2, activates composition mode…
 - `/KbdBinder.Init` — re-initializes layouts and bindings.
+
+![](https://i.imgur.com/3sxlmuC.png)
 
 ## Internal Keyboard Layouts
 
