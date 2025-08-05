@@ -1,6 +1,8 @@
 DSL KeyPad: A tool for typing more than 4,700 Unicode characters directly from the keyboard
 //
 
+[img]https://i.imgur.com/9Rh7bQz.png[/img]
+
 This tool extends the range of characters available for input directly from the keyboard and primarily focuses on Latin and Cyrillic scripts, but is not limited to them. You only need to have Russian and English keyboard layouts installed in your system to be able to write in multiple languages, for example:
 
 
@@ -16,13 +18,15 @@ The project is not complete, but can already be used fully.
 
 You can download it from [url=https://github.com/DemerNkardaz/DSL-KeyPad]GitHub[/url] releases or [url=https://sourceforge.net/projects/dsl-keypad]SourceForge[/url].
 
+Installation: just place folder from archive everywhere you want and run [c]DSLKeyPad.(exe|ahk)[/c].
+
+The tool has updating system. If an update will be released, then you will can download it from settings window or tray menu option.
+
 
 [img]https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/fastkeys_demo.gif[/img]
 
 
 [spoiler2="Screenshots"]
-
-[img]https://i.imgur.com/9Rh7bQz.png[/img]
 
 [img]https://i.imgur.com/SZTKIhT.png[/img]
 
@@ -38,6 +42,7 @@ You can download it from [url=https://github.com/DemerNkardaz/DSL-KeyPad]GitHub[
 
 [img]https://i.imgur.com/uBXpbSW.png[/img]
 
+[img]https://i.imgur.com/78uVR3i.png[/img]
 
 [/spoiler2]
 
@@ -62,11 +67,78 @@ You can download it from [url=https://github.com/DemerNkardaz/DSL-KeyPad]GitHub[
 [*]GUI Windows: Lists of symbols (binds, sequences etc.) and help ([c]LWin + LAlt + Home[/c]); Glyph Variations; User-defined sequences; Mods; “Legend”; Settings ([c]RCtrl + F9[/c]) etc. All of these are available to be opened from the tray context menu.
 [/list]
 
+
+
+[size=150]Multi-layer Bindings, also known as “Fast Keys”[/size]
+
+The most terrifying part. There are many of them, incredibly many, and an experienced pianist will undoubtedly handle them. If we trust [c].HotKeysCount()[/c], there are more than eight hundred of them. Each key can have up to 10-11 possible combinations (not counting combinations with active CapsLock as separate ones), but on average there are about eight (Latin I is the champion here: Ĭ Ï Ī Ĩ Î Ǐ Į İ Í Ì Ȉ).
+
+
+[spoiler2="Details"]
+
+If necessary, they can be disabled/enabled via [c]RAlt + F1[/c]. The state is saved in the settings file.
+
+The tool was created for a full-size keyboard — with arrows, numpad, etc. This may cause inconvenience for users of other keyboard variants, however this can be smoothed out through custom bindings.
+
+Some combinations were inherited from the Ilya Birman’s “[url=https://ilyabirman.net/typography-layout]Typographic Layout[/url]”:
+
+[list]
+[*][c]RAlt + /[/c] — enters ellipsis [ … ],
+[*][c]RAlt + 1 | 7[/c] — enter inverted exclamation and question marks [ ¡ ¿ ],
+[*][c]RAlt + 5[/c] — enters per mille [ ‰ ],
+[*][c]RAlt LAlt + 8[/c] — enters infinity symbol [ ∞ ] (the original combination was taken by the multiplication symbol [ × ], so left Alt was added to the combination for infinity),
+[*][c]RAlt *(LShift) + Hyphen-minus[/c] — enter em dash and en dash [ — – ],
+[*][c]RAlt + Equals[/c] — not equal [ ≠ ],
+[*][c]RAlt + Space[/c] — non-breaking space [ [u] [/u] ].
+[/list]
+
+Combinations for inserting quotation marks are inherited as [c]Б (<)[/c] and [c]Ю (>)[/c] as in the “Typographic Layout”, but have slightly different behavior:
+
+[list]
+[*][c]RAlt + Б (<) | Ю (>)[/c] — enter [ « » ] if Russian is active, or [ “ ” ] if English is active,
+[*][c]RAlt LAlt + Б (<) | Ю (>)[/c] — same as previous, but languages are swapped,
+[*][c]RAlt LShift + Б (<) | Ю (>)[/c] — enter [ „ “ ] if Russian is active, or [ ‘ ’ ] if English is active,
+[*][c]RAlt RShift + Ё (`)[/c] — additional combination for [ ’ ] for use as an apostrophe.
+[/list]
+
+Examples of tool’s own bindings:
+
+[list]
+[*][c]RAlt + Arrow keys[/c] — [ ←↑↓→ ],
+[*][c]RAlt + Arrow key pairs (left-up, right-up, left-down, etc.)[/c] — [ ↖↗↙↘↔↕ ],
+[*][c]RAlt LShift + Arrow keys[/c] — [ ⮌⮍⮏⮎ ],
+[*][c]RAlt RShift + Left/Right arrow keys[/c] — [ ↺↻ ],
+[*][c]RAlt RShift + Space[/c] — em space [ [u] [/u] ],
+[*][c]RAlt LShift + Space[/c] — en space [ [u] [/u] ],
+[*][c]RAlt LAlt + Space[/c] — thin space [ [u] [/u] ],
+[*][c]RAlt + 9 | 0[/c] — [ ⟨ ⟩ ],
+[*][c]RAlt + [ | ][/c] — [ ⁅ ⁆ ],
+[*][c]RAlt LAlt LShift RShift + [ | ][/c] — [ 《 》 ],
+[*][c]RShift *(CapsLock) + 1[/c] — [ ‽ ⸘ ].
+[/list]
+
+Combinations that will not be displayed in the interface:
+
+[list]
+[*][c]Shift + 2, 3, 4, 6, 7[/c] are mirrored for languages on [c]RShift[/c], i.e. in English [c]LShift + 2[/c] will enter [ @ ] (as usual), and [c]RShift + 2[/c] — [ " ], in Russian — vice versa. [c]2 (@"), 3 (#№), 4 ($;), 6 (^:), 7 (&?)[/c].
+[*][c]RShift *(LShift) + Х, Ъ[/c] will enter brackets [] and {} respectively.
+[/list]
+
+There are also “Secondary” and “Tertiary keys”, activated via [c]RAlt LAlt + F1[/c] and [c]RAlt LAlt + F2[/c]. These are additional bindings for symbols that didn’t fit into the main pool, but really wanted to. They came to replace the very first, rejected “mechanic” of the tool — “Activation Groups”: it was necessary to press a combination to activate one of the “groups”, and then enter the symbolic key of the desired character.
+
+These keys are disabled by pressing their combination again, and the state is saved in the settings file.
+
+[/spoiler2]
+
+
+
 [size=150]Compositing mode[/size]
 
 Inspired by the Compose key from Linux and WinCompose. Converts a sequence of symbols into something else.
 
 Activated by double-pressing [c]RAlt[/c]. User input will be displayed in a tooltip along with matching suggestions and a list of favorite symbol recipes.
+
+[img]https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/compose_demo.webp[/img]
 
 
 [spoiler2="Details"]
@@ -84,8 +156,6 @@ General key list:
 [*][c]Insert[/c] — paste clipboard contents.
 [*][c]Pause[/c] — toggle hold mode.
 [/list]
-
-[img]https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/compose_demo.webp[/img]
 
 [b]Operators[/b]
 
@@ -109,7 +179,6 @@ Alt-codes can be entered in hexadecimal format: [c]A+0B9[/c] = [c]A+0185[/c] →
 
 
 [size=150]User-defined bindings[/size]
-
 
 For creating bindings, you need to place [c]<FILE>.JSON (UTF-8)[/c] in “[c]DSLKeyPad\User\profile-<PROFILE>\CustomBindings\[/c]” with the same structure:
 
@@ -325,7 +394,6 @@ result=🧊
 
 [size=150]Reference format[/size]
 
-
 [c]${<ENTRY NAME>::<VARIANT>×<COUNT>}[/c] refers to an entry in the library if it exists.
 
 With “[c]::[/c]” you can specify a “Glyph variant”, e.g.: [c]${digit_1}[/c] → “1”, then [c]${digit_1::superscript}[/c] → “¹”.
@@ -334,64 +402,110 @@ With “[c]×[/c]” at the end you can specify a number of repetitions, e.g. [c
 
 With “[c]\/[/c]” you can specify multiple entries by their full or partial names, e.g.: [c]${lat_c_let_\b,o,l,d/::bold}[/c] → 𝐁𝐎𝐋𝐃, [c]${\hel,lat/_c_let_a_alpha}[/c] → ΑⱭ, [c]${\nabla,delta,integral,square_root/}[/c] → ∇∆∫√.
 
-[size=150]Alternative modes & Glyph variations[/size]
 
 
-[c]LWin + LAlt + S[/c] & [c]LWin + LAlt + A[/c] opens a selector.
+[size=150]Alternative modes[/size]
+
+[img]https://i.imgur.com/dqDd08b.png[/img]
+
+[b]Combination:[/b] [c]LWin + LAlt + S[/c] (selector)
 
 
 [spoiler2="Details"]
 
-The list of included scripts in “Alternative modes”:
+Essentially — just sets of activated bindings for a whole list of writing systems/alphabets, mainly different from Latin and Cyrillic.
 
-[list]
-[*][url=https://en.wikipedia.org/wiki/Greek_alphabet]Hellenic[/url] (Modern × Ancient Greek)
-[*][url=https://en.wikipedia.org/wiki/Runes]Germanic Runes[/url] (Elder Futhark, Anglo-Saxon Futhork, Younger Futhark, Medieval Runes, Runic Almanac, Franks Casket Runes) + three Tolkien runes.
-[*][url=https://en.wikipedia.org/wiki/Glagolitic_script]Glagolitic[/url].
-[*][url=https://en.wikipedia.org/wiki/Old_Turkic_script]Old Turkic[/url].
-[*][url=https://en.wikipedia.org/wiki/Old_Permic_script]Old Permic[/url].
-[*][url=https://en.wikipedia.org/wiki/Old_Hungarian_script]Old Hungarian[/url].
-[*]etc… all of them are shown in the screenshot.
+[b]Note:[/b] binding sets use Latin and Cyrillic keys, i.e. internal keyboard layout switching affects them. Incompatible with TELEX/VNI-like input modes.
+
+Some writing systems are activated in pairs — one writing system works on the Latin layout, another on the Cyrillic layout. Otherwise, modes are [i]single[/i], work on several language layouts at once, but are designed specifically for Latin (especially modes with syllable input).
+
+
+[list=1]
+[*][b][url=https://en.wikipedia.org/wiki/Greek_alphabet]Hellenic script[/url][/b] (also known as [i]Greek[/i]) — allows entering both symbols of the modern Greek alphabet and ancient Greek signs with the addition of various other symbols related to it, for example:
+αάὰὰἀᾳᾱᾰἅἄἃἂἇἆ ΐ ϐϕϱϖϰϲϵ
+· ; ⸒ ⸏ ⸐ ⸑ ⸎ ⸔ ⸕ ⸓ ⸖ ʹ ͵ ₯
+
+It differs from the standard Greek layout by the typical English arrangement of non-letter symbols and the presence of [url=https://en.wikipedia.org/wiki/Koppa_(letter)]koppa[/url] and [url=https://en.wikipedia.org/wiki/Digamma]digamma[/url] ([c]Ϟ[/c] [c]Ϝ[/c]) in place of [c]Q[/c] [c]W[/c] ([c];[/c] [c]ς[/c] on the Greek layout). Here the [c]ς[/c] sign is entered by the combination [c]LAlt Σ (S)[/c].
+
+The position of bindings does not change when switching Latin/Cyrillic layouts — a separate layout has been introduced for Hellenic script, however it cannot be changed (well, it can, I just didn’t consider it necessary to add a selection item in the GUI settings).
+
+[*][b][url=https://en.wikipedia.org/wiki/Runes]Germanic runes[/url][/b] — allows entering [url=https://en.wikipedia.org/wiki/Template:Runes]runes[/url] of the Elder Futhark, Anglo-Saxon Futhorc, Younger Futhark, Medieval runes, “Golden numbers” 17–19 of the Runic almanac (ᛮᛯᛰ), Runes from the [url=https://en.wikipedia.org/wiki/Franks_Casket]Franks Casket[/url] and three more [url=https://en.wikipedia.org/wiki/Cirth#Unicode]Tolkien runes[/url] for company. Plus punctuation marks (᛫᛬᛭).
+
+[*][b][url=https://en.wikipedia.org/wiki/Glagolitic_script]Glagolitic[/url][/b] — based on the Cyrillic layout and allows entering both simple Glagolitic letters and combinable ones with corresponding diacritics. Activated in pair with “Germanic runes”.
+
+[*]And others, already indicated in the screenshot writing systems and alphabets: [url=https://en.wikipedia.org/wiki/Old_Turkic_script]Old Turkic script[/url], [url=https://en.wikipedia.org/wiki/Old_Permic_script]Old Permic script[/url] (Cyrillic layout, paired with Old Turkic), [url=https://en.wikipedia.org/wiki/Szekely_script]Székely script[/url], [url=https://en.wikipedia.org/wiki/Gothic_alphabet]Gothic script[/url], [url=https://en.wikipedia.org/wiki/Etruscan_alphabet]Etruscan script[/url] ([i]Old Italic[/i], includes symbols not only from the Etruscan alphabet), [url=https://en.wikipedia.org/wiki/Phoenician_alphabet]Phoenician script[/url], [url=https://en.wikipedia.org/wiki/Ancient_South_Arabian_script]South Arabian script[/url], [url=https://en.wikipedia.org/wiki/Ancient_North_Arabian]North Arabian script[/url], [url=https://en.wikipedia.org/wiki/Carian_alphabets]Carian script[/url], [url=https://en.wikipedia.org/wiki/Lycian_alphabet]Lycian script[/url], [url=https://en.wikipedia.org/wiki/Lydian_alphabet]Lydian script[/url], [url=https://en.wikipedia.org/wiki/Sidetic_language]Sidetic script[/url] (currently the mode and symbol library entries are introduced, but officially Sidetic script will be introduced in Unicode with the release of Unicode 17.0 on September 9th at minimum, so there will be squares instead of letters for now and fonts cannot be found), [url=https://en.wikipedia.org/wiki/Cypriot_syllabary]Cypriot syllabic script[/url], [url=https://en.wikipedia.org/wiki/Tifinagh]Tifinagh[/url], [url=https://en.wikipedia.org/wiki/Ugaritic_alphabet]Ugaritic script[/url], [url=https://en.wikipedia.org/wiki/Old_Persian_cuneiform]Old Persian script[/url], [url=https://en.wikipedia.org/wiki/International_Phonetic_Alphabet]International Phonetic Alphabet[/url], [url=https://en.wikipedia.org/wiki/Deseret_alphabet]Deseret alphabet[/url], [url=https://en.wikipedia.org/wiki/Shavian_alphabet]Shavian alphabet[/url] and a mode for entering mathematical symbols.
 [/list]
 
-[b]Note:[/b] Their bindings are based on Latin and Cyrillic (Glagolitic, Old Permic) layouts, i.e. switching the internal layout will affect them.
-
-[img]https://i.imgur.com/dqDd08b.png[/img]
-
-[img]https://i.imgur.com/2KPrtis.png[/img]
+I don’t guarantee full coverage for each mode, but upon discovering new or missed symbols — the mode will be supplemented.
 
 [/spoiler2]
 
 
 
-[size=150]TELEX/VNI-like modes[/size]
+[size=150]Glyph variations[/size]
 
 
-[c]LWin + LAlt + D[/c] opens a selector; [c]RAlt + F2[/c] and [c]RAlt + RShift + F2[/c] is a dedicated shortcuts for Vietnamese × Jarai and for Pinyin.
+[img]https://i.imgur.com/2KPrtis.png[/img]
 
-Just showcase.
+[b]Combination:[/b] [c]LWin + LAlt + A[/c] (selector)
 
 
 [spoiler2="Details"]
 
-More about Telex and VNI:
+Has the same selector as “Alternative Input”, but instead of a set of bindings, it tells the program which variant of the symbol to use. Library entries have an attribute that specifies variants — bold, italic, small caps, etc. Such symbols are not represented as separate entries, being just a property. This makes “Glyph Variations” easily compatible with features that rely on creating bindings.
 
-https://en.wikipedia.org/wiki/Telex_(input_method)
+If the specified variant is missing from the symbol entry — the “normal” symbol will be sent.
 
-https://en.wikipedia.org/wiki/VNI
+In the main panel under the symbol preview, the first eight of the available variants will be displayed, and to the right of the preview a button will be activated that opens a GUI for viewing all variants (which can also be opened via tray menu → Glyph variations → Glyph variations Panel):
+
+[/spoiler2]
+
+
+
+[size=150]TELEX/VNI-like Input[/size]
 
 [img]https://i.imgur.com/bKeoDzy.png[/img]
 
+[b]Combinations:[/b] [c]RAlt + F2[/c] (Vietnamese), [c]RAlt + RShift + F2[/c] (PinYin) / [c]LWin + LAlt + D[/c] (selector)
+
+
+[spoiler2="Details"]
+
+Modes based on Vietnamese [url=https://en.wikipedia.org/wiki/Telex_(input_method)]TELEX[/url] and [url=https://en.wikipedia.org/wiki/VNI]VNI[/url] layouts to facilitate input of Vietnamese (with the addition of letters from the [url=https://en.wikipedia.org/wiki/Jarai_language]Jarai alphabet[/url]) and [url=https://en.wikipedia.org/wiki/Pinyin]PinYin[/url]. Incompatible with Alternative Input modes.
+
 [img]https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/telex_demo.gif[/img]
 
+To enter letters with diacritics, you need to enter a sequence of characters, for example: [c]AWS[/c] → Ắ (A → Ă → Ắ), [c]A5[/c] → Ẫ, [c]DD[/c]→ Đ, [c]BB[/c] → Ƀ, [c]UONGW[/c] → ƯƠNG, [c]UONG5[/c] → ƯỠNG. To cancel sequence combining, you can use [c]\[/c], [c]A\W[/c] → AW instead of Ă or re-enter the last character (AW → ĂW → AW). The last entered diacritic can be canceled by entering Z (ǕZ → ÜZ → U).
+
+You can change the diacritic of an already entered character if you don’t move the cursor: [c]ẰS[/c] → Ắ, [c]ẮA[/c] → Ấ, [c]ẤJ[/c] → Ậ, [c]ẬR[/c] → Ẩ…
+
 [img]https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/telex_switch_demo.gif[/img]
+
+[b]List of Mode Characters[/b]
+
+[list]
+[*][b]Tiếng Việt:[/b] Á À Ả Ã Ạ Â Ấ Ầ Ẩ Ẫ Ậ Ă Ắ Ằ Ẳ Ẵ Ặ É È Ẻ Ẽ Ẹ Ê Ế Ề Ể Ễ Ệ Í Ì Ỉ Ĩ Ị Ó Ò Ỏ Õ Ọ Ô Ố Ồ Ổ Ỗ Ộ Ơ Ớ Ờ Ở Ỡ Ợ Ú Ù Ủ Ũ Ụ Ư Ứ Ừ Ử Ữ Ự Đ
+[list]
+[*][b]Jơrai:[/b] Ĕ Ě Ĭ Ŏ Ǒ Ö Ŭ Ü Ƀ Č Ñ
+[/list]
+[*][b]Hànyǔ Pīnyīn:[/b] Ā Á À Ǎ Ē É È Ě Ī Í Ì Ǐ Ō Ó Ò Ǒ Ū Ú Ù Ǔ Ü Ǖ Ǘ Ǜ Ǚ
+[/list]
+
+[b]Nuances[/b]
+
+It works not as well as a real Vietnamese language layout — it doesn’t account for input field context and cursor movement within it. To get context, you need (if I’m not mistaken) to access the active window process, and I decided not to risk it — the same anti-cheats in games wouldn’t appreciate this, especially from AutoHotkey. It wouldn’t be good if a user of my program got banned for this (or I myself).
+
+If for some reason the “local” context (visible in the popup tooltip) doesn’t match the input field context — it can be reset by pressing [c]RCtrl[/c]. The local context is also reset by [c]Enter[/c], [c]Esc[/c], [c]Home[/c], [c]Page Up/Down[/c], [c]Del[/c], arrow keys, entering whitespace characters.
+
+Another nuance — it won’t work as intended in all applications due to the lack of IME mechanisms. For example, in VS Code, attempting to enter Ắ will lead to different results: ĂẮ, AẮ, Ắ, AĂẮ.
+
+In general, there’s room for improvement. If AutoHotkey allows (safely) using IME tools or something similar — these modes await visible improvement. I, of course, asked neural networks about this, but they didn’t offer any remotely working solutions.
 
 [/spoiler2]
 
 
 
 [size=150]Search[/size]
-
 
 [c]LWin + LAlt + F[/c]
 
@@ -435,14 +549,13 @@ In addition to symbol search, the query input window supports calling some metho
 [*][c]/KbdBinder.Init[/c] — re-initializes layouts and bindings.
 [/list]
 
-[img](https://i.imgur.com/3sxlmuC.png)[/img]
+[img]https://i.imgur.com/3sxlmuC.png[/img]
 
 [/spoiler2]
 
 
 
 [size=150]Internal Keyboard Layouts[/size]
-
 
 The program uses binding to key scan codes, which is why changing the system layout does not change the position of the program’s bindings. “Internal layouts” exist to fix this.
 
@@ -585,7 +698,6 @@ If the program doesn’t have a suitable layout — you can create one yourself 
 
 [size=150]Modifications[/size]
 
-
 Third-party AHK files can be placed in the “[c]DSLKeyPad\Mods\[/c]” directory as “mods” for the program. With modifications, you can significantly customize the program, for example, adding even a hundred new “Alternative Input” modes or introducing an entirely new, independent feature.
 
 
@@ -631,6 +743,61 @@ PS. If you need to get the path to your mod's folder — it is automatically sav
 PSS. Mods are not isolated scripts from each other, i.e. conflicts in variable and class names are possible.
 
 More detailed modding guide will be created in the future with development of the documentation website. You can find more complex mod example [url=https://github.com/DemerNkardaz/DSL-KeyPad-Custom-Files/tree/master/Mods/Old%20Mongolian%20Sample%20Mod]here[/url], but [c]index.ahk[/c] have comments on Russian and other files has no comments.
+
+[/spoiler2]
+
+
+
+[spoiler2="Minor/Auxiliary Features"]
+
+[b]Legend[/b]
+
+Interface with symbol “lore”. At the moment, not the most significant feature, as I don't have sufficient knowledge to fill in the data.
+
+[img]https://i.imgur.com/cRUzFEo.png[/img]
+
+[b]Temperature Converter[/b]
+
+Works through auto-replacement strings, requiring text input in the format [c]\tcalc{<FROM><TO>}[/c] (for example, [c]\tcalc{cf}[/c] = from ℃ to ℉). After triggering, value input for conversion is activated, and pressing any key that is not a digit, comma, period, or “'” confirms the output of the converted value to the input field.
+
+The following scales are available: Celsius (C), Fahrenheit (F), Kelvin (K), [url=https://en.wikipedia.org/wiki/Delisle_scale]Delisle (D)[/url], [url=https://en.wikipedia.org/wiki/Leiden_scale]Leiden (L)[/url], [url=https://en.wikipedia.org/wiki/Newton_scale]Newton (N)[/url], [url=https://en.wikipedia.org/wiki/Wedgwood_scale]Wedgwood (W)[/url] (revised), [url=https://en.wikipedia.org/wiki/Rankine_scale]Rankine (Ra)[/url], [url=https://en.wikipedia.org/wiki/R%C3%A9aumur_scale]Réaumur (Re)[/url], [url=https://en.wikipedia.org/wiki/R%C3%B8mer_scale]Rømer (Ro)[/url], Dalton (Da).
+
+When specifying a fractional part, you can choose the output format (the fractional part value can be omitted — “450,”):
+
+[list]
+[*]<Integer>.<Fractional> → 999,727.59 ℃
+[*]<Integer>,<Fractional> → 999 727,59 ℃
+[*]<Integer>.,<Fractional> → 999.727,59 ℃
+[*]<Integer>..<Fractional> → 999 727.59 ℃
+[*]<Integer>'<Fractional> → 999’727.59 ℃
+[*]<Integer>''<Fractional> → 999’727,59 ℃
+[/list]
+
+[b]LaTeX → Symbol[/b]
+
+Auto-replacement strings in the format [c]$><LaTeX-command>$[/c]. If any LaTeX command is registered in the library, then the symbol associated with it can be entered this way as well, examples: [c]$>\AE$[/c] → Æ, [c]$>\={\AE}$[/c] → Ǣ, [c]$>\Omega$[/c] → Ω, [c]$>\textpertenthousand$[/c] → ‱.
+
+[b]URL Encoding String[/b]
+
+Combinations: (select text) → [c]RCtrl \[/c] (encode), [c]RLCtrls \[/c] (decode).
+
+Not my own logic, found on the [url=https://www.autohotkey.com/boards/viewtopic.php?p=554647&sid=83cf90bcab788e19e2aacfaa0e9e57e3#p554647]AHK forum[/url].
+
+Converts string to URL encoding and back: [c]Something[/c] ↔ [c]%53%6F%6D%65%74%68%69%6E%67[/c], [c]𐌲𐍉𐌸[/c] ↔ [c]%F0%90%8C%B2%F0%90%8D%89%F0%90%8C%B8[/c].
+
+[b]Enclose in Quotes[/b]
+
+Combination: (select text) → [c]LAlt + 2[/c]
+
+Encloses selected text in quotes and automatically replaces outer quotes with inner ones if they exist: Меч Танаквиль → Меч «Танаквиль» → «Меч „Танаквиль“», Sword Tanaquil → Sword “Tanaquil” → “Sword ‘Tanaquil’”
+
+Quotes are chosen depending on the active keyboard layout language, also works for Greek (both for the layout and for the Alternative “Hellenic script” mode): Ξίφος Τανακυλλίς → Ξίφος «Τανακυλλίς» → «Ξίφος “Τανακυλλίς”».
+
+[b]Open Web Page of Selected Symbol[/b]
+
+Combination: (select text) → [c]LWin + LAlt + PgUp[/c]
+
+Simply opens the page of the selected symbol on the Unicode resource chosen in settings.
 
 [/spoiler2]
 
