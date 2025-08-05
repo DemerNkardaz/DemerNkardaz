@@ -1,6 +1,11 @@
 DSL KeyPad: A tool for typing more than 4,700 Unicode characters directly from the keyboard
 //
 
+[img]https://img.shields.io/github/v/tag/DemerNkardaz/DSL-KeyPad?style=for-the-badge&logo=github&label=latest%40version&color=eeeeee
+[/img] [img]https://img.shields.io/github/downloads/DemerNkardaz/DSL-KeyPad/total?style=for-the-badge&logo=github&color=eeeeee[/img] [img]https://img.shields.io/sourceforge/dt/dsl-keypad?style=for-the-badge&logo=sourceforge&color=f76300[/img]
+
+[hr]
+
 [img]https://i.imgur.com/9Rh7bQz.png[/img]
 
 This tool extends the range of characters available for input directly from the keyboard and primarily focuses on Latin and Cyrillic scripts, but is not limited to them. You only need to have Russian and English keyboard layouts installed in your system to be able to write in multiple languages, for example:
@@ -16,7 +21,7 @@ The tool implements support for inputting various writing systems, for example: 
 
 The project is not complete, but can already be used fully.
 
-You can download it from [url=https://github.com/DemerNkardaz/DSL-KeyPad]GitHub[/url] releases or [url=https://sourceforge.net/projects/dsl-keypad]SourceForge[/url].
+You can download it from [b][url=https://github.com/DemerNkardaz/DSL-KeyPad]GitHub[/url] releases[/b] or [b][url=https://sourceforge.net/projects/dsl-keypad]SourceForge[/url][/b].
 
 Installation: just place folder from archive everywhere you want and run [c]DSLKeyPad.(exe|ahk)[/c].
 
@@ -48,7 +53,7 @@ The tool has updating system. If an update will be released, then you will can d
 
 
 
-[size=150]Short list of features[/size]
+[color=#40BF00][size=150]Short list of features[/size][/color]
 
 
 [list]
@@ -69,7 +74,7 @@ The tool has updating system. If an update will be released, then you will can d
 
 
 
-[size=150]Multi-layer Bindings, also known as “Fast Keys”[/size]
+[color=#40BF00][size=150]Multi-layer Bindings, also known as “Fast Keys”[/size][/color]
 
 The most terrifying part. There are many of them, incredibly many, and an experienced pianist will undoubtedly handle them. If we trust [c].HotKeysCount()[/c], there are more than eight hundred of them. Each key can have up to 10-11 possible combinations (not counting combinations with active CapsLock as separate ones), but on average there are about eight (Latin I is the champion here: Ĭ Ï Ī Ĩ Î Ǐ Į İ Í Ì Ȉ).
 
@@ -128,11 +133,13 @@ There are also “Secondary” and “Tertiary keys”, activated via [c]RAlt LA
 
 These keys are disabled by pressing their combination again, and the state is saved in the settings file.
 
+[hr]
+
 [/spoiler2]
 
 
 
-[size=150]Compositing mode[/size]
+[color=#40BF00][size=150]Compositing mode[/size][/color]
 
 Inspired by the Compose key from Linux and WinCompose. Converts a sequence of symbols into something else.
 
@@ -174,11 +181,14 @@ Compose mode can be used to insert symbols by their codes. Input starts with U+/
 Alt-codes are affected by the active layout language: numbers 128–255 and 0128–0255 use codepages 850/Windows−1252 for English layout, 866/Windows−1251 for Russian, 737/Windows−1253 for Greek, Windows−1258 for Vietnamese.
 
 Alt-codes can be entered in hexadecimal format: [c]A+0B9[/c] = [c]A+0185[/c] → № (Windows−1251). For this, the input must contain a letter from the A–F range. The upper limit is A+FF (A+255).
+
+[hr]
+
 [/spoiler2]
 
 
 
-[size=150]User-defined bindings[/size]
+[color=#40BF00][size=150]User-defined bindings[/size][/color]
 
 For creating bindings, you need to place [c]<FILE>.JSON (UTF-8)[/c] in “[c]DSLKeyPad\User\profile-<PROFILE>\CustomBindings\[/c]” with the same structure:
 
@@ -239,11 +249,13 @@ Details about reference format see in the “Reference format” section.
 
 After creating a preset, it can be selected in the settings window or after restarting the program, or after pressing the 🔁 button next to the dropdown list in the settings window.
 
+[hr]
+
 [/spoiler2]
 
 
 
-[size=150]User-defined sequences[/size]
+[color=#40BF00][size=150]User-defined sequences[/size][/color]
 
 You can create/edit custom sequences, called “My Recipes“, in the same way as for bindings or with a dedicated recipe-creation GUI. Custom recipes may contain large multiline text as a result.
 
@@ -388,11 +400,13 @@ recipe=лёд|ice
 result=🧊
 [/code]
 
+[hr]
+
 [/spoiler2]
 
 
 
-[size=150]Reference format[/size]
+[color=#40BF00][size=150]Reference format[/size][/color]
 
 [c]${<ENTRY NAME>::<VARIANT>×<COUNT>}[/c] refers to an entry in the library if it exists.
 
@@ -404,14 +418,14 @@ With “[c]\/[/c]” you can specify multiple entries by their full or partial n
 
 
 
-[size=150]Alternative modes[/size]
-
-[img]https://i.imgur.com/dqDd08b.png[/img]
+[color=#40BF00][size=150]Alternative modes[/size][/color]
 
 [b]Combination:[/b] [c]LWin + LAlt + S[/c] (selector)
 
 
 [spoiler2="Details"]
+
+[img]https://i.imgur.com/dqDd08b.png[/img]
 
 Essentially — just sets of activated bindings for a whole list of writing systems/alphabets, mainly different from Latin and Cyrillic.
 
@@ -438,19 +452,20 @@ The position of bindings does not change when switching Latin/Cyrillic layouts �
 
 I don’t guarantee full coverage for each mode, but upon discovering new or missed symbols — the mode will be supplemented.
 
+[hr]
+
 [/spoiler2]
 
 
 
-[size=150]Glyph variations[/size]
-
-
-[img]https://i.imgur.com/2KPrtis.png[/img]
+[color=#40BF00][size=150]Glyph variations[/size][/color]
 
 [b]Combination:[/b] [c]LWin + LAlt + A[/c] (selector)
 
 
 [spoiler2="Details"]
+
+[img]https://i.imgur.com/2KPrtis.png[/img]
 
 Has the same selector as “Alternative Input”, but instead of a set of bindings, it tells the program which variant of the symbol to use. Library entries have an attribute that specifies variants — bold, italic, small caps, etc. Such symbols are not represented as separate entries, being just a property. This makes “Glyph Variations” easily compatible with features that rely on creating bindings.
 
@@ -458,18 +473,20 @@ If the specified variant is missing from the symbol entry — the “normal” s
 
 In the main panel under the symbol preview, the first eight of the available variants will be displayed, and to the right of the preview a button will be activated that opens a GUI for viewing all variants (which can also be opened via tray menu → Glyph variations → Glyph variations Panel):
 
+[hr]
+
 [/spoiler2]
 
 
 
-[size=150]TELEX/VNI-like Input[/size]
-
-[img]https://i.imgur.com/bKeoDzy.png[/img]
+[color=#40BF00][size=150]TELEX/VNI-like Input[/size][/color]
 
 [b]Combinations:[/b] [c]RAlt + F2[/c] (Vietnamese), [c]RAlt + RShift + F2[/c] (PinYin) / [c]LWin + LAlt + D[/c] (selector)
 
 
 [spoiler2="Details"]
+
+[img]https://i.imgur.com/bKeoDzy.png[/img]
 
 Modes based on Vietnamese [url=https://en.wikipedia.org/wiki/Telex_(input_method)]TELEX[/url] and [url=https://en.wikipedia.org/wiki/VNI]VNI[/url] layouts to facilitate input of Vietnamese (with the addition of letters from the [url=https://en.wikipedia.org/wiki/Jarai_language]Jarai alphabet[/url]) and [url=https://en.wikipedia.org/wiki/Pinyin]PinYin[/url]. Incompatible with Alternative Input modes.
 
@@ -501,11 +518,13 @@ Another nuance — it won’t work as intended in all applications due to the la
 
 In general, there’s room for improvement. If AutoHotkey allows (safely) using IME tools or something similar — these modes await visible improvement. I, of course, asked neural networks about this, but they didn’t offer any remotely working solutions.
 
+[hr]
+
 [/spoiler2]
 
 
 
-[size=150]Search[/size]
+[color=#40BF00][size=150]Search[/size][/color]
 
 [c]LWin + LAlt + F[/c]
 
@@ -551,11 +570,13 @@ In addition to symbol search, the query input window supports calling some metho
 
 [img]https://i.imgur.com/3sxlmuC.png[/img]
 
+[hr]
+
 [/spoiler2]
 
 
 
-[size=150]Internal Keyboard Layouts[/size]
+[color=#40BF00][size=150]Internal Keyboard Layouts[/size][/color]
 
 The program uses binding to key scan codes, which is why changing the system layout does not change the position of the program’s bindings. “Internal layouts” exist to fix this.
 
@@ -692,11 +713,13 @@ If the program doesn’t have a suitable layout — you can create one yourself 
 }
 [/code]
 
+[hr]
+
 [/spoiler2]
 
 
 
-[size=150]Modifications[/size]
+[color=#40BF00][size=150]Modifications[/size][/color]
 
 Third-party AHK files can be placed in the “[c]DSLKeyPad\Mods\[/c]” directory as “mods” for the program. With modifications, you can significantly customize the program, for example, adding even a hundred new “Alternative Input” modes or introducing an entirely new, independent feature.
 
@@ -744,17 +767,23 @@ PSS. Mods are not isolated scripts from each other, i.e. conflicts in variable a
 
 More detailed modding guide will be created in the future with development of the documentation website. You can find more complex mod example [url=https://github.com/DemerNkardaz/DSL-KeyPad-Custom-Files/tree/master/Mods/Old%20Mongolian%20Sample%20Mod]here[/url], but [c]index.ahk[/c] have comments on Russian and other files has no comments.
 
+[hr]
+
 [/spoiler2]
 
 
 
-[spoiler2="Minor/Auxiliary Features"]
+[color=#40BF00][size=150]Minor/Auxiliary Features[/size][/color]
+
+[spoiler2="Details"]
 
 [b]Legend[/b]
 
 Interface with symbol “lore”. At the moment, not the most significant feature, as I don't have sufficient knowledge to fill in the data.
 
 [img]https://i.imgur.com/cRUzFEo.png[/img]
+
+[hr]
 
 [b]Temperature Converter[/b]
 
@@ -773,9 +802,13 @@ When specifying a fractional part, you can choose the output format (the fractio
 [*]<Integer>''<Fractional> → 999’727,59 ℃
 [/list]
 
+[hr]
+
 [b]LaTeX → Symbol[/b]
 
 Auto-replacement strings in the format [c]$><LaTeX-command>$[/c]. If any LaTeX command is registered in the library, then the symbol associated with it can be entered this way as well, examples: [c]$>\AE$[/c] → Æ, [c]$>\={\AE}$[/c] → Ǣ, [c]$>\Omega$[/c] → Ω, [c]$>\textpertenthousand$[/c] → ‱.
+
+[hr]
 
 [b]URL Encoding String[/b]
 
@@ -785,6 +818,8 @@ Not my own logic, found on the [url=https://www.autohotkey.com/boards/viewtopic.
 
 Converts string to URL encoding and back: [c]Something[/c] ↔ [c]%53%6F%6D%65%74%68%69%6E%67[/c], [c]𐌲𐍉𐌸[/c] ↔ [c]%F0%90%8C%B2%F0%90%8D%89%F0%90%8C%B8[/c].
 
+[hr]
+
 [b]Enclose in Quotes[/b]
 
 Combination: (select text) → [c]LAlt + 2[/c]
@@ -793,19 +828,24 @@ Encloses selected text in quotes and automatically replaces outer quotes with in
 
 Quotes are chosen depending on the active keyboard layout language, also works for Greek (both for the layout and for the Alternative “Hellenic script” mode): Ξίφος Τανακυλλίς → Ξίφος «Τανακυλλίς» → «Ξίφος “Τανακυλλίς”».
 
+[hr]
+
 [b]Open Web Page of Selected Symbol[/b]
 
 Combination: (select text) → [c]LWin + LAlt + PgUp[/c]
 
 Simply opens the page of the selected symbol on the Unicode resource chosen in settings.
 
+[hr]
+
 [/spoiler2]
 
 
 
-[size=150]Notes[/size]
+[color=#40BF00][size=150]Notes[/size][/color]
 
 [list]
 [*]Tool eats 140–180 MB of RAM.
 [*]Limited to English and Russian keyboard layouts (for example when you switches to Japanese, then all bindings will be automatically disabled and restored when you switch back to En/Ru). Can work with Greek layout, but “Hellenic” alternative mode will be automatically enabled.
+[*]I have plans to create documentation website with more details about tool & modding.
 [/list]
