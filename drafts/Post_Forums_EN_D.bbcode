@@ -1,6 +1,8 @@
-# DSL KeyPad: A tool for typing more than 4,700 Unicode characters directly from the keyboard
+DSL KeyPad: A tool for typing more than 4,700 Unicode characters directly from the keyboard
+//
 
 This tool extends the range of characters available for input directly from the keyboard and primarily focuses on Latin and Cyrillic scripts, but is not limited to them. You only need to have Russian and English keyboard layouts installed in your system to be able to write in multiple languages, for example:
+
 
 [list]
 [*]Қазақ тілі, Хуэйзў йүян, Забони тоҷикӣ, Йағнобӣ зивок, Аԥсуа бызшәа, Авар мацӏ, Українська мова, Словѣньскъ ѩꙁꙑкъ, Црногорски језик, Лимба Рꙋмѫнѣскъ, Итәнмәӈин крвэԓхатас, Даһур Усүүэ, Азәрбајҹанҹа, Башҡорт теле, Тэлэңгэт, Чӑваш чӗлхи…
@@ -13,6 +15,33 @@ The tool implements support for inputting various writing systems, for example: 
 The project is not complete, but can already be used fully.
 
 You can download it from [url=https://github.com/DemerNkardaz/DSL-KeyPad]GitHub[/url] releases or [url=https://sourceforge.net/projects/dsl-keypad]SourceForge[/url].
+
+
+[img]https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/fastkeys_demo.gif[/img]
+
+
+[spoiler2="Screenshots"]
+
+[img]https://i.imgur.com/9Rh7bQz.png[/img]
+
+[img]https://i.imgur.com/SZTKIhT.png[/img]
+
+[img]https://i.imgur.com/8NwXCLo.png[/img]
+
+[img]https://i.imgur.com/wxQGrjZ.png[/img]
+
+[img]https://i.imgur.com/kEfDvzA.png[/img]
+
+[img]https://i.imgur.com/6UEzVJj.png[/img]
+
+[img]https://i.imgur.com/bPnjz3A.png[/img]
+
+[img]https://i.imgur.com/uBXpbSW.png[/img]
+
+
+[/spoiler2]
+
+
 
 [size=150]Short list of features[/size]
 
@@ -35,13 +64,13 @@ You can download it from [url=https://github.com/DemerNkardaz/DSL-KeyPad]GitHub[
 
 [size=150]Compositing mode[/size]
 
-
 Inspired by the Compose key from Linux and WinCompose. Converts a sequence of symbols into something else.
 
 Activated by double-pressing [c]RAlt[/c]. User input will be displayed in a tooltip along with matching suggestions and a list of favorite symbol recipes.
 
 
 [spoiler2="Details"]
+
 Compose mode triggers on the first exact recipe match. This is both a plus and a slight minus — such behavior won’t allow typing, for example, [c]Ǣ[/c] due to the automatic triggering of [c]AE[/c] → [c]Æ[/c]. To solve this problem, I introduced a hold mode ([c]Pause[/c] key), in which composition waits for [c]Enter[/c] to be pressed or for the hold to be released.
 
 In addition to hold mode, you can use the grave “operator” [c] ` [/c]. It doesn’t cancel automatic triggering, but saves its result in the active composition variable instead of sending it to the application window. This allows continuing sequences if there are recipes that start with the obtained result. [c]Ǣ[/c] = [c]A`E → Æ → Æ<MACRON>[/c].
@@ -56,7 +85,7 @@ General key list:
 [*][c]Pause[/c] — toggle hold mode.
 [/list]
 
-![](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/compose_demo.webp)
+[img]https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/compose_demo.webp[/img]
 
 [b]Operators[/b]
 
@@ -77,9 +106,15 @@ Alt-codes are affected by the active layout language: numbers 128–255 and 0128
 Alt-codes can be entered in hexadecimal format: [c]A+0B9[/c] = [c]A+0185[/c] → № (Windows−1251). For this, the input must contain a letter from the A–F range. The upper limit is A+FF (A+255).
 [/spoiler2]
 
-## User-defined bindings
+
+
+[size=150]User-defined bindings[/size]
+
 
 For creating bindings, you need to place [c]<FILE>.JSON (UTF-8)[/c] in “[c]DSLKeyPad\User\profile-<PROFILE>\CustomBindings\[/c]” with the same structure:
+
+
+[spoiler2="Details"]
 
 [code=json]
 {
@@ -104,7 +139,7 @@ For creating bindings, you need to place [c]<FILE>.JSON (UTF-8)[/c] in “[c]DSL
 }
 [/code]
 
-User-defined bindings supports the following formats:
+	User-defined bindings supports the following formats:
 
 [code=json]
 		// “Flat” (for all languages)
@@ -129,29 +164,36 @@ And the following values:
 		"<ENTRY NAME>::<VARIANT>×<COUNT>"
 [/code]
 
-Details about reference format see in the “Reference format” message under “User-defined sequences”.
+Details about reference format see in the “Reference format” section.
 
 [b]Note:[/b] for [c]RAlt[/c] you need to use [c]<^>![/c].
 
 After creating a preset, it can be selected in the settings window or after restarting the program, or after pressing the 🔁 button next to the dropdown list in the settings window.
 
-## User-defined sequences
+[/spoiler2]
+
+
+
+[size=150]User-defined sequences[/size]
 
 You can create/edit custom sequences, called “My Recipes“, in the same way as for bindings or with a dedicated recipe-creation GUI. Custom recipes may contain large multiline text as a result.
+
+
+[spoiler2="Details"]
 
 The main file is presented in JSON format, “[c]DSLKeyPad\User\profile-<PROFILE>\CustomRecipes.json[/c]”. You can also add additional recipe files in INI (UTF-16 LE) or JSON (UTF-8) formats by placing them in the “[c]DSLKeyPad\User\profile-<PROFILE>\CustomRecipes\[/c]” directory. Recipes from there will be automatically loaded at program startup or when pressing the refresh button in the “My Recipes” window.
 
 Loading sequences from XCompose format files is supported. They must be placed in the “[c]DSLKeyPad\User\profile-<PROFILE>\XCompose\[/c]” directory. The file must end with the “[c].XCompose[/c]” extension.
 
-**Note:** Only simple XCompose sequences are supported, such as “[c]<Multi_key> <g> <r> <i> <n> : "😁"[/c]” or “[c]<Multi_key> <U1100> <U1100> : "ᄁ" U1101 # HANGUL CHOSEONG SSANGKIYEOK[/c]”. On first launch, for demonstration purposes, a “demo.XCompose” file is created at the specified path with the sequence “[c]<Multi_key> <0> <0> : "∞"[/c]”.
+[b]Note:[/b] Only simple XCompose sequences are supported, such as “[c]<Multi_key> <g> <r> <i> <n> : "😁"[/c]” or “[c]<Multi_key> <U1100> <U1100> : "ᄁ" U1101 # HANGUL CHOSEONG SSANGKIYEOK[/c]”. On first launch, for demonstration purposes, a “demo.XCompose” file is created at the specified path with the sequence “[c]<Multi_key> <0> <0> : "∞"[/c]”.
 
-<img src="https://i.imgur.com/iv682S1.png" width="45%"> <img src="https://i.imgur.com/r2cLLXU.png" width="45%">
+[img]https://i.imgur.com/iv682S1.png[/img] [img]https://i.imgur.com/r2cLLXU.png[/img]
 
-<img src="https://i.imgur.com/gTfXAmZ.png" width="30%"> <img src="https://i.imgur.com/JBS7mdf.png" width="30%"> <img src="https://i.imgur.com/56pEFWy.png" width="30%">
+[img]https://i.imgur.com/gTfXAmZ.png[/img] [img]https://i.imgur.com/JBS7mdf.png[/img] [img]https://i.imgur.com/56pEFWy.png[/img]
 
 Example of an additional recipe file:
 
-**INI:**
+[b]INI:[/b]
 
 [code=ini]
 [alchemical_sulfuric_acid]
@@ -184,7 +226,7 @@ recipe=chem sulf acid|H2SO4
 result=H${digit_2::subscript}SO${digit_4::subscript}
 [/code]
 
-**JSON:**
+[b]JSON:[/b]
 
 [code=json]
 [
@@ -277,7 +319,12 @@ recipe=лёд|ice
 result=🧊
 [/code]
 
-## Reference format
+[/spoiler2]
+
+
+
+[size=150]Reference format[/size]
+
 
 [c]${<ENTRY NAME>::<VARIANT>×<COUNT>}[/c] refers to an entry in the library if it exists.
 
@@ -285,13 +332,17 @@ With “[c]::[/c]” you can specify a “Glyph variant”, e.g.: [c]${digit_1}[
 
 With “[c]×[/c]” at the end you can specify a number of repetitions, e.g. [c]${digit_1::superscript×10}[/c] → “¹¹¹¹¹¹¹¹¹¹”.
 
-With “[c]\/[/c]” you can specify multiple entries by their full or partial names, e.g.: [c]${lat_c_let_\b,o,l,d/::bold}[/c] → 𝐁𝐎𝐋𝐃, [c]${\hel,lat/_c_let_a_alpha}[/c]` → ΑⱭ, [c]${\nabla,delta,integral,square_root/}[/c] → ∇∆∫√.
+With “[c]\/[/c]” you can specify multiple entries by their full or partial names, e.g.: [c]${lat_c_let_\b,o,l,d/::bold}[/c] → 𝐁𝐎𝐋𝐃, [c]${\hel,lat/_c_let_a_alpha}[/c] → ΑⱭ, [c]${\nabla,delta,integral,square_root/}[/c] → ∇∆∫√.
 
-## Alternative modes
+[size=150]Alternative modes & Glyph variations[/size]
 
-[c]LWin + LAlt + S[/c] opens a selector.
 
-The list of included scripts:
+[c]LWin + LAlt + S[/c] & [c]LWin + LAlt + A[/c] opens a selector.
+
+
+[spoiler2="Details"]
+
+The list of included scripts in “Alternative modes”:
 
 [list]
 [*][url=https://en.wikipedia.org/wiki/Greek_alphabet]Hellenic[/url] (Modern × Ancient Greek)
@@ -303,21 +354,25 @@ The list of included scripts:
 [*]etc… all of them are shown in the screenshot.
 [/list]
 
-**Note:** Their bindings are based on Latin and Cyrillic (Glagolitic, Old Permic) layouts, i.e. switching the internal layout will affect them.
+[b]Note:[/b] Their bindings are based on Latin and Cyrillic (Glagolitic, Old Permic) layouts, i.e. switching the internal layout will affect them.
 
-**Glyph variations**
+[img]https://i.imgur.com/dqDd08b.png[/img]
 
-[c]LWin + LAlt + A[/c] opens a selector.
+[img]https://i.imgur.com/2KPrtis.png[/img]
 
-![](https://i.imgur.com/dqDd08b.png)
+[/spoiler2]
 
-![](https://i.imgur.com/2KPrtis.png)
 
-**TELEX/VNI-like modes**
+
+[size=150]TELEX/VNI-like modes[/size]
+
 
 [c]LWin + LAlt + D[/c] opens a selector; [c]RAlt + F2[/c] and [c]RAlt + RShift + F2[/c] is a dedicated shortcuts for Vietnamese × Jarai and for Pinyin.
 
 Just showcase.
+
+
+[spoiler2="Details"]
 
 More about Telex and VNI:
 
@@ -325,64 +380,80 @@ https://en.wikipedia.org/wiki/Telex_(input_method)
 
 https://en.wikipedia.org/wiki/VNI
 
-![](https://i.imgur.com/bKeoDzy.png)
+[img]https://i.imgur.com/bKeoDzy.png[/img]
 
-![](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/telex_demo.gif)
+[img]https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/telex_demo.gif[/img]
 
-![](https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/telex_switch_demo.gif)
+[img]https://raw.githubusercontent.com/DemerNkardaz/DSL-KeyPad-Docs/refs/heads/main/Media/telex_switch_demo.gif[/img]
 
-## Search
+[/spoiler2]
+
+
+
+[size=150]Search[/size]
+
 
 [c]LWin + LAlt + F[/c]
 
 As already mentioned — each symbol has a set of “tags”, and they can be quite long. For example, “[c]hellenic small letter omega with psili, perispomeni and ypogegrammeni[/c]” will give the symbol “ᾦ”.
 
-You don't have to enter the full tag — “`omeg ps pe yp`” will give the same “ᾦ”. However, the shorter the query, the less precise the result will be. You can enter multiple queries separated by commas:
+
+[spoiler2="Details"]
+
+You don't have to enter the full tag — “[c]omeg ps pe yp[/c]” will give the same “ᾦ”. However, the shorter the query, the less precise the result will be. You can enter multiple queries separated by commas:
 
 [list]
-[*]“`des dee, !des dee, lamb, !lamb`” → “`𐐔𐐼Λλ`”
-[*]“`ref, obe, psms, msps`” → “`※÷±∓`”
+[*]“[c]des dee, !des dee, lamb, !lamb[/c]” → “[c]𐐔𐐼Λλ[/c]”
+[*]“[c]ref, obe, psms, msps[/c]” → “[c]※÷±∓[/c]”
 [/list]
 
-Instead of a tag, you can enter an entry name, for example “`hel_c_let_l_lambda`” → “`Λ`”.
+Instead of a tag, you can enter an entry name, for example “[c]hel_c_let_l_lambda[/c]” → “[c]Λ[/c]”.
 
 You can use regular expressions, for example:
 
 [list]
-[*]“`fut.*?\s+\S+al`” (searching for a tag with any characters and spaces between fut and al) → “ᚺ” (Hagalaz rune), full tag: “`germanic rune elder futhark Hagalaz`”.
-[*]“`az$`” (searching for a tag ending with az) → “ᛞ” (Mannaz rune), full tag: “`germanic rune elder futhark Mannaz`”.
-[*]“`^фра`” (searching for a tag starting with фра) → “₣” (Franc).
+[*][c]fut.*?\s+\S+al[/c]” (searching for a tag with any characters and spaces between fut and al) → “ᚺ” (Hagalaz rune), full tag: “[c]germanic rune elder futhark Hagalaz[/c]”.
+[*][c]az$[/c]” (searching for a tag ending with az) → “ᛞ” (Mannaz rune), full tag: “[c]germanic rune elder futhark Mannaz[/c]”.
+[*][c]^фра[/c]” (searching for a tag starting with фра) → “₣” (Franc).
 [/list]
 
-Specifying glyph variations is also supported by adding `::<VARIANT>` at the end of the query:
+Specifying glyph variations is also supported by adding [c]::<VARIANT>[/c] at the end of the query:
 
 [list]
-[*]“`lig ae, lig ae::smallCapital, !latin h::fraktur`” → “`Æᴁ𝔥`”
+[*]“[c]lig ae, lig ae::smallCapital, !latin h::fraktur[/c]” → “[c]Æᴁ𝔥[/c]”
 [/list]
 
 In addition to symbol search, the query input window supports calling some methods/functions:
 
 [list]
-[*]`\` or `/Reload` — restarts the program.
-[*]`/Exit` — closes the program.
-[*]`/ChrLib.Print` — creates and opens a “`printed_pairs.html`” file with a listing of local library entries in “symbol — entry name” format.
-[*]`/MyRecipes.Update` — re-initializes user recipes.
-[*]`/Update.Get` or `/Update.Repair` — get an update or repair the current version.
-[*]`%globalInstances.crafter.Start("Compose")%` — similar to RAlt×2, activates composition mode…
-[*]`/KbdBinder.Init` — re-initializes layouts and bindings.
+[*][c]\[/c] or [c]/Reload[/c] — restarts the program.
+[*][c]/Exit[/c] — closes the program.
+[*][c]/ChrLib.Print[/c] — creates and opens a “[c]printed_pairs.html[/c]” file with a listing of local library entries in “symbol — entry name” format.
+[*][c]/MyRecipes.Update[/c] — re-initializes user recipes.
+[*][c]/Update.Get[/c] or [c]/Update.Repair[/c] — get an update or repair the current version.
+[*][c]%globalInstances.crafter.Start("Compose")%[/c] — similar to RAlt×2, activates composition mode…
+[*][c]/KbdBinder.Init[/c] — re-initializes layouts and bindings.
 [/list]
 
-![](https://i.imgur.com/3sxlmuC.png)
+[img](https://i.imgur.com/3sxlmuC.png)[/img]
 
-## Internal Keyboard Layouts
+[/spoiler2]
+
+
+
+[size=150]Internal Keyboard Layouts[/size]
+
 
 The program uses binding to key scan codes, which is why changing the system layout does not change the position of the program’s bindings. “Internal layouts” exist to fix this.
 
+
+[spoiler2="Details"]
+
 For Latin, the following layouts are available: QWERTY, Colemak, Dvorak. For Cyrillic: ЙЦУКЕН, ЙІУКЕН (1907), Диктор. Layouts may differ from their originals.
 
-If the program doesn’t have a suitable layout — you can create one yourself through `<FILE>.JSON (UTF-8)` markup in “`DSLKeyPad\User\profile-<PROFILE>\CustomLayouts\`” with the following structure:
+If the program doesn’t have a suitable layout — you can create one yourself through [c]<FILE>.JSON (UTF-8)[/c] markup in “[c]DSLKeyPad\User\profile-<PROFILE>\CustomLayouts\[/c]” with the following structure:
 
-```json
+[code=json]
 {
   "info": {
     // name
@@ -399,10 +470,35 @@ If the program doesn’t have a suitable layout — you can create one yourself 
     "R": "R",
     "T": "T",
     "Y": "Y",
+    "U": "U",
+    "I": "I",
+    "O": "O",
+    "P": "P",
     "CircumflexAccent": "LeftBracket",
     "Dollar": "RightBracket",
-    "SmallUWithGrave": "Apostrophe"
-    // etc…
+    "Q": "A",
+    "S": "S",
+    "D": "D",
+    "F": "F",
+    "G": "G",
+    "H": "H",
+    "J": "J",
+    "K": "K",
+    "L": "L",
+    "M": "Semicolon",
+    "SmallUWithGrave": "Apostrophe",
+    "Asterisk": "Backslash",
+    "W": "Z",
+    "X": "X",
+    "C": "C",
+    "V": "V",
+    "B": "B",
+    "N": "N",
+    "Comma": "M",
+    "Semicolon": "Comma",
+    "Colon": "Dot",
+    "Exclamation": "Slash",
+    "Equals": "SC00D"
   },
   "binds": {
     // List of key bindings (is not necessary)
@@ -410,43 +506,106 @@ If the program doesn’t have a suitable layout — you can create one yourself 
       // The [lazy] prefix indicates that the binding will be enabled
       // only when “Remapping” is active
       "[lazy]1": ["[digit_1,lat_s_lig_et]"], // 1&
-      "[lazy]CircumflexAccent": ["[diaeresis,circumflex]"],
+      "[lazy]2": ["[digit_2,lat_s_let_e__acute]"], // 2é
+      "[lazy]3": ["[digit_3,quote]"], // 3"
+      "[lazy]4": ["[digit_4,apostrophe]"], // 4'
+      "[lazy]5": ["[digit_5,left_parenthesis]"], // 5(
+      "[lazy]6": ["[digit_6,hyphen_minus]"], // 6-
+      "[lazy]7": ["[digit_7,lat_s_let_e__grave]"], // 7è
+      "[lazy]8": ["[digit_8,underscore]"], // 8_
+      "[lazy]9": ["[digit_9,lat_s_let_c__cedilla]"], // 9ç
+      "[lazy]0": ["[digit_0,lat_s_let_a__acute]"], // 0á
+      "[lazy]HyphenMinus": ["[degree,right_parenthesis]"], // °)
+      "[lazy]Tilde": ["digit_2::subscript"], // ₂
+      "[lazy]CircumflexAccent": ["[diaeresis,circumflex]"], // ◌̈◌̂
       "[lazy]Dollar": ["[wallet_franc,wallet_dollar]"], // ₣$
       "[lazy]SmallUWithGrave": ["[percent,lat_s_let_u__grave]"], // %ù
       "[lazy]Asterisk": ["[hel_s_let_m_mu,asterisk]"], // μ*
+      "[lazy]Comma": ["[question,comma]"], // ?,
+      "[lazy]Semicolon": ["[dot,semicolon]"], // .;
+      "[lazy]Colon": ["[solidus,colon]"], // /:
       "[lazy]Exclamation": ["[section,exclamation]"] // §!
-      // etc…
     },
     // List of bindings with modifiers
     "Moded": {
-      "1": { "<+": ["[lat_s_lig_et,digit_1]"] },
+      "1": {
+        "<+": ["[lat_s_lig_et,digit_1]"]
+      },
+      "2": {
+        "<^>!": ["tilde"], // ~
+        "<+": ["[lat_s_let_e__acute,digit_2]"]
+      },
+      "3": {
+        "<^>!": ["number_sign"], // #
+        "<+": ["[quote,digit_3]"]
+      },
+      "4": {
+        "<^>!": ["left_brace"], // {
+        "<+": ["[apostrophe,digit_4]"]
+      },
+      "5": {
+        "<^>!": ["left_bracket"], // [
+        "<+": ["[left_parenthesis,digit_5]"]
+      },
+      "6": {
+        "<^>!": ["vertical_line"], // |
+        "<+": ["[hyphen_minus,digit_6]"]
+      },
+      "7": {
+        "<^>!": ["grave"], // ◌̀
+        "<+": ["[lat_s_let_e__grave,digit_7]"]
+      },
+      "8": {
+        "<^>!": ["reverse_solidus"], // \
+        "<+": ["[underscore,digit_8]"]
+      },
+      "9": {
+        "<^>!": ["circumflex_accent"], // ^
+        "<+": ["[lat_s_let_c__cedilla,digit_9]"]
+      },
+      "0": {
+        "<^>!": ["commercial_at"], // @
+        "<+": ["[lat_s_let_a__acute,digit_0]"]
+      },
+      "HyphenMinus": {
+        "<^>!": ["right_bracket"], // ]
+        "<+": ["[right_parenthesis,hyphen_minus]"]
+      },
       "E": { "<^>!": ["wallet_eur"] }, // €
-      "Dollar": { "<^>!": ["wallet_sign"] } // ¤
-      // etc…
+      "Dollar": { "<^>!": ["wallet_sign"] }, // ¤
+      "Equals": { "<^>!": ["right_brace"], "+": "plus" } // }
     }
   }
 }
-```
+[/code]
 
-## Modifications
+[/spoiler2]
 
-Third-party AHK files can be placed in the “`DSLKeyPad\Mods\`” directory as “mods” for the program. With modifications, you can significantly customize the program, for example, adding even a hundred new “Alternative Input” modes or introducing an entirely new, independent feature.
+
+
+[size=150]Modifications[/size]
+
+
+Third-party AHK files can be placed in the “[c]DSLKeyPad\Mods\[/c]” directory as “mods” for the program. With modifications, you can significantly customize the program, for example, adding even a hundred new “Alternative Input” modes or introducing an entirely new, independent feature.
+
+
+[spoiler2="Details"]
 
 To create a mod, you need to create a folder with the following basic structure:
 
-```
+[code]
 Mods/
 └── <MOD NAME>/
     ├── index.ahk
     ├── options.ini
     └── preview.(ico|jpg|png) (optional file)
-```
+[/code]
 
-The `index.ahk` file will contain the mod’s logic and you can connect other AHK files to it via `#Include` (no different from an independent AHK script).
+The [c]index.ahk[/c] file will contain the mod’s logic and you can connect other AHK files to it via [c]#Include[/c] (no different from an independent AHK script).
 
-The `options.ini` file (UTF−16 LE):
+The [c]options.ini[/c] file (UTF−16 LE):
 
-```ini
+[code=ini]
 [options]
 title=<TITLE>
 version=<VERSION>
@@ -459,21 +618,25 @@ description=<DESCRIPTION>
 title=…
 author=…
 description=…
-```
+[/code]
 
-The load type can be `pre_init` (for loading before main initialization) or `post_init` (for loading after it).
+The load type can be [c]pre_init[/c] (for loading before main initialization) or [c]post_init[/c] (for loading after it).
 
 Mods are automatically picked up. After adding a new mod, you should wait 5 seconds before restarting the program.
 
 You can toggle mods through the GUI: Tray Menu → Modifications.
 
-PS. If you need to get the path to your mod's folder — it is automatically saved in `mods["<MOD NAME>"]`.
+PS. If you need to get the path to your mod's folder — it is automatically saved in [c]mods["<MOD NAME>"][/c].
 
 PSS. Mods are not isolated scripts from each other, i.e. conflicts in variable and class names are possible.
 
-More detailed modding guide will be created in the future with development of the documentation website. You can find more complex mod example [url=https://github.com/DemerNkardaz/DSL-KeyPad-Custom-Files/tree/master/Mods/Old%20Mongolian%20Sample%20Mod]here[/url], but `index.ahk` have comments on Russian and other files has no comments.
+More detailed modding guide will be created in the future with development of the documentation website. You can find more complex mod example [url=https://github.com/DemerNkardaz/DSL-KeyPad-Custom-Files/tree/master/Mods/Old%20Mongolian%20Sample%20Mod]here[/url], but [c]index.ahk[/c] have comments on Russian and other files has no comments.
 
-## Notes
+[/spoiler2]
+
+
+
+[size=150]Notes[/size]
 
 [list]
 [*]Tool eats 140–180 MB of RAM.
