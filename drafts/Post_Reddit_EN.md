@@ -1,4 +1,4 @@
-[Forum topic with a lot of details](https://www.autohotkey.com/boards/viewtopic.php?f=83&t=138452)
+[AHK Forum topic with a lot of details](https://www.autohotkey.com/boards/viewtopic.php?f=83&t=138452)
 
 I’ve made a tool for myself to access a wide range of Unicode symbols for my text‑related hobbies, and I hope this tool will be useful for other people as well.
 
