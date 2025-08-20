@@ -144,15 +144,10 @@ I’m working on a project of my own Fantasy/Science Fiction universe, trying to
 	<a href="https://habr.com/ru/articles/932600/"><img src="https://custom-icon-badges.herokuapp.com/badge/Хабр-Статья-ecedef?logoColor=eeeeee&style=for-the-badge&logo=habr&labelColor=629ebb" alt="Forum"/></a>
 	</td></tr>
 	<tr><td align="center">
-<a href="https://github.com/DemerNkardaz/DSL-KeyPad">
-	<img src="https://img.shields.io/github/v/release/DemerNkardaz/DSL-KeyPad?include_prereleases&label=%E2%9C%AA&labelColor=ffffff&color=yellow" alt="GitHub Release">
-</a><a href="https://github.com/DemerNkardaz/DSL-KeyPad">
-	<img src="https://img.shields.io/github/release-date-pre/DemerNkardaz/DSL-KeyPad?label=%F0%9F%A1%85&labelColor=ffffff&&color=yellow" alt="GitHub Release Date">
-</a><a href="https://github.com/DemerNkardaz/DSL-KeyPad">
-	<img src="https://img.shields.io/github/downloads/DemerNkardaz/DSL-KeyPad/total?logo=github&label=%F0%9F%A1%87&labelColor=ffffff&logoColor=333333&&color=yellow" alt="GitHub Downloads">
-</a><a href="https://sourceforge.net/projects/dsl-keypad/">
-	<img src="https://img.shields.io/sourceforge/dt/dsl-keypad?logo=sourceforge&label=%F0%9F%A1%87&labelColor=ffffff&color=yellow" alt="SourceForge Downloads">
-</a>
+		<a href="https://github.com/DemerNkardaz/DSL-KeyPad"><img src="https://img.shields.io/github/v/release/DemerNkardaz/DSL-KeyPad?include_prereleases&label=%E2%9C%AA&labelColor=ffffff&color=yellow" alt="GitHub Release"></a>
+		<a href="https://github.com/DemerNkardaz/DSL-KeyPad"><img src="https://img.shields.io/github/release-date-pre/DemerNkardaz/DSL-KeyPad?label=%F0%9F%A1%85&labelColor=ffffff&&color=yellow" alt="GitHub Release Date"></a>
+		<a href="https://github.com/DemerNkardaz/DSL-KeyPad"><img src="https://img.shields.io/github/downloads/DemerNkardaz/DSL-KeyPad/total?logo=github&label=%F0%9F%A1%87&labelColor=ffffff&logoColor=333333&&color=yellow" alt="GitHub Downloads"></a>
+		<a href="https://sourceforge.net/projects/dsl-keypad/"><img src="https://img.shields.io/sourceforge/dt/dsl-keypad?logo=sourceforge&label=%F0%9F%A1%87&labelColor=ffffff&color=yellow" alt="SourceForge Downloads"></a>
 	</td></tr>
 </table>
 
