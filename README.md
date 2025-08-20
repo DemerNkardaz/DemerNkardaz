@@ -136,16 +136,19 @@ I’m working on a project of my own Fantasy/Science Fiction universe, trying to
 
 ## Мои проекты [My Projects]
 
-<a href="https://github.com/DemerNkardaz/DSL-KeyPad" align="right">
-	<img src="https://github-readme-stats.vercel.app/api/pin/?username=DemerNkardaz&repo=DSL-KeyPad&theme=vue" align="right">
-
-</a>
+<table align="right">
+	<tr><td><a href="https://github.com/DemerNkardaz/DSL-KeyPad"><img src="https://github-readme-stats.vercel.app/api/pin/?username=DemerNkardaz&repo=DSL-KeyPad&theme=vue"></a>
+	<br>
+	<a href="https://www.autohotkey.com/boards/viewtopic.php?f=83&t=138452"><img src="https://custom-icon-badges.herokuapp.com/badge/AHK-Forum-ecedef?logoColor=eeeeee&style=for-the-badge&logo=autohotkey&labelColor=79c572" alt="Forum"/></a>
+	<a href="https://habr.com/ru/articles/932600/"><img src="https://custom-icon-badges.herokuapp.com/badge/Хабр-Статья-ecedef?logoColor=eeeeee&style=for-the-badge&logo=habr&labelColor=629ebb" alt="Forum"/></a>
+	</td>
+</table>
 
 ### DSL-KeyPad <img src="https://www.autohotkey.com/favicon.ico" width="24">
 
-[![GitHub](https://img.shields.io/github/v/release/DemerNkardaz/DSL-KeyPad?include_prereleases&label=%F0%9F%8F%B7%EF%B8%8F&color=yellow)](https://github.com/DemerNkardaz/DSL-KeyPad) [![GitHub](https://img.shields.io/github/downloads/DemerNkardaz/DSL-KeyPad/total?logo=github&label=%F0%9F%A1%87&color=yellow)](https://github.com/DemerNkardaz/DSL-KeyPad) [![GitHub](https://img.shields.io/github/release-date-pre/DemerNkardaz/DSL-KeyPad?logo=github&label=%F0%9F%A1%85&color=yellow)](https://github.com/DemerNkardaz/DSL-KeyPad) [![SourceForge](https://img.shields.io/sourceforge/dm/dsl-keypad?logo=sourceforge&label=%F0%9F%A1%87&color=yellow)](https://sourceforge.net/projects/dsl-keypad/)
+[![GitHub](https://img.shields.io/github/v/release/DemerNkardaz/DSL-KeyPad?include_prereleases&label=%E2%9C%AA&labelColor=ffffff&color=yellow)](https://github.com/DemerNkardaz/DSL-KeyPad) [![GitHub](https://img.shields.io/github/release-date-pre/DemerNkardaz/DSL-KeyPad?label=%F0%9F%A1%85&labelColor=ffffff&&color=yellow)](https://github.com/DemerNkardaz/DSL-KeyPad) [![GitHub](https://img.shields.io/github/downloads/DemerNkardaz/DSL-KeyPad/total?logo=github&label=%F0%9F%A1%87&labelColor=ffffff&logoColor=333333&&color=yellow)](https://github.com/DemerNkardaz/DSL-KeyPad) [![SourceForge](https://img.shields.io/sourceforge/dt/dsl-keypad?logo=sourceforge&label=%F0%9F%A1%87&labelColor=ffffff&color=yellow)](https://sourceforge.net/projects/dsl-keypad/)
 
-Инструмент для ввода множества символов юникода, ставящий в основу поддержу многоязычного письма на латинице и кириллице. Создан как реализация собственной потребности в работе с нестандартными символами.
+Инструмент для ввода более пяти тысяч символов Юникода прямо с клавиатуры, ставящий в основу поддержу многоязычного письма на латинице и кириллице, но не ограничивается таковым. Имеются возможности кастомизации.
 
 A tool for entering a large count of unicode characters and implementing the support of multilingual writing on the Latin and Cyrillic alphabets as base feature. Created as an implementation of own needs in work with non‐standard characters.
 
@@ -158,7 +161,7 @@ A tool for entering a large count of unicode characters and implementing the sup
 
 ### Гранатомёт «Прометей» <img src="https://factorio.com/static/img/factorio-wheel.png" width="24">
 
-![](https://camo.githubusercontent.com/b487190aa67cc18ca2e8355ca925aa80be4d0a4c9017274a6f6b4ba17c0258fe/68747470733a2f2f696d672e736869656c64732e696f2f666163746f72696f2d6d6f642d706f7274616c2f762f504c4f52445f50726f6d6574686575735f4772656e6164654c61756e636865723f636f6c6f723d79656c6c6f77266c6162656c3d254532253943254141254332254130254532253830253844) ![](https://camo.githubusercontent.com/ac018edab323956479b20215fc9f6a89378c5c6b2713b68fb9a8931b428d0224/68747470733a2f2f696d672e736869656c64732e696f2f666163746f72696f2d6d6f642d706f7274616c2f64742f504c4f52445f50726f6d6574686575735f4772656e6164654c61756e636865723f636f6c6f723d79656c6c6f77266c6162656c3d254630253946254131253837254332254130254532253830253844) ![](https://camo.githubusercontent.com/5a5bb825db520723258de4e725ccd7369714bf2b38eda2bc44167273b71c56e0/68747470733a2f2f696d672e736869656c64732e696f2f666163746f72696f2d6d6f642d706f7274616c2f6c6173742d757064617465642f504c4f52445f50726f6d6574686575735f4772656e6164654c61756e636865723f636f6c6f723d79656c6c6f77266c6162656c3d254630253946254131253835254332254130254532253830253844)
+![](https://img.shields.io/factorio-mod-portal/v/PLORD_Prometheus_GrenadeLauncher?label=%E2%9C%AA%20%E2%80%8D&labelColor=white&color=yellow) ![](https://img.shields.io/factorio-mod-portal/dt/PLORD_Prometheus_GrenadeLauncher?label=%F0%9F%A1%87%20%E2%80%8D&labelColor=white&color=yellow) ![](https://img.shields.io/factorio-mod-portal/last-updated/PLORD_Prometheus_GrenadeLauncher?label=%F0%9F%A1%85%20%E2%80%8D&labelColor=white&color=yellow)
 
 Модификация для игры [Factorio](https://www.factorio.com), добавляющая в арсенал игрока 40‑мм гранатомёт с вариативностью в выборе боеприпасов: осколочные, фугасные, химические, термобарические, плазменные и так далее.
 
@@ -171,4 +174,4 @@ A tool for entering a large count of unicode characters and implementing the sup
 <img src="https://github-readme-stats.vercel.app/api/wakatime/?username=Nkardaz&layout=compact&langs_count=30&theme=vue" align="right">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DemerNkardaz&layout=compact&langs_count=30&theme=vue" align="left">
 
-[![trophy](https://data-card-for-spotify.herokuapp.com/api/card?user_id=dbwiago3y8g6nze1jjkrz8rry&limit=10)](https://data-card-for-spotify.herokuapp.com/card?user_id=dbwiago3y8g6nze1jjkrz8rry)
+[![trophy](https://data-card-for-spotify.herokuapp.com/api/card?user_id=dbwiago3y8g6nze1jjkrz8rry&limit=8)](https://data-card-for-spotify.herokuapp.com/card?user_id=dbwiago3y8g6nze1jjkrz8rry)
