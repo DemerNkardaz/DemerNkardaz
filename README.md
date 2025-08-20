@@ -156,7 +156,13 @@ A tool for entering a large count of unicode characters and implementing the sup
 		<a href="https://github.com/DemerNkardaz/DSL-KeyPad"><img src="https://img.shields.io/github/release-date-pre/DemerNkardaz/DSL-KeyPad?label=%F0%9F%A1%85&labelColor=ffffff&&color=yellow" alt="GitHub Release Date"></a>
 		<a href="https://github.com/DemerNkardaz/DSL-KeyPad"><img src="https://img.shields.io/github/downloads/DemerNkardaz/DSL-KeyPad/total?logo=github&label=%F0%9F%A1%87&labelColor=ffffff&logoColor=333333&&color=yellow" alt="GitHub Downloads"></a>
 		<a href="https://sourceforge.net/projects/dsl-keypad/"><img src="https://img.shields.io/sourceforge/dt/dsl-keypad?logo=sourceforge&label=%F0%9F%A1%87&labelColor=ffffff&color=yellow" alt="SourceForge Downloads"></a>
-	</td></tr>
+		<hr>
+		<a href="https://github.com/DemerNkardaz/DSL-KeyPad"><img src="https://img.shields.io/badge/Git-Hub-333333?logo=github&logoColor=333333&labelColor=white" alt="SourceForge License"></a>
+		<a href="https://sourceforge.net/projects/dsl-keypad/"><img src="https://img.shields.io/badge/Source-Forge-f76300?logo=sourceforge&labelColor=white" alt="SourceForge License"></a>
+		<a href="https://sourceforge.net/projects/dsl-keypad/"><img src="https://img.shields.io/badge/Git-Lab-db4128?logo=gitlab&logoColor=db4128&labelColor=white" alt="SourceForge License"></a>
+		<a href="https://codeberg.org/Yalla/DSL-KeyPad"><img src="https://img.shields.io/badge/Code-Berg-2185d0?logo=codeberg&logoColor=2185d0&labelColor=white" alt="SourceForge License"></a>
+	</td>
+</tr>
 </table>
 
 <details>
