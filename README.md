@@ -136,10 +136,17 @@ I’m working on a project of my own Fantasy/Science Fiction universe, trying to
 
 ## Мои проекты [My Projects]
 
-<table>
+<table width="100%">
 <tr><td>
-<table align="right">
-	<tr><td align="center">
+
+### [DSL KeyPad <img src="https://www.autohotkey.com/favicon.ico" width="24">](https://github.com/DemerNkardaz/DSL-KeyPad)
+
+Инструмент для ввода более пяти тысяч символов Юникода прямо с клавиатуры, ставящий в основу поддержу многоязычного письма на латинице и кириллице, но не ограничивается таковым. Имеются возможности кастомизации.
+
+A tool for entering a large count of unicode characters and implementing the support of multilingual writing on the Latin and Cyrillic alphabets as base feature. Created as an implementation of own needs in work with non‐standard characters.
+
+</td>
+	<td align="center" width="50%">
 		<a href="https://github.com/DemerNkardaz/DSL-KeyPad"><img src="https://github-readme-stats.vercel.app/api/pin/?username=DemerNkardaz&repo=DSL-KeyPad&theme=vue"></a>
 		<br>
 		<a href="https://www.autohotkey.com/boards/viewtopic.php?f=83&t=138452"><img src="https://custom-icon-badges.herokuapp.com/badge/AHK-Forum-ecedef?logoColor=eeeeee&style=for-the-badge&logo=autohotkey&labelColor=79c572" alt="Forum"/></a>
@@ -150,15 +157,6 @@ I’m working on a project of my own Fantasy/Science Fiction universe, trying to
 		<a href="https://github.com/DemerNkardaz/DSL-KeyPad"><img src="https://img.shields.io/github/downloads/DemerNkardaz/DSL-KeyPad/total?logo=github&label=%F0%9F%A1%87&labelColor=ffffff&logoColor=333333&&color=yellow" alt="GitHub Downloads"></a>
 		<a href="https://sourceforge.net/projects/dsl-keypad/"><img src="https://img.shields.io/sourceforge/dt/dsl-keypad?logo=sourceforge&label=%F0%9F%A1%87&labelColor=ffffff&color=yellow" alt="SourceForge Downloads"></a>
 	</td></tr>
-</table>
-
-### [DSL KeyPad <img src="https://www.autohotkey.com/favicon.ico" width="24">](https://github.com/DemerNkardaz/DSL-KeyPad)
-
-Инструмент для ввода более пяти тысяч символов Юникода прямо с клавиатуры, ставящий в основу поддержу многоязычного письма на латинице и кириллице, но не ограничивается таковым. Имеются возможности кастомизации.
-
-A tool for entering a large count of unicode characters and implementing the support of multilingual writing on the Latin and Cyrillic alphabets as base feature. Created as an implementation of own needs in work with non‐standard characters.
-
-</td></tr>
 </table>
 
 <details>
