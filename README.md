@@ -137,7 +137,8 @@ I’m working on a project of my own Fantasy/Science Fiction universe, trying to
 ## Мои проекты [My Projects]
 
 <table width="100%">
-<tr><td>
+<tr>
+<td valign="top">
 
 ### [DSL KeyPad <img src="https://www.autohotkey.com/favicon.ico" width="24">](https://github.com/DemerNkardaz/DSL-KeyPad)
 
