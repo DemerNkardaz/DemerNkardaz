@@ -219,7 +219,7 @@ A tool for entering more than five thousand Unicode characters directly from the
 		<hr>
 		<a href="https://github.com/DemerNkardaz/DSL-KeyPad"><img src="https://img.shields.io/badge/Git-Hub-333333?logo=github&logoColor=333333&labelColor=white" alt="SourceForge License"></a>
 		<a href="https://sourceforge.net/projects/dsl-keypad/"><img src="https://img.shields.io/badge/Source-Forge-f76300?logo=sourceforge&labelColor=white" alt="SourceForge License"></a>
-		<a href="https://sourceforge.net/projects/dsl-keypad/"><img src="https://img.shields.io/badge/Git-Lab-db4128?logo=gitlab&logoColor=db4128&labelColor=white" alt="SourceForge License"></a>
+		<a href="https://gitlab.com/DemerNkardaz/dsl-keypad"><img src="https://img.shields.io/badge/Git-Lab-db4128?logo=gitlab&logoColor=db4128&labelColor=white" alt="SourceForge License"></a>
 		<a href="https://codeberg.org/Yalla/DSL-KeyPad"><img src="https://img.shields.io/badge/Code-Berg-2185d0?logo=codeberg&logoColor=2185d0&labelColor=white" alt="SourceForge License"></a>
 	</td>
 </tr>
