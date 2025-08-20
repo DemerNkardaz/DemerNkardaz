@@ -136,6 +136,8 @@ I’m working on a project of my own Fantasy/Science Fiction universe, trying to
 
 ## Мои проекты [My Projects]
 
+<table>
+<tr><td>
 <table align="right">
 	<tr><td align="center">
 		<a href="https://github.com/DemerNkardaz/DSL-KeyPad"><img src="https://github-readme-stats.vercel.app/api/pin/?username=DemerNkardaz&repo=DSL-KeyPad&theme=vue"></a>
@@ -150,11 +152,14 @@ I’m working on a project of my own Fantasy/Science Fiction universe, trying to
 	</td></tr>
 </table>
 
-### DSL-KeyPad <img src="https://www.autohotkey.com/favicon.ico" width="24">
+### [DSL KeyPad <img src="https://www.autohotkey.com/favicon.ico" width="24">](https://github.com/DemerNkardaz/DSL-KeyPad)
 
 Инструмент для ввода более пяти тысяч символов Юникода прямо с клавиатуры, ставящий в основу поддержу многоязычного письма на латинице и кириллице, но не ограничивается таковым. Имеются возможности кастомизации.
 
 A tool for entering a large count of unicode characters and implementing the support of multilingual writing on the Latin and Cyrillic alphabets as base feature. Created as an implementation of own needs in work with non‐standard characters.
+
+</td></tr>
+</table>
 
 <details>
 	<summary>Игровые модификации [Games Mods]</summary>
