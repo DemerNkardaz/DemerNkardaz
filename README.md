@@ -142,12 +142,71 @@ I’m working on a project of my own Fantasy/Science Fiction universe, trying to
 
 ### [DSL KeyPad <img src="https://www.autohotkey.com/favicon.ico" width="24">](https://github.com/DemerNkardaz/DSL-KeyPad)
 
-Инструмент для ввода более пяти тысяч символов Юникода прямо с клавиатуры, ставящий в основу поддержу многоязычного письма на латинице и кириллице, но не ограничивается таковым. Имеются возможности кастомизации.
+Инструмент для ввода более пяти тысяч символов Юникода прямо с клавиатуры, ставящий в основу поддержу многоязычного письма на латинице и кириллице, но не ограничивается таковым. Имеются возможности кастомизации.
 
-A tool for entering a large count of unicode characters and implementing the support of multilingual writing on the Latin and Cyrillic alphabets as base feature. Created as an implementation of own needs in work with non‐standard characters.
+<details>
+	<summary>Базовые возможности</summary>
 
+- Более восьмисот комбинаций для ввода символов кириллицы, латиницы, математических, пунктуационных, типографских и прочих символов.<br>Например:
+
+  - <kbd>LAlt A</kbd> → `Á`
+  - <kbd>RAlt A</kbd> → `Ă`
+  - <kbd>RAlt RShift T</kbd> → `Þ`
+  - <kbd>LAlt 1</kbd> → `§`
+  - <kbd>RAlt LAlt Ы</kbd> → `Ꙟ`.
+
+- Режим «Композиции», позволяющий получать символ(ы) из последовательности других символов.
+
+  - <kbd>RAlt×2</kbd>, <kbd>AE</kbd> → `Æ`
+  - <kbd>RAlt×2</kbd>, <kbd>OE</kbd> → `Œ`
+  - <kbd>RAlt×2</kbd>, <kbd>int</kbd> → `∫`
+  - <kbd>RAlt×2</kbd>, <kbd>ankh</kbd> → `☥`
+
+- Альтернативные режимы для ввода символов различных форм письменности, включая:
+
+  - [Международный фонетический алфавит](https://ru.wikipedia.org/wiki/Международный_фонетический_алфавит)
+  - [Германские руны](https://ru.wikipedia.org/wiki/Руны)
+  - [Глаголицу](https://ru.wikipedia.org/wiki/Глаголица)
+  - [Древнетюркское письмо](https://ru.wikipedia.org/wiki/Древнетюркское_письмо)
+  - [Древнепермское письмо](https://ru.wikipedia.org/wiki/Древнепермское_письмо)
+
+- Вариации глифов — режимы для ввода альтернативных форм символов, например: `A`— `𝑨𝙰Ａᴬᴀ𝔄𝒜Ⓐ🄐`.
+
+</details>
+
+A tool for entering more than five thousand Unicode characters directly from the keyboard, focused on supporting multilingual writing in Latin and Cyrillic scripts, but not limited to them. Customization capabilities are available.
+
+<details>
+	<summary>Basic Features</summary>
+
+- More than eight hundred key combinations for entering Cyrillic, Latin, mathematical, punctuation, typographic, and other symbols.<br>For example:
+
+  - <kbd>LAlt A</kbd> → `Á`
+  - <kbd>RAlt A</kbd> → `Ă`
+  - <kbd>RAlt RShift T</kbd> → `Þ`
+  - <kbd>LAlt 1</kbd> → `§`
+  - <kbd>RAlt LAlt Ы</kbd> → `Ꙟ`.
+
+- "Compose" mode, allowing you to obtain character(s) from a sequence of other characters.
+
+  - <kbd>RAlt×2</kbd>, <kbd>AE</kbd> → `Æ`
+  - <kbd>RAlt×2</kbd>, <kbd>OE</kbd> → `Œ`
+  - <kbd>RAlt×2</kbd>, <kbd>int</kbd> → `∫`
+  - <kbd>RAlt×2</kbd>, <kbd>ankh</kbd> → `☥`
+
+- Alternative modes for entering characters from various writing systems, including:
+
+  - [International Phonetic Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet)
+  - [Germanic Runes](https://en.wikipedia.org/wiki/Runes)
+  - [Glagolitic](https://en.wikipedia.org/wiki/Glagolitic_script)
+  - [Old Turkic script](https://en.wikipedia.org/wiki/Old_Turkic_script)
+  - [Old Permic script](https://en.wikipedia.org/wiki/Old_Permic_script)
+
+- Glyph variations — modes for entering alternative forms of characters, for example: `A`— `𝑨𝙰Ａᴬᴀ𝔄𝒜Ⓐ🄐`.
+
+</details>
 </td>
-	<td align="center" width="50%">
+	<td align="center" width="50%"  valign="top">
 		<a href="https://github.com/DemerNkardaz/DSL-KeyPad"><img src="https://github-readme-stats.vercel.app/api/pin/?username=DemerNkardaz&repo=DSL-KeyPad&theme=vue"></a>
 		<br>
 		<a href="https://www.autohotkey.com/boards/viewtopic.php?f=83&t=138452"><img src="https://custom-icon-badges.herokuapp.com/badge/AHK-Forum-ecedef?logoColor=eeeeee&style=for-the-badge&logo=autohotkey&labelColor=79c572" alt="Forum"/></a>
@@ -169,17 +228,27 @@ A tool for entering a large count of unicode characters and implementing the sup
 <details>
 	<summary>Игровые модификации [Games Mods]</summary>
 	<hr>
-<a href="https://github.com/DemerNkardaz/Prometheus_Grenade_Launcher" align="right">
-	<img src="https://github-readme-stats.vercel.app/api/pin/?username=DemerNkardaz&repo=Prometheus_Grenade_Launcher&theme=vue" align="right">
-</a>
 
-### Гранатомёт «Прометей» <img src="https://factorio.com/static/img/factorio-wheel.png" width="24">
+<table width="100%">
+<tr>
+<td valign="top">
 
-![](https://img.shields.io/factorio-mod-portal/v/PLORD_Prometheus_GrenadeLauncher?label=%E2%9C%AA%20%E2%80%8D&labelColor=white&color=yellow) ![](https://img.shields.io/factorio-mod-portal/dt/PLORD_Prometheus_GrenadeLauncher?label=%F0%9F%A1%87%20%E2%80%8D&labelColor=white&color=yellow) ![](https://img.shields.io/factorio-mod-portal/last-updated/PLORD_Prometheus_GrenadeLauncher?label=%F0%9F%A1%85%20%E2%80%8D&labelColor=white&color=yellow)
+### [Гранатомёт «Прометей» <img src="https://factorio.com/static/img/factorio-wheel.png" width="24">](https://github.com/DemerNkardaz/Prometheus_Grenade_Launcher)
 
 Модификация для игры [Factorio](https://www.factorio.com), добавляющая в арсенал игрока 40‑мм гранатомёт с вариативностью в выборе боеприпасов: осколочные, фугасные, химические, термобарические, плазменные и так далее.
 
 [Factorio](https://www.factorio.com) modification that adds a 40‑mm grenade launcher to the player’s armory with a variety of ammunition selection: fragmentation, high‑explosive, chemical, thermobaric, plasma and so on.
+
+</td>
+<td valign="top" align="center"  width="50%">
+	<a href="https://github.com/DemerNkardaz/Prometheus_Grenade_Launcher"><img src="https://github-readme-stats.vercel.app/api/pin/?username=DemerNkardaz&repo=Prometheus_Grenade_Launcher&theme=vue"></a>
+	<br>
+	<img src="https://img.shields.io/factorio-mod-portal/v/PLORD_Prometheus_GrenadeLauncher?label=%E2%9C%AA%20%E2%80%8D&labelColor=white&color=yellow" alt="Factorio Mod Version">
+	<img src="https://img.shields.io/factorio-mod-portal/dt/PLORD_Prometheus_GrenadeLauncher?label=%F0%9F%A1%87%20%E2%80%8D&labelColor=white&color=yellow" alt="Factorio Mod Downloads">
+	<img src="https://img.shields.io/factorio-mod-portal/last-updated/PLORD_Prometheus_GrenadeLauncher?label=%F0%9F%A1%85%20%E2%80%8D&labelColor=white&color=yellow" alt="Factorio Mod Last Updated">
+</td>
+</tr>
+</table>
 
 </details>
 
