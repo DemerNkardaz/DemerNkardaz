@@ -233,7 +233,7 @@ A tool for entering more than five thousand Unicode characters directly from the
 <tr>
 <td valign="top">
 
-### [Гранатомёт «Прометей» <img src="https://factorio.com/static/img/factorio-wheel.png" width="24">](https://github.com/DemerNkardaz/Prometheus_Grenade_Launcher)
+### [Гранатомёт «Прометей» <img src="https://factorio.com/static/img/factorio-wheel.png" width="24">](https://mods.factorio.com/mod/PLORD_Prometheus_GrenadeLauncher)
 
 Модификация для игры [Factorio](https://www.factorio.com), добавляющая в арсенал игрока 40‑мм гранатомёт с вариативностью в выборе боеприпасов: осколочные, фугасные, химические, термобарические, плазменные и так далее.
 
