@@ -138,12 +138,11 @@ I’m working on a project of my own Fantasy/Science Fiction universe, trying to
 
 <table align="right">
 	<tr><td align="center">
-	<a href="https://github.com/DemerNkardaz/DSL-KeyPad"><img src="https://github-readme-stats.vercel.app/api/pin/?username=DemerNkardaz&repo=DSL-KeyPad&theme=vue"></a>
-	<br>
-	<a href="https://www.autohotkey.com/boards/viewtopic.php?f=83&t=138452"><img src="https://custom-icon-badges.herokuapp.com/badge/AHK-Forum-ecedef?logoColor=eeeeee&style=for-the-badge&logo=autohotkey&labelColor=79c572" alt="Forum"/></a>
-	<a href="https://habr.com/ru/articles/932600/"><img src="https://custom-icon-badges.herokuapp.com/badge/Хабр-Статья-ecedef?logoColor=eeeeee&style=for-the-badge&logo=habr&labelColor=629ebb" alt="Forum"/></a>
-	</td></tr>
-	<tr><td align="center">
+		<a href="https://github.com/DemerNkardaz/DSL-KeyPad"><img src="https://github-readme-stats.vercel.app/api/pin/?username=DemerNkardaz&repo=DSL-KeyPad&theme=vue"></a>
+		<br>
+		<a href="https://www.autohotkey.com/boards/viewtopic.php?f=83&t=138452"><img src="https://custom-icon-badges.herokuapp.com/badge/AHK-Forum-ecedef?logoColor=eeeeee&style=for-the-badge&logo=autohotkey&labelColor=79c572" alt="Forum"/></a>
+		<a href="https://habr.com/ru/articles/932600/"><img src="https://custom-icon-badges.herokuapp.com/badge/Хабр-Статья-ecedef?logoColor=eeeeee&style=for-the-badge&logo=habr&labelColor=629ebb" alt="Forum"/></a>
+		<hr>
 		<a href="https://github.com/DemerNkardaz/DSL-KeyPad"><img src="https://img.shields.io/github/v/release/DemerNkardaz/DSL-KeyPad?include_prereleases&label=%E2%9C%AA&labelColor=ffffff&color=yellow" alt="GitHub Release"></a>
 		<a href="https://github.com/DemerNkardaz/DSL-KeyPad"><img src="https://img.shields.io/github/release-date-pre/DemerNkardaz/DSL-KeyPad?label=%F0%9F%A1%85&labelColor=ffffff&&color=yellow" alt="GitHub Release Date"></a>
 		<a href="https://github.com/DemerNkardaz/DSL-KeyPad"><img src="https://img.shields.io/github/downloads/DemerNkardaz/DSL-KeyPad/total?logo=github&label=%F0%9F%A1%87&labelColor=ffffff&logoColor=333333&&color=yellow" alt="GitHub Downloads"></a>
