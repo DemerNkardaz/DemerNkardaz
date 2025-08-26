@@ -473,7 +473,7 @@ Has the same selector as “Alternative Input”, but instead of a set of bindin
 
 If the specified variant is missing from the symbol entry — the “normal” symbol will be sent.
 
-In the main panel under the symbol preview, the first eight of the available variants will be displayed, and to the right of the preview a button will be activated that opens a GUI for viewing all variants (which can also be opened via tray menu → Glyph variations → Glyph variations Panel):
+In the main panel under the symbol preview, the first eight of the available variants will be displayed, and to the right of the preview a button will be activated that opens a GUI for viewing all variants (which can also be opened via tray menu → Glyph variations → Glyph variations Panel).
 
 [hr]
 
@@ -851,3 +851,173 @@ Simply opens the page of the selected symbol on the Unicode resource chosen in s
 [*]Limited to English and Russian keyboard layouts (for example when you switches to Japanese, then all bindings will be automatically disabled and restored when you switch back to En/Ru). Can work with Greek layout, but “Hellenic” alternative mode will be automatically enabled.
 [*]I have plans to create documentation website with more details about tool & modding.
 [/list]
+
+[color=#40BF00][size=150]Credits[/size][/color]
+
+[list]
+[*][color=#FF40BF]@geek[/color] — [url=https://github.com/G33kDude/cJson.ahk]cJSON[/url]
+[*][color=#FF40BF]@william_ahk[/color] — [url=https://www.autohotkey.com/boards/viewtopic.php?p=554647&sid=83cf90bcab788e19e2aacfaa0e9e57e3#p554647]URL Encode/Decode[/url]
+[/list]
+
+[hr]
+
+[color=#40BF00][size=150]Updates[/size][/color]
+
+[spoiler2="0.1.3.2 α"]
+
+[i]First usable release[/i]
+
+[size=125]URL: [url=https://github.com/DemerNkardaz/DSL-KeyPad/releases/tag/0.1.3.2]GitHub Release[/url] | [url=https://sourceforge.net/projects/dsl-keypad/files/0.1.3.2/]SourceForge Release[/url][/size]
+
+
+[list]
+[*][b]Main features:[/b]
+	[list]
+	[*]Support for inputting over 4,700 Unicode symbols.
+	[*]Multi-layer keyboard bindings for symbol input.
+		[list]
+		[*]Support for custom bindings.
+		[/list]
+	[*]“Composition” mode for converting character sequences into other characters.
+		[list]
+		[*]Support for custom sequences.
+		[/list]
+	[*]“Alternative input” — additional binding sets for various writing systems.
+	[*]“Glyph variations” — a set of modes for inputting symbol variants (A — 𝐴𝙰𝕬…).
+	[*]TELEX/VNI-like input processor for Vietnamese (with Jarai symbols) and for Pinyin.
+	[*]Search and insert system for symbols by their tags.
+	[*]Internal keyboard layouts with support for custom layouts.
+	[*]Support for modifications.
+	[*]etc…
+	[/list]
+[/list]
+
+[/spoiler2]
+
+[spoiler2="0.1.4.3 α"]
+
+[size=125]URL: [url=https://github.com/DemerNkardaz/DSL-KeyPad/releases/tag/0.1.4.3]GitHub Release[/url] | [url=https://sourceforge.net/projects/dsl-keypad/files/0.1.4.3/]SourceForge Release[/url][/size]
+
+
+[list]
+[*][b]Additions:[/b]
+	[list]
+	[*]Library extended to 4,900+ Unicode characters.
+	[*]Added missed Cyrillic characters:
+		[list]
+		[*][ Ӫ ӫ ] [ Ӿ ӿ Ѝ ѝ Ӳ ӳ ᲅ ᲆ ᲄ ᲀ ᲂ ᲃ ᲁ ҂ ]
+		[/list]
+	[*]Added missed Latin characters:
+		[list]
+		[*][ ᶴ ] [ Ꜩ ꜩ ] [ ꝱ ꝲ ꝳ ꝴ ꝶ ꝵ ꝷ ꝸ ] [ Ꝫ ꝫ Ꝭ ꝭ Ꝯ ꝯ ꝰ ] [ Ꝇ ꝇ ]
+		[/list]
+	[*]Added missed miscellaneous characters:
+		[list]
+		[*][ ₠ ]
+		[/list]
+	[*]Added support for new Latin layouts:
+		[list]
+		[*][url=https://workmanlayout.org]Workman[/url]
+		[*][url=https://github.com/kaievns/halmak]Halmak[/url]
+		[*][url=https://normanlayout.info]Norman[/url]
+		[*][url=https://en.wikipedia.org/wiki/AZERTY]AZERTY[/url] default/local variants
+		[*][url=https://github.com/Apsu/Canary]Canary[/url]
+		[*][url=https://millikeys.sourceforge.net/asset/]Asset[/url]
+		[*][url=https://en.wikipedia.org/wiki/Phonetic_keyboard_layout#/media/File:UKNCkeyboard.png]JCUKEN[/url]
+		[*][url=github.com/rdavison/graphite-layout]Graphite[/url]
+		[*][url=https://github.com/GalileoBlues/Gallium]Gallium[/url]
+		[*][url=https://github.com/GalileoBlues/Gallium?tab=readme-ov-file#changes]Nerps[/url]
+		[*][url=https://oxey.dev/sturdy/index.html]Sturdy[/url]
+		[*][url=https://oxey.dev/stronk/index.html]Stronk[/url]
+		[*][url=https://oxey.dev/dhorf/index.html]Dhorf[/url]
+		[*]PanQWERTY (Custom QWERTY variant with ÞꝤǷꝨ͏ẞƏƷƔ instead of []{};',.)
+		[*][url=https://github.com/qwickly-org/Qwickly]Qwickly[/url]
+		[/list]
+	[*]Added support for new Cyrillic layouts:
+		[list]
+		[*]ЯШЕРТЫ
+		[/list]
+	[*]Added new Latin bindings:
+		[list]
+		[*][c]RAlt LAlt LShift RShift N[/c] → “Ɲɲ”
+		[/list]
+	[*]Added new Alternative modes:
+		[list]
+		[*][url=https://en.wikipedia.org/wiki/Caucasian_Albanian_script]Aghwan (Caucasian Albanian)[/url]
+		[*][url=https://en.wikipedia.org/wiki/Inscriptional_Parthian]Inscriptional Parthian[/url]
+		[*][url=https://en.wikipedia.org/wiki/Palmyrene_alphabet]Palmyrene[/url]
+		[/list]
+	[/list]
+
+[*][b]Changes:[/b]
+	[list]
+	[*]Tray menu: Added display of bindings for few commands.
+	[*]Symbols 『』 moved to [c]RAlt LAlt LShift CapsLock On [][/c] bind.
+	[*]Binding [c]RAlt RShift N[/c]: characters “Ɲɲ” replaced with “Ŋŋ”.
+	[*]Submenu “Layouts” in tray now has columns for Latin, Cyrillic and Hellenic characters.
+	[*]Variant selection for locale now moved directly to Locale.Read() method.
+	[*]Recipe “et” of symbol “&” changed to “amp” to release “et” for symbol “Ꝫ” (Latin letter Et).
+	[*]IPA and Math Alternative modes moved to the top of selector for faster access.
+	[/list]
+
+[*][b]Fixes:[/b]
+	[list]
+	[*]Disabled update check error message during background update checking.
+	[*]Fixed minor localization mistakes.
+	[*]Fixed mistake in recipes for “ꭂ” and “ꭁ” symbols.
+	[*]Fixed incorrect url to change log.
+	[*]Removed erroneous tabulation in the ‱ symbol’s LaTeX command.
+	[*]Fixed missing Shift remapping of letter-keys for keyboard layouts.
+	[*]Fixed mistake in “Ɏ”, “Ꞑ” bindings.
+	[*]Fixed displaying numerals of some scripts in the “Scripts” tab list.
+	[/list]
+[/list]
+
+[/spoiler2]
+
+
+[spoiler2="0.1.5.3 α"]
+
+[i]Upcoming update[/i]
+
+[list]
+[*][b]Additions:[/b]
+	[list]
+	[*]Library extended to 5,400+ Unicode characters.
+	[*]Added support for new Cyrillic layouts:
+		[list]
+		[*]Kharlamak
+		[*]Rulemak (2018)
+		[/list]
+	[*]Added new Alternative modes:
+		[list]
+		[*]Imperial Aramaic
+		[/list]
+	[*]Added new Glyphs variations:
+		[list]
+		[*]Regional Indicator
+		[*]Circled
+		[*]Double Circled
+		[*]Negative Circled
+		[*]Parenthesized
+		[*]Squared
+		[*]Negative Squared
+		[*]with Dot
+		[*]with Comma
+		[*]Tags
+		[/list]
+	[*]Added new options:
+		[list]
+		[*]“Scripter” selector: max items per page/max columns/threshold for max columns now can be customized via settings window.
+		[/list]
+	[*]Added function for conversion between symbols and tag-symbols.
+	[*]Added information about converters to the “Help” tab.
+	[/list]
+[*][b]Changes:[/b]
+	[list]
+	[*]Noto Sans Symbols now secondary required font.
+	[*]Suggestion to download missing required fonts now opens the corresponding Google Fonts page instead of downloading the TTF file from GitHub.
+	[/list]
+[/list]
+
+[/spoiler2]
