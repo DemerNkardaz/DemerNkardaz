@@ -979,33 +979,54 @@ Simply opens the page of the selected symbol on the Unicode resource chosen in s
 
 [spoiler2="0.1.5.3 α"]
 
-[i]Upcoming update[/i]
+[size=125]URL: [url=https://github.com/DemerNkardaz/DSL-KeyPad/releases/tag/0.1.5.3]GitHub Release[/url] | [url=https://sourceforge.net/projects/dsl-keypad/files/0.1.5.3/]SourceForge Release[/url][/size]
+
 
 [list]
 [*][b]Additions:[/b]
 	[list]
-	[*]Library extended to 5,400+ Unicode characters.
+	[*]Library extended to 5,500+ Unicode characters.
+	[*]Added missed Latin characters:
+		[list]
+		[*][ ȷ ɟ ʄ ᶡ 𐞘 ]
+		[/list]
+	[*]Added missed miscellaneous characters:
+		[list]
+		[*][ ⸸ ⸶ ⸷ ] [ ⹀ ⹝ ⸗ ] [ ⅏ ]
+		[/list]
+	[*]Added support for new Latin layouts:
+		[list]
+		[*][url=https://layouts.wiki/layouts/2022/blaze]Blaze[/url]
+		[*][url=https://github.com/Apsu/Canary]Canary (Ortho variant)[/url]
+		[*][url=https://sunaku.github.io/engrammer-keyboard-layout.html]Engrammer[/url]
+		[*][url=https://github.com/Keyhabit/Focal-keyboard-layout]Focal[/url]
+		[*][url=https://layouts.wiki/layouts/2021/pine]Pine v4[/url]
+		[*][url=https://layouts.wiki/layouts/2024/rain]Rain[/url]
+		[*][url=https://github.com/GalileoBlues/Recurva]Recurva[/url]
+		[/list]
 	[*]Added support for new Cyrillic layouts:
 		[list]
-		[*]Kharlamak
-		[*]Rulemak (2018)
+		[*][url=https://www.reddit.com/r/KeyboardLayouts/comments/1ceb01h/comment/l1hrzls]Kharlamak[/url]
+		[*][url=https://forum.colemak.com/topic/519-rulemak-russian-colemak-layout]Rulemak (2018)[/url]
 		[/list]
 	[*]Added new Alternative modes:
 		[list]
-		[*]Imperial Aramaic
+		[*][url=https://en.wikipedia.org/wiki/Aramaic_alphabet]Imperial Aramaic[/url]
+		[*][url=https://en.wikipedia.org/wiki/Manichaean_script]Manichaean[/url]
+		[*][url=https://en.wikipedia.org/wiki/Samaritan_script]Samaritan[/url]
 		[/list]
 	[*]Added new Glyphs variations:
 		[list]
-		[*]Regional Indicator
-		[*]Circled
-		[*]Double Circled
-		[*]Negative Circled
-		[*]Parenthesized
-		[*]Squared
-		[*]Negative Squared
-		[*]with Dot
-		[*]with Comma
-		[*]Tags
+		[*]Regional Indicator (🇻🇦🇬🇧🇯🇵🇰🇷🇦🇱🇲🇩)
+		[*]Circled (ⒶⒷⒸⒹⒺⒻ)
+		[*]Double Circled (⓵⓶⓷⓸)
+		[*]Negative Circled (🅐🅑🅒🅓🅔🅕)
+		[*]Parenthesized (🄐🄑🄒🄓🄔🄕)
+		[*]Squared (🄰🄱🄲🄳🄴🄵)
+		[*]Negative Squared (🅰🅱🅲🅳🅴🅵)
+		[*]with Dot (⒈⒉⒊⒋)
+		[*]with Comma (🄂🄃🄄🄅)
+		[*]Tags (🏴󠁧󠁢󠁷󠁬󠁳󠁿🏴󠁧󠁢󠁥󠁮󠁧󠁿🏴󠁧󠁢󠁳󠁣󠁴󠁿)
 		[/list]
 	[*]Added new options:
 		[list]
@@ -1013,11 +1034,25 @@ Simply opens the page of the selected symbol on the Unicode resource chosen in s
 		[/list]
 	[*]Added function for conversion between symbols and tag-symbols.
 	[*]Added information about converters to the “Help” tab.
+	[*]Added more “mirror” Shift combinations and their description in the “Help” tab.
+	[*]“Help” info for roman numerals mode extended.
+	[*]Added “[url=https://www.autohotkey.com/boards/viewtopic.php?f=83&t=113308]ToolTipOptions[/url]” external library, allowing changing the appearance of tooltips.
+	[*]Added options for “Compose” customization.
 	[/list]
+
 [*][b]Changes:[/b]
 	[list]
-	[*]Noto Sans Symbols now secondary required font.
+	[*]Noto Sans and Noto Sans Symbols now required fonts.
 	[*]Suggestion to download missing required fonts now opens the corresponding Google Fonts page instead of downloading the TTF file from GitHub.
+	[*]Format for referencing variables/function calls inside strings for the parser changed from %…% to <% … %/>.
+	[*]Tooltips (including the “Composition” mode) now use the Noto Sans font.
+	[*]Wallet, Miscellaneous, Alchemical, Astrololigical symbol sets reordered.
+	[/list]
+
+[*][b]Fixes:[/b]
+	[list]
+	[*]Fixed “Compositing” mode crash with “?” recipes.
+	[*]Fixed a mistake where the small letter [ ꚋ ] was actually capital [ Ꚋ ].
 	[/list]
 [/list]
 
