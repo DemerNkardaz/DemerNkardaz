@@ -1,12 +1,9 @@
-DSL KeyPad: A tool for typing more than 4,700 Unicode characters directly from the keyboard
-//
-
 [img]https://img.shields.io/github/v/tag/DemerNkardaz/DSL-KeyPad?style=for-the-badge&logo=github&label=latest%40version&color=eeeeee
 [/img] [img]https://img.shields.io/github/downloads/DemerNkardaz/DSL-KeyPad/total?style=for-the-badge&logo=github&color=eeeeee[/img] [img]https://img.shields.io/sourceforge/dt/dsl-keypad?style=for-the-badge&logo=sourceforge&color=f76300[/img]
 
 [hr]
 
-[img]https://i.imgur.com/9Rh7bQz.png[/img]
+[img]https://i.imgur.com/v9w7ZW6.png[/img]
 
 [url=https://github.com/DemerNkardaz/DSL-KeyPad][img]https://custom-icon-badges.herokuapp.com/badge/GitHub-[Main]-eeeeee?logoColor=eeeeee&style=for-the-badge&logo=github&labelColor=363B40[/img][/url] [url=https://sourceforge.net/projects/dsl-keypad][img]https://custom-icon-badges.herokuapp.com/badge/Source-Forge-f76300?logoColor=f76300&style=for-the-badge&logo=sourceforge&labelColor=363B40[/img][/url]
 
@@ -427,7 +424,7 @@ With “[c]\/[/c]” you can specify multiple entries by their full or partial n
 
 [spoiler2="Details"]
 
-[img]https://i.imgur.com/dqDd08b.png[/img]
+[img]https://i.imgur.com/6BCGu8d.png[/img]
 
 Essentially — just sets of activated bindings for a whole list of writing systems/alphabets, mainly different from Latin and Cyrillic.
 
@@ -467,7 +464,7 @@ I don’t guarantee full coverage for each mode, but upon discovering new or mis
 
 [spoiler2="Details"]
 
-[img]https://i.imgur.com/2KPrtis.png[/img]
+[img]https://i.imgur.com/9XYsBY5.png[/img]
 
 Has the same selector as “Alternative Input”, but instead of a set of bindings, it tells the program which variant of the symbol to use. Library entries have an attribute that specifies variants — bold, italic, small caps, etc. Such symbols are not represented as separate entries, being just a property. This makes “Glyph Variations” easily compatible with features that rely on creating bindings.
 
@@ -585,7 +582,9 @@ The program uses binding to key scan codes, which is why changing the system lay
 
 [spoiler2="Details"]
 
-For Latin, the following layouts are available: QWERTY, Colemak, Dvorak. For Cyrillic: ЙЦУКЕН, ЙІУКЕН (1907), Диктор. Layouts may differ from their originals.
+Following layouts are available:
+
+[img]https://i.imgur.com/Rse292v.png[/img]
 
 If the program doesn’t have a suitable layout — you can create one yourself through [c]<FILE>.JSON (UTF-8)[/c] markup in “[c]DSLKeyPad\User\profile-<PROFILE>\CustomLayouts\[/c]” with the following structure:
 
@@ -728,34 +727,21 @@ Third-party AHK files can be placed in the “[c]DSLKeyPad\Mods\[/c]” director
 
 [spoiler2="Details"]
 
-To create a mod, you need to create a folder with the following basic structure:
+To create a mod, you need to use “Create” button in the Mods window. You will get base mod template like:
 
 [code]
 Mods/
 └── <MOD NAME>/
+    ├── Data/
+    ├── Lib/
+    ├── Locale/
+    ├── Resources/
     ├── index.ahk
-    ├── options.ini
-    └── preview.(ico|jpg|png) (optional file)
+    ├── manifest.json
+    └── preview.(ico|jpg|png) (optional file, you must add it manually)
 [/code]
 
 The [c]index.ahk[/c] file will contain the mod’s logic and you can connect other AHK files to it via [c]#Include[/c] (no different from an independent AHK script).
-
-The [c]options.ini[/c] file (UTF−16 LE):
-
-[code=ini]
-[options]
-title=<TITLE>
-version=<VERSION>
-type=<LOAD TYPE>
-author=<AUTHOR> ; (optionally add @<LINK>)
-url=<MOD PAGE LINK>
-description=<DESCRIPTION>
-; Localized variants
-[ru-RU] ; (or other language code)
-title=…
-author=…
-description=…
-[/code]
 
 The load type can be [c]pre_init[/c] (for loading before main initialization) or [c]post_init[/c] (for loading after it).
 
@@ -763,11 +749,11 @@ Mods are automatically picked up. After adding a new mod, you should wait 5 seco
 
 You can toggle mods through the GUI: Tray Menu → Modifications.
 
-PS. If you need to get the path to your mod's folder — it is automatically saved in [c]mods["<MOD NAME>"][/c].
+PS. If you need to get the path to your mod’s folder — it is automatically saved in [c]this.tools.origin[/c] (in brackets area of you mod’s class).
 
 PSS. Mods are not isolated scripts from each other, i.e. conflicts in variable and class names are possible.
 
-More detailed modding guide will be created in the future with development of the documentation website. You can find more complex mod example [url=https://github.com/DemerNkardaz/DSL-KeyPad-Custom-Files/tree/master/Mods/Old%20Mongolian%20Sample%20Mod]here[/url], but [c]index.ahk[/c] have comments on Russian and other files has no comments.
+More detailed modding guide will be created in the future with development of the documentation website. You can find more complex mod example [url=https://github.com/DemerNkardaz/DSL-KeyPad-Custom-Files/tree/master/Mods/Old_Mongolian_Example]here[/url].
 
 [hr]
 
@@ -861,10 +847,9 @@ Simply opens the page of the selected symbol on the Unicode resource chosen in s
 [/list]
 
 [hr]
-
 [color=#40BF00][size=150]Updates[/size][/color]
 
-[spoiler2="0.1.3.2 α"]
+[spoiler2="0.1.3.2 α — 2025-07-25"]
 
 [i]First usable release[/i]
 
@@ -895,7 +880,7 @@ Simply opens the page of the selected symbol on the Unicode resource chosen in s
 
 [/spoiler2]
 
-[spoiler2="0.1.4.3 α"]
+[spoiler2="0.1.4.3 α — 2025-08-15"]
 
 [size=125]URL: [url=https://github.com/DemerNkardaz/DSL-KeyPad/releases/tag/0.1.4.3]GitHub Release[/url] | [url=https://sourceforge.net/projects/dsl-keypad/files/0.1.4.3/]SourceForge Release[/url][/size]
 
@@ -977,7 +962,7 @@ Simply opens the page of the selected symbol on the Unicode resource chosen in s
 [/spoiler2]
 
 
-[spoiler2="0.1.5.3 α"]
+[spoiler2="0.1.5.3 α — 2025-09-11"]
 
 [size=125]URL: [url=https://github.com/DemerNkardaz/DSL-KeyPad/releases/tag/0.1.5.3]GitHub Release[/url] | [url=https://sourceforge.net/projects/dsl-keypad/files/0.1.5.3/]SourceForge Release[/url][/size]
 
@@ -1053,6 +1038,108 @@ Simply opens the page of the selected symbol on the Unicode resource chosen in s
 	[list]
 	[*]Fixed “Compositing” mode crash with “?” recipes.
 	[*]Fixed a mistake where the small letter [ ꚋ ] was actually capital [ Ꚋ ].
+	[/list]
+[/list]
+
+[/spoiler2]
+
+[spoiler2="0.1.6.3 α — 2025-09-29"]
+
+[size=125]URL: [url=https://github.com/DemerNkardaz/DSL-KeyPad/releases/tag/0.1.6.3]GitHub Release[/url][/size]
+
+
+[list]
+[*][b]Additions:[/b]
+	[list]
+	[*]Library extended to 5,800+ Unicode characters.
+	[*]Bundle of Alchemical, Astrological, Astronomical symbols was reworked and extended.
+	[*]Added the Sixteen Figures of Geomancy.
+	[*]Added Chess, Card Suits and Playing Cards symbols.
+	[*]Addded new latin characters:
+		[list]
+		[*][ 𐞥 𐞀 ⁱ ] [ ꟱ ᶧ ᵾ ᵿ] [ ꜣ Ꜣ ꜥ Ꜥ (Egyptological Alef and Ain) ]
+		[/list]
+	[*]Addded new IPA characters:
+		[list]
+		[*][ 𐞁 𐞂 ]
+		[/list]
+	[*]Addded new miscellaneous characters:
+		[list]
+		[*][ ⸢ ⸣ ⸤ ⸥ ] [ ꜛ ꜜ ] [ ℥ ℈ ℀ ℁ ⅍ ℅ ℆ ℄ ] [ ℣ ℟ ] [ ◌͞ ◌͟ ◌͝ ]
+		[/list]
+	[*]IPA characters now have dedicated tabs for binds and recipes.
+	[*]Added "ModTools" class with useful methods and parameters for creating mods.
+	[*]Added "Create mod" button in Mods GUI.
+	[*]Added "Options" button in Mods GUI (requires the modmaker to create own GUI in <Mod Class>.tools.config_editor).
+	[*]Added more information in the "Help" tab.
+	[*]Added possibility to use separate preview-16.(ico|png|jpg) icon for displaying in the list of mods.
+	[*]Added option for "Compose" that toggles visibility of alternative (related to input) recipes (now by default does not display).
+	[/list]
+
+[*][b]Changes:[/b]
+	[list]
+	[*]"Compose" character preview in the tooltip now changes depending on the active "Glyph Variations" mode.
+	[*]Modification's "options.ini" replaced with "manifest.json," base keys now stored in root instead of "[options]" section.
+	[*]Entries "Lat. Capital/Small Letter O With Overlay Tilde" renamed to "Lat. Capital/Small Letter Barred O", recipe changed from using middle tilde to hyphen-minus (using middle tile was mistaken).
+	[*]Recipe of "Lat. Capital/Small Letter Open O" now uses solidus instead of hyphen-minus.
+	[*]Search in "Panel": matching tags now replace displayed symbol name in the first column.
+	[/list]
+
+[*][b]Fixes:[/b]
+	[list]
+	[*]Fixed missing Space key in the "Keyboard Default" bind list.
+	[*]Fixed mistake with applying character's styles to the incorrect UI element of "Legends".
+	[*]Fixed wrong letter in recipe of "Ӛ" (Cyrillic Schwa with Diaeresis): "◌̈Ӛ/Ӛ◌̈" → "◌̈Ә/Ә◌̈".
+	[*]Fixed wrong description of "Glyph variations" in the "Help" tab.
+	[*]Fixed error on startup when checking recipes with multi-reference for entries (like ${\m,u,l,t,i/}) would cause an error instead of splitting them for check each separately.
+	[*]Fixed error with duplication of entries in the "Favorites" tab, also fixed error with removing entries from the "Favorites" tab when there are duplicates.
+	[*]Fixed mistake with "Ħħ" recipe which used short solidus instead of short stroke.
+	[*]Fixed wrong ordering on processing of multientries.
+	[*]Fixed critical error with launching on Windows 11 caused by Fonts.Validation().
+	[/list]
+[/list]
+
+[/spoiler2]
+
+[spoiler2="0.1.7.3 α — 2025-10-04"]
+
+[size=125]URL: [url=https://github.com/DemerNkardaz/DSL-KeyPad/releases/tag/0.1.7.3]GitHub Release[/url][/size]
+
+
+[list]
+[*][b]Additions:[/b]
+	[list]
+	[*]Library extended to 6,300+ Unicode characters.
+	[*]Added symbol sets: Yin and Yang (☯︎); monograms, bigrams, trigrams and hexagrams of Yijing; monograms, bigrams and tetragrams of Taixuanjing; Majiang tiles/dices; Xiangqi pieces; Domino tiles.
+	[*]Extended Chess symbols set.
+	[*]Added segmented variants of numbers, outlined variants A-Z letters and numbers.
+	[*]Added new Alternative modes:
+		[list]
+		[*]Yijing & Taixuanjing.
+		[/list]
+	[*]Addded new IPA characters:
+		[list]
+		[*][ ˥ ˦ ˧ ˨ ˩ ꜒ ꜓ ꜔ ꜕ ꜖ ꜈ ꜉ ꜊ ꜋ ꜌ ꜍ ꜎ ꜔ ꜐ ꜑ ]
+		[/list]
+	[*]Addded new miscellaneous characters:
+		[list]
+		[*][ ¦ ⸨⸩ ⹉ ⹍ ⹎ ⸚ ⸛ ⸞ ⸟ ⹊  ⸜⸝ ⸌⸍ ⹕⹖ ⹗⹘ ] [ 🙶🙷🙸🙻🙺🙹 ] [ 𐆠 𐆐𐆑𐆒𐆓𐆔𐆕𐆛𐆜 ]
+		[/list]
+	[/list]
+
+[*][b]Changes:[/b]
+	[list]
+	[*]When searching for tags, if the query does not contain a space, it now looks for the presence of a whole word before proceeding with other comparison options.
+	[*]Titltes/tags generation for symbols entries, also "Search" and filtering in main window was improved.
+	[*]"Compose" mode now accepts both normal characters and surrogate pairs.
+	[*]Main window's tabs now have a separate list element for displaying all symbols and a separate list for displaying search results (now there is no need to fill the list again when the search is canceled).
+	[*]"Enter" key in "Compose" mode now allows to confirm any input. If the recipe was not completed, the input field will contain the entered sequence.
+	[/list]
+
+[*][b]Fixes:[/b]
+	[list]
+	[*]Fixed Windows 11 error, when symbols are ignored in the "Compositions" mode.
+	[*]Fixed "Compose" mode crash with typing "()[]+" symbols.
 	[/list]
 [/list]
 
