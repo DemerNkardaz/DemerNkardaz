@@ -148,7 +148,6 @@ I’m working on a project of my own Fantasy/Science Fiction universe, trying to
 	<summary>Базовые возможности</summary>
 
 - Более восьмисот комбинаций для ввода символов кириллицы, латиницы, математических, пунктуационных, типографских и прочих символов.<br>Например:
-
   - <kbd>LAlt A</kbd> → `Á`
   - <kbd>RAlt A</kbd> → `Ă`
   - <kbd>RAlt RShift T</kbd> → `Þ`
@@ -156,14 +155,12 @@ I’m working on a project of my own Fantasy/Science Fiction universe, trying to
   - <kbd>RAlt LAlt Ы</kbd> → `Ꙟ`.
 
 - Режим «Композиции», позволяющий получать символ(ы) из последовательности других символов.
-
   - <kbd>RAlt×2</kbd>, <kbd>AE</kbd> → `Æ`
   - <kbd>RAlt×2</kbd>, <kbd>OE</kbd> → `Œ`
   - <kbd>RAlt×2</kbd>, <kbd>int</kbd> → `∫`
   - <kbd>RAlt×2</kbd>, <kbd>ankh</kbd> → `☥`
 
 - Альтернативные режимы для ввода символов различных форм письменности, включая:
-
   - [Международный фонетический алфавит](https://ru.wikipedia.org/wiki/Международный_фонетический_алфавит)
   - [Германские руны](https://ru.wikipedia.org/wiki/Руны)
   - [Глаголицу](https://ru.wikipedia.org/wiki/Глаголица)
@@ -180,7 +177,6 @@ A tool for entering more than five thousand Unicode characters directly from the
 	<summary>Basic Features</summary>
 
 - More than eight hundred key combinations for entering Cyrillic, Latin, mathematical, punctuation, typographic, and other symbols.<br>For example:
-
   - <kbd>LAlt A</kbd> → `Á`
   - <kbd>RAlt A</kbd> → `Ă`
   - <kbd>RAlt RShift T</kbd> → `Þ`
@@ -188,14 +184,12 @@ A tool for entering more than five thousand Unicode characters directly from the
   - <kbd>RAlt LAlt Ы</kbd> → `Ꙟ`.
 
 - "Compose" mode, allowing you to obtain character(s) from a sequence of other characters.
-
   - <kbd>RAlt×2</kbd>, <kbd>AE</kbd> → `Æ`
   - <kbd>RAlt×2</kbd>, <kbd>OE</kbd> → `Œ`
   - <kbd>RAlt×2</kbd>, <kbd>int</kbd> → `∫`
   - <kbd>RAlt×2</kbd>, <kbd>ankh</kbd> → `☥`
 
 - Alternative modes for entering characters from various writing systems, including:
-
   - [International Phonetic Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet)
   - [Germanic Runes](https://en.wikipedia.org/wiki/Runes)
   - [Glagolitic](https://en.wikipedia.org/wiki/Glagolitic_script)
@@ -257,4 +251,6 @@ A tool for entering more than five thousand Unicode characters directly from the
 <img src="https://github-readme-stats.vercel.app/api/wakatime/?username=Nkardaz&layout=compact&langs_count=30&theme=vue" align="right">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DemerNkardaz&layout=compact&langs_count=30&theme=vue" align="left">
 
-[![trophy](https://data-card-for-spotify.herokuapp.com/api/card?user_id=dbwiago3y8g6nze1jjkrz8rry&limit=8)](https://data-card-for-spotify.herokuapp.com/card?user_id=dbwiago3y8g6nze1jjkrz8rry)
+<a href="https://data-card-for-spotify.herokuapp.com/card?user_id=dbwiago3y8g6nze1jjkrz8rry">
+  <img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=dbwiago3y8g6nze1jjkrz8rry" alt="Data Card for Spotify">
+</a>
