@@ -96,9 +96,13 @@ $$
 		</td>
 	</tr>
 </table>
-
+<hr>
 <p align="center">
-	<a href="https://skillicons.dev" about="_blank"><img src="https://skillicons.dev/icons?i=unreal,blender,obsidian,latex,ps,ai,vscode,lua,js,html,css,scss,nodejs,nginx"></a>
+	<a href="https://skillicons.dev" about="_blank"><img src="https://skillicons.dev/icons?i=rust,latex,lua,py"></a><br>
+	<a href="https://skillicons.dev" about="_blank"><img src="https://skillicons.dev/icons?i=ts,js,scss,less,css,html,svg,regex,wasm"></a><br>
+	<a href="https://skillicons.dev" about="_blank"><img src="https://skillicons.dev/icons?i=nodejs,nginx,npm,pnpm,docker,webpack,vite"></a><br>
+	<a href="https://skillicons.dev" about="_blank"><img src="https://skillicons.dev/icons?i=vscode,blender,obsidian,unreal"></a><br>
+	<a href="https://skillicons.dev" about="_blank"><img src="https://skillicons.dev/icons?i=git,github,gitlab,bitbucket"></a><br>
 </p>
 
 ---
