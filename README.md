@@ -98,11 +98,11 @@ $$
 </table>
 <hr>
 <p align="center">
-	<a href="https://skillicons.dev" about="_blank"><img src="https://skillicons.dev/icons?i=rust,latex,lua,py"></a><br>
-	<a href="https://skillicons.dev" about="_blank"><img src="https://skillicons.dev/icons?i=ts,js,scss,less,css,html,svg,regex,wasm"></a><br>
-	<a href="https://skillicons.dev" about="_blank"><img src="https://skillicons.dev/icons?i=nodejs,nginx,npm,pnpm,docker,vue,vite"></a><br>
-	<a href="https://skillicons.dev" about="_blank"><img src="https://skillicons.dev/icons?i=vscode,blender,obsidian,unreal"></a><br>
-	<a href="https://skillicons.dev" about="_blank"><img src="https://skillicons.dev/icons?i=git,github,gitlab,bitbucket"></a><br>
+	<a href="https://go-skill-icons.netlify.app" about="_blank"><img src="https://go-skill-icons.vercel.app/api/icons?i=rust,lua,ts,js,py,typst&theme=light"></a><br>
+	<a href="https://go-skill-icons.netlify.app" about="_blank"><img src="https://go-skill-icons.vercel.app/api/icons?i=scss,css,html,wasm,svg,regex&theme=light"></a><br>
+	<a href="https://go-skill-icons.netlify.app" about="_blank"><img src="https://go-skill-icons.vercel.app/api/icons?i=nodejs,nginx,npm,vue,vite&theme=light"></a><br>
+	<a href="https://go-skill-icons.netlify.app" about="_blank"><img src="https://go-skill-icons.vercel.app/api/icons?i=affinity,blender,vscode&theme=light"></a><br>
+	<a href="https://go-skill-icons.netlify.app" about="_blank"><img src="https://go-skill-icons.vercel.app/api/icons?i=git,github,gitlab,codeberg,bitbucket&theme=light"></a><br>
 </p>
 
 ---
