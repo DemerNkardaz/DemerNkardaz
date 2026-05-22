@@ -8,7 +8,7 @@ I’m also a 2D–3D artist, designer, fiction writer, and worldbuilder — a ho
 
 **Music:** classical and academic; rock and metal; folk; c-dramas OSTs; K-pop, J-pop and C-pop.
 
-**Featured Project:** I like the idea of expanding the arsenal of symbols available for keyboard input. To achieve this, I created [DSL KeyPad](https://github.com/DemerNkardaz/DSL-KeyPad) — a tool that allows typing more than 6,400 symbols without relying on character maps or Google, directly from <span title="the keyboard">þͤ cǣġbord</span>.
+**Featured Project:** I like the idea of expanding the arsenal of symbols available for keyboard input. To achieve this, I created [DSL KeyPad](https://github.com/DemerNkardaz/DSL-KeyPad)&nbsp;— a tool that allows typing more than 6,400 symbols without relying on character maps or Google, directly from <span title="the keyboard">þͤ cǣġbord</span>.
 
 ## Stack
 
