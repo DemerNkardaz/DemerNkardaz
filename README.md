@@ -1,4 +1,5 @@
-[![wakatime](https://wakatime.com/badge/user/e572f348-6192-4188-a508-7efe46e45cd5.svg?style=social)](https://wakatime.com/@e572f348-6192-4188-a508-7efe46e45cd5) <br>
+[![wakatime](https://wakatime.com/badge/user/e572f348-6192-4188-a508-7efe46e45cd5.svg?style=social)](https://wakatime.com/@e572f348-6192-4188-a508-7efe46e45cd5) 
+ [![Static Badge](https://img.shields.io/badge/NPM%20Packages-0?style=flat&logo=npm&labelColor=cb0000&color=fdfdfd)](https://www.npmjs.com/~demer_nkardaz)<br>
 I’m **Yalla Nkardaz**, a web & software development enthusiast. I love bringing my own ideas to life using various tools such as [Vue](https://vuejs.org/) or [Rust](https://www.rust-lang.org/).
 
 I’m also a 2D–3D artist, designer, fiction writer, and worldbuilder — a hobbyist looking for ways to express inner thoughts and emotions through creativity.
