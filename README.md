@@ -4,9 +4,11 @@ I’m **Yalla Nkardaz**, a web & software development enthusiast. I love bringin
 
 I’m also a 2D–3D artist, designer, fiction writer, and worldbuilder — a hobbyist looking for ways to express inner thoughts and emotions through creativity.
 
-Hobbies: anime/dònghuà; wǔxiá and xiānxiá c-dramas; video games; history and culture of Eastern Asia, Ancient Egypt, Mesopotamia; linguistics; biology; chemistry; alchemy and occultism in general.
+**Hobbies:** anime/dònghuà; wǔxiá and xiānxiá c-dramas; video games; history and culture of Eastern Asia, Ancient Egypt, Mesopotamia; linguistics; biology; chemistry; alchemy and occultism in general.
 
-Music: classical and academic; rock and metal; folk; c-dramas OSTs; K-pop, J-pop and C-pop.
+**Music:** classical and academic; rock and metal; folk; c-dramas OSTs; K-pop, J-pop and C-pop.
+
+**Featured Project:** I like the idea of expanding the arsenal of symbols available for keyboard input. To achieve this, I created [DSL KeyPad](https://github.com/DemerNkardaz/DSL-KeyPad) — a tool that allows typing more than 6,400 symbols without relying on character maps or Google, directly from <span title="the keyboard">þͤ cǣġbord</span>.
 
 ## Stack
 
