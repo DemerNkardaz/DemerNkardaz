@@ -1,5 +1,5 @@
 [![wakatime](https://wakatime.com/badge/user/e572f348-6192-4188-a508-7efe46e45cd5.svg?style=social)](https://wakatime.com/@e572f348-6192-4188-a508-7efe46e45cd5) 
- [![Static Badge](https://img.shields.io/badge/NPM%20Packages-0?style=flat&logo=npm&labelColor=cb0000&color=fdfdfd)](https://www.npmjs.com/~demer_nkardaz)<br>
+ [![Static Badge](https://img.shields.io/badge/NPM%20Packages-0?style=flat&logo=npm&labelColor=cb0000&color=fdfdfd)](https://www.npmjs.com/~demer_nkardaz) [![Static Badge](https://custom-icon-badges.herokuapp.com/badge/VS%20Code%20Extensions-0?style=flat&logo=microsoft_logo&labelColor=f3f3f3&color=fdfdfd)](https://marketplace.visualstudio.com/publishers/YallaNkardaz)<br>
 I’m **Yalla Nkardaz**, a web & software development enthusiast. I love bringing my own ideas to life using various tools such as [Vue](https://vuejs.org/) or [Rust](https://www.rust-lang.org/).
 
 I’m also a 2D–3D artist, designer, fiction writer, and worldbuilder — a hobbyist looking for ways to express inner thoughts and emotions through creativity.
@@ -8,7 +8,7 @@ I’m also a 2D–3D artist, designer, fiction writer, and worldbuilder — a ho
 
 **Music:** classical and academic; rock and metal; folk; c-dramas OSTs; K-pop, J-pop and C-pop.
 
-**Featured Project:** I like the idea of expanding the arsenal of symbols available for keyboard input. To achieve this, I created [DSL&nbsp;KeyPad](https://github.com/DemerNkardaz/DSL-KeyPad)&nbsp;— a&nbsp;tool that allows typing more than 6,400 symbols without relying on character maps or Google, directly&nbsp;from&nbsp;<span title="the keyboard">þͤ&nbsp;cǣġbord</span>.
+**Featured Project:** I like the idea of expanding the arsenal of symbols available for keyboard input. To achieve this, I created [DSL&nbsp;KeyPad](https://github.com/DemerNkardaz/DSL-KeyPad)&nbsp;— a&nbsp;tool that allows typing more than 6,400 symbols without relying on character maps or Google, directly&nbsp;from&nbsp;<span title="“the keyboard” written in Old English (Ænglisċ) via DSL KeyPad">þͤ&nbsp;cǣġbord</span>.
 
 ## Stack
 
@@ -29,6 +29,7 @@ I’m also a 2D–3D artist, designer, fiction writer, and worldbuilder — a ho
 		</td>
 		<td valign="top">
 			<img src="https://go-skill-icons.vercel.app/api/icons?i=affinity,blender,vscode,obsidian&theme=light"><br>
+			<img src="https://go-skill-icons.vercel.app/api/icons?i=firefox,<emptyslot>,<emptyslot>,<emptyslot>&theme=light">
 		</td>
 	</tr>
 </table>
@@ -283,7 +284,9 @@ I’m working on a project of my own Fantasy/Science Fiction universe, trying to
 
 </details>
 
-## Статистика [Stats]
+## Stats
+
+[![Github Readme Codewars](https://codewars-stats-ignacio-cuadra.vercel.app/?username=DemerNkardaz)](https://www.codewars.com/users/DemerNkardaz)
 
 <img src="https://github-readme-stats.vercel.app/api/wakatime/?username=Nkardaz&layout=compact&langs_count=30&theme=vue" align="right">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DemerNkardaz&layout=compact&langs_count=30&theme=vue" align="left">
