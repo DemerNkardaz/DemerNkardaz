@@ -22,7 +22,7 @@ I’m also a 2D–3D artist, designer, fiction writer, and worldbuilder — a ho
 	<tr valign="top">
 		<td valign="top">
 			<img src="https://go-skill-icons.vercel.app/api/icons?i=vue,vite,ts,scss&theme=light"><br>
-			<img src="https://go-skill-icons.vercel.app/api/icons?i=wasm,nodejs,nginx,<emptyslot>&theme=light">
+			<img src="https://go-skill-icons.vercel.app/api/icons?i=unocss,wasm,nodejs,nginx&theme=light">
 		</td>
 		<td valign="top">
 			<img src="https://go-skill-icons.vercel.app/api/icons?i=rust,lua,typst,py&theme=light"><br>
@@ -37,6 +37,8 @@ I’m also a 2D–3D artist, designer, fiction writer, and worldbuilder — a ho
 ## Contact
 - **Telegram:** [@hyosuge_hisahide](https://t.me/hyosuge_hisahide)
 - **Discord:** [nkardaz](https://discord.com/users/267019610107150337)
+
+[![Twitter Follow](https://img.shields.io/twitter/follow/NKARDAZ?style=social)](https://x.com/intent/follow?screen_name=NKARDAZ)
 
 ##
 
