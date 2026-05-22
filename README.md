@@ -3,6 +3,10 @@ I’m **Yalla Nkardaz**, a web & software development enthusiast. I love bringin
 
 I’m also a 2D–3D artist, designer, fiction writer, and worldbuilder — a hobbyist looking for ways to express inner thoughts and emotions through creativity.
 
+Hobbies: anime/dònghuà; wǔxiá and xiānxiá c-dramas; video games; history and culture of Eastern Asia, Ancient Egypt, Mesopotamia; linguistics; biology; chemistry; alchemy and occultism in general.
+
+Music: classical and academic; rock and metal; folk; c-dramas OSTs; K-pop, J-pop and C-pop.
+
 ## Stack
 
 <table>
