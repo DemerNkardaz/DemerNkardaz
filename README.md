@@ -1,8 +1,38 @@
-# <img src="svg/theta.svg" width="42">&hairsp;<img src="svg/uranus.svg" width="42">&hairsp;<img src="svg/sulfur.svg" width="42">&hairsp;<img src="svg/chiron.svg" width="42">&hairsp;<img src="svg/femi.svg" width="42">&hairsp;<img src="svg/butterfly.svg" width="42">&hairsp;<img src="svg/white_heart.svg" width="42">&hairsp;<img src="svg/black_tear.svg" width="42">&hairsp;<img src="svg/maple.svg" width="42">&hairsp;<img src="svg/ice_cube.svg" width="42">&hairsp;<img src="svg/jester.svg" width="42">&hairsp;<img src="svg/blackthorn.svg" width="42"> <img src="https://raw.githubusercontent.com/googlefonts/noto-emoji/refs/heads/main/svg/emoji_u1fad0.svg" width="42">
+[![wakatime](https://wakatime.com/badge/user/e572f348-6192-4188-a508-7efe46e45cd5.svg?style=social)](https://wakatime.com/@e572f348-6192-4188-a508-7efe46e45cd5) 🇲🇩<br>
+I’m **Yalla Nkardaz**, a web & software development enthusiast. I love to re-create own ideas and make them come to life with using various tools like [Vue](https://vuejs.org/) or [Rust](https://www.rust-lang.org/).
+
+## Stack
+
+<table>
+	<tr>
+		<th>Web</th>
+		<th>*</th>
+		<th>Apps</th>
+	</tr>
+	<tr></tr>
+	<tr valign="top">
+		<td valign="top">
+			<img src="https://go-skill-icons.vercel.app/api/icons?i=vue,vite,ts,scss&theme=light"><br>
+			<img src="https://go-skill-icons.vercel.app/api/icons?i=wasm,nodejs,nginx,<emptyslot>&theme=light">
+		</td>
+		<td valign="top">
+			<img src="https://go-skill-icons.vercel.app/api/icons?i=rust,lua,typst,py&theme=light"><br>
+		</td>
+		<td valign="top">
+			<img src="https://go-skill-icons.vercel.app/api/icons?i=affinity,blender,vscode,obsidian&theme=light"><br>
+		</td>
+	</tr>
+</table>
+
+## Contact
+- **Telegram:** [@hyosuge_hisahide](https://t.me/hyosuge_hisahide)
+- **Discord:** [nkardaz](https://discord.com/users/267019610107150337)
+
+---
+
+<img src="svg/theta.svg" width="42">&hairsp;<img src="svg/uranus.svg" width="42">&hairsp;<img src="svg/sulfur.svg" width="42">&hairsp;<img src="svg/chiron.svg" width="42">&hairsp;<img src="svg/femi.svg" width="42">&hairsp;<img src="svg/butterfly.svg" width="42">&hairsp;<img src="svg/white_heart.svg" width="42">&hairsp;<img src="svg/black_tear.svg" width="42">&hairsp;<img src="svg/maple.svg" width="42">&hairsp;<img src="svg/ice_cube.svg" width="42">&hairsp;<img src="svg/jester.svg" width="42">&hairsp;<img src="svg/blackthorn.svg" width="42"> <img src="https://raw.githubusercontent.com/googlefonts/noto-emoji/refs/heads/main/svg/emoji_u1fad0.svg" width="42">
 
 ![:name](https://count.getloli.com/get/@:DemerNkardaz?theme=gelbooru)
-
-[![wakatime](https://wakatime.com/badge/user/e572f348-6192-4188-a508-7efe46e45cd5.svg?style=social)](https://wakatime.com/@e572f348-6192-4188-a508-7efe46e45cd5) [![](https://badges.pufler.dev/years/DemerNkardaz?color=yellow&logo=github)](https://badges.pufler.dev) [![](https://badges.pufler.dev/repos/DemerNkardaz?color=yellow&logo=github)](https://badges.pufler.dev) [![](https://badges.pufler.dev/commits/monthly/DemerNkardaz?color=yellow&logo=github)](https://badges.pufler.dev) ![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2FDemerNkardaz&label=Visits&icon=github&color=%23ffda6a)
 
 ---
 
@@ -96,14 +126,6 @@ $$
 		</td>
 	</tr>
 </table>
-<hr>
-<p align="center">
-	<a href="https://go-skill-icons.netlify.app" about="_blank"><img src="https://go-skill-icons.vercel.app/api/icons?i=rust,lua,ts,js,py,typst&theme=light"></a><br>
-	<a href="https://go-skill-icons.netlify.app" about="_blank"><img src="https://go-skill-icons.vercel.app/api/icons?i=scss,css,html,wasm,svg,regex&theme=light"></a><br>
-	<a href="https://go-skill-icons.netlify.app" about="_blank"><img src="https://go-skill-icons.vercel.app/api/icons?i=nodejs,nginx,npm,vue,vite&theme=light"></a><br>
-	<a href="https://go-skill-icons.netlify.app" about="_blank"><img src="https://go-skill-icons.vercel.app/api/icons?i=affinity,blender,vscode&theme=light"></a><br>
-	<a href="https://go-skill-icons.netlify.app" about="_blank"><img src="https://go-skill-icons.vercel.app/api/icons?i=git,github,gitlab,codeberg,bitbucket&theme=light"></a><br>
-</p>
 
 ---
 
