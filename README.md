@@ -40,6 +40,19 @@ I’m also a 2D–3D artist, designer, fiction writer, and worldbuilder — a ho
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/NKARDAZ?style=social)](https://x.com/intent/follow?screen_name=NKARDAZ)
 
+---
+
+**Artis:** <span title="Sulfur Forge of Alchemy">Brynstān Smiððe Al-Kīmes.</span><br/>
+**Patria:** <span title="Republica Moldova">⟨ 🇲🇩 ⟩ Rēs pūblica fīnium orientālium Dāciæ.</span><br/>
+**Lǫnd:** Útgarðar und Æsir.
+
+<br/>
+
+<img src="signa.svg">
+
+
+---
+
 ##
 
 <a href='https://ko-fi.com/A0A21ECJOS' target='_blank'><img height='48' src='https://storage.ko-fi.com/cdn/kofi2.png?v=6' alt='Buy Me a Coffee at ko-fi.com' /></a>
@@ -282,7 +295,7 @@ I’m working on a project of my own Fantasy/Science Fiction universe, trying to
 <details>
 	<summary>Избранные тона [Favorite Tones]</summary>
 
-<img src="svg/Demers Palette.svg">
+<img src="colors.svg">
 
 </details>
 
