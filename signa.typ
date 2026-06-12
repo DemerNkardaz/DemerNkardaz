@@ -1,92 +1,48 @@
-#set page(width: auto, height: auto, margin: 0pt,fill: none)
+#import "./typst/signa-modules.typ": *
 
-#let color(color, body) = {
-  text(fill: rgb(color), body)
-}
-
-#let sym(body) = {
-	text(size: 1.25em, style: "normal", font: "Quivira", body)
-}
-
-#let elem(bg-color, text-color, body) = {
-	box(
-		fill: rgb(bg-color),
-		radius: 1em,
-		height: 1.75em,
-		inset: (
-			x: 0.75em,
-		),
-		align(horizon + center,
-		text(fill: rgb(text-color), weight: 600)[#body]
-		)
-	)
-}
-
-#let vline() = {
-	box(
-		inset: (x: 0.25em),  
-		height: 1.5em,
-		align(horizon + center,
-			line(angle: 90deg, length: 1.5em)
-		)
-	)
-}
-
-#let hline() = {
-	box(
-		inset: (x: 0.25em), 
-		height: 1.5em,
-		align(horizon + center,
-			line(angle: 0deg, length: 1.5em)
-		)
-	)
-}
-
-#show: color.with("#888")
-#show: text.with(
-	font: ("Philosopher","Noto Sans", "Quivira"),
-	size: 14pt
-)
+#show: set-page
 
 #table(
 	align: horizon,
-	columns: 2,
+	columns: (8em, auto),
 	row-gutter: 0.25em,
 	stroke: none,
 	[], [],
 	[= #color("#333")[Signa]],[#v(1.25em)],
-	[*Element*],
+	[*#sym[⚗️] Element*],
 	[
-		#elem("#eae542", "#333")[#sym[🜍] Sulfur]
-		#elem("#c56a4e", "#fff")[#sym[♀] Copper]
-		#elem("#aaa", "#fff")[Nickel]
-		#elem("#e53154", "#fff")[Lithium]
+		#elem("eae542", "6a671d")[#sym[🜍] Sulfur]
+		#elem("c56a4e", "ffc6b4")[#sym[♀] Copper]
+		#elem("aaa", "eee")[Nickel]
+		#elem("e53154", "ffc6da")[Lithium]
 	],
-	[*Planet*],
+	[*#sym[⚗️] Mix*],
 	[
-		#elem("#a2d3d8", "#333")[#sym[♅] Uranus]
+		#elem("fdc908", "7d6303")[#sym[🝉] Resin]
+		#elem("333", "ddd")[#sym[🝆] Oil]
 	],
-	[*Litera*],
+	[*#sym[🜢] Planet*],
 	[
-		#elem("#ece8bc", "#333")[#sym[Θ θ] Þeta]
-		#elem("#41ecbd", "#333")[#sym[Λ λ] Lambda]
-		#elem("#f76950", "#333")[#sym[Α α] Alpha]
+		#elem("#a2d3d8", "415657")[#sym[♅] Uranus]
 	],
-	[*Arcana*],
+	[*#sym[🜬] Asteroid*],
 	[
-		#elem("#85a2a3", "#fff")[Chariot (7)]
-		#elem("#f20058", "#fff")[Fool (0/ⅩⅫ)]
+		#elem("#65b843", "bcffa1")[#sym[⚷] Chiron]
 	],
-	[], [],
-	[= #color("#333")[Natalis]],[#v(1.25em)],
-	[*#sym[☉] Sol*],
+	[*#sym[𝛆] Litera*],
 	[
-		#elem("#914f4e", "#fff")[#sym[♏] Scorpius]
-		#hline()
-		#elem("#6b5b77", "#fff")[#sym[♐] Sagittarius]
+		#elem("ece8bc", "6c6956")[#sym[Θ θ] Þeta]
+		#elem("41ecbd", "1d6c56")[#sym[Λ λ] Lambda]
+		#elem("f76950", "763226")[#sym[Α α] Alpha]
 	],
-	[*#sym[☿] Mercurius*],
+	[*#sym[🂠] Arcana*],
 	[
-		#elem("#914f4e", "#fff")[#sym[♏] Scorpius]
+		#elem("85a2a3", "d7feff")[Chariot (7)]
+		#elem("f20058", "ffc6da")[Fool (0/ⅩⅫ)]
+	],
+	[*#sym[🂠] Suit*],
+	[
+		#elem("cb0000", "f5bfc5")[#sym[♥] Hearts]
+		#elem("38993a", "b1f6b2")[#sym[♣] Clubs]
 	],
 )

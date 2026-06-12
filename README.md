@@ -42,13 +42,27 @@ I’m also a 2D–3D artist, designer, fiction writer, and worldbuilder — a ho
 
 ---
 
-**Artis:** <span title="Sulfur Forge of Alchemy">Brynstān Smiððe Al-Kīmes.</span><br/>
-**Patria:** <span title="Republica Moldova">⟨ 🇲🇩 ⟩ Rēs pūblica fīnium orientālium Dāciæ.</span><br/>
-**Lǫnd:** Útgarðar und Æsir.
-
-<br/>
+<details>
+	<summary>Signa</summary>
 
 <img src="signa.svg">
+
+</details>
+
+<details>
+	<summary>Natalis</summary>
+
+<img src="signa-natalis.svg">
+
+</details>
+
+
+<details>
+	<summary>Favorite Colors</summary>
+
+<img src="colors.svg">
+
+</details>
 
 
 ---
@@ -291,13 +305,6 @@ $$
 
 Just a hobbyist who looking for the way to release his inner needs through creativity and various tools.<br>
 I’m working on a project of my own Fantasy/Science Fiction universe, trying to create content of various directions and helper tools if it will be necessary.
-
-<details>
-	<summary>Избранные тона [Favorite Tones]</summary>
-
-<img src="colors.svg">
-
-</details>
 
 ## Stats
 
