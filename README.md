@@ -42,7 +42,7 @@ I’m also a 2D–3D artist, designer, fiction writer, and worldbuilder — a ho
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/NKARDAZ?style=social)](https://x.com/intent/follow?screen_name=NKARDAZ)
 
-## PGP Public Fingerprint [\[🡕\]](https://keys.openpgp.org/search?q=473F+0499+8177+E8E6+D358+F30D+58A9+17E8+0A57+6E03)
+## PGP Fingerprint [\[🡕\]](https://keys.openpgp.org/search?q=473F+0499+8177+E8E6+D358+F30D+58A9+17E8+0A57+6E03)
 
 ```
 473F 0499 8177 E8E6 D358  F30D 58A9 17E8 0A57 6E03
