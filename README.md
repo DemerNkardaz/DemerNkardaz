@@ -36,10 +36,17 @@ I’m also a 2D–3D artist, designer, fiction writer, and worldbuilder — a ho
 </table>
 
 ## Contact
+- **Public E-Mail:** [pub.nkardaz+contact@gmail.com](mailto:pub.nkardaz+contact@gmail.com)
 - **Telegram:** [@hyosuge_hisahide](https://t.me/hyosuge_hisahide)
 - **Discord:** [nkardaz](https://discord.com/users/267019610107150337)
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/NKARDAZ?style=social)](https://x.com/intent/follow?screen_name=NKARDAZ)
+
+## PGP Fingerprint [\[🡕\]](https://keys.openpgp.org/search?q=473F+0499+8177+E8E6+D358+F30D+58A9+17E8+0A57+6E03)
+
+```
+473F 0499 8177 E8E6 D358  F30D 58A9 17E8 0A57 6E03
+```
 
 ---
 

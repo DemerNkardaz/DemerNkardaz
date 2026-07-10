@@ -72,6 +72,7 @@
 		("#e77546", [#kanji[黄丹] \ Ōdan], "#fff"),
 		("#f7c114", [#kanji[藤黄] \ Tō’ō], "333"),
 		("#fef263", [#kanji[黄蘗] \ Kihada], "#333"),
+		("#D9A62E", [#kanji[櫨染] \ Hajizome], "333"),
 		("#e9cd4c", [#kanji[刈安] \ Kariyasu], "#333"),
 		("#B0927A", [#kanji(size: 1.45em)[利休白茶] \ Rikyūshiracha], "#fff"),
 		("#407A52", [#kanji[緑青] \ Rokushō], "#fff"),
