@@ -1,4 +1,4 @@
-[wakatime](https://wakatime.com/badge/user/e572f348-6192-4188-a508-7efe46e45cd5.svg?style=social) 
+![wakatime](https://wakatime.com/badge/user/e572f348-6192-4188-a508-7efe46e45cd5.svg?style=social) 
  [![Static Badge](https://img.shields.io/badge/NPM%20Packages-0?style=flat&logo=npm&labelColor=cb0000&color=fdfdfd)](https://www.npmjs.com/~nkardaz) [![Static Badge](https://img.shields.io/badge/PyPi%20Packages-0?style=flat&logo=python&labelColor=fefefe&color=fdfdfd)](https://pypi.org/user/YALLA/) [![Static Badge](https://custom-icon-badges.herokuapp.com/badge/VS%20Code%20Extensions-0?style=flat&logo=microsoft_logo&labelColor=f3f3f3&color=fdfdfd)](https://marketplace.visualstudio.com/publishers/YallaNkardaz) [![Static Badge](https://img.shields.io/badge/Obsidian%20Plugins-0?style=flat&logo=obsidian&labelColor=9974f8&color=fdfdfd)](https://community.obsidian.md/users/yalla)<br>
 I’m **Yalla Nkardaz**, a web & software development enthusiast. I love bringing my own ideas to life using various tools such as [Vue](https://vuejs.org/) or [Rust](https://www.rust-lang.org/).
 
